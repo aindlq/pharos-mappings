@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xml_split="http://xmltwig.com/xml_split" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <marc:leader>01864nkcaa2200445Ka 4500</marc:leader>
+      <marc:controlfield tag="006">knnn            cn</marc:controlfield>
+      <marc:controlfield tag="007">kh mom</marc:controlfield>
+      <marc:controlfield tag="008">130910k17891819xx nnn |||||  ||||cneng|d</marc:controlfield>
+      <marc:datafield ind1=" " ind2=" " tag="040">
+         <marc:subfield code="a">NNFr</marc:subfield>
+         <marc:subfield code="c">NNFr</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="1" ind2=" " tag="100">
+         <marc:subfield code="a">Field, Robert</marc:subfield>
+         <marc:subfield active="false" birth="1769?" code="d" death="1819">1769?-1819</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="1" ind2="0" tag="245">
+         <marc:subfield code="a">Portrait of W.B. Hulme, of Halifax, Nova Scotia</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="1" ind2=" " tag="300">
+         <marc:subfield code="e">Graphic reproduction(s) with documentation of a</marc:subfield>
+         <marc:subfield code="a">painting</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="340">
+         <marc:subfield code="b" dimension1="14" dimension2="13" unit="in">14 x 13 in</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="340">
+         <marc:subfield code="c">on copper</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " index="100" tag="561">
+         <marc:subfield code="a">Sale, Sotheby's, London, John Lane, Esq. Collection, July 1, 1925, lot 95</marc:subfield>
+      </marc:datafield>
+      <marc:datafield count="1" ind1="1" ind2=" " tag="590">
+         <marc:subfield code="g">unlocated</marc:subfield>
+      </marc:datafield>
+      <marc:datafield count="2" ind1="9" ind2=" " tag="590">
+         <marc:subfield code="a">Photograph</marc:subfield>
+         <marc:subfield code="b" person="A.C. Cooper" place="London">A.C. Cooper, London</marc:subfield>
+         <marc:subfield code="d">W1903</marc:subfield>
+         <marc:subfield code="f">good</marc:subfield>
+         <marc:subfield code="k" person="Frick Art Reference Library" place="New York">Frick Art Reference Library, New York (FARL) negative</marc:subfield>
+         <marc:subfield code="n">m</marc:subfield>
+      </marc:datafield>
+      <marc:datafield count="3" ind1="9" ind2=" " tag="590">
+         <marc:subfield code="a">Digital image</marc:subfield>
+         <marc:subfield code="g">W1903_POST.tif</marc:subfield>
+         <marc:subfield code="h">negative</marc:subfield>
+         <marc:subfield code="d">W1903</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="556">
+         <marc:subfield code="a">Information from Frick Art Reference Library Photoarchive</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="1" ind2="0" tag="600">
+         <marc:subfield code="a">Field, Robert</marc:subfield>
+         <marc:subfield active="false" birth="1769?" code="d" death="1819">1769?-1819</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="1" ind2="0" tag="600">
+         <marc:subfield code="a">Hulme, W. B</marc:subfield>
+         <marc:subfield active="true" code="d">18th century</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2="0" tag="650">
+         <marc:subfield code="a">Art, British</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2="7" tag="650">
+         <marc:subfield code="a">Portraits: Men</marc:subfield>
+         <marc:subfield code="2">local</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2="7" tag="655">
+         <marc:subfield code="a">British School</marc:subfield>
+         <marc:subfield code="b">School</marc:subfield>
+         <marc:subfield code="2">local</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2="7" tag="655">
+         <marc:subfield code="a">Paintings (visual works)</marc:subfield>
+         <marc:subfield code="2">aat</marc:subfield>
+         <marc:subfield code="0">http://vocab.getty.edu/aat/300033618</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2="7" tag="655">
+         <marc:subfield code="a">Reproductions</marc:subfield>
+         <marc:subfield code="2">aat</marc:subfield>
+         <marc:subfield code="0">http://vocab.getty.edu/aat/300015643</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="2" ind2=" " tag="710">
+         <marc:subfield code="a">Frick Art Reference Library</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="1" ind2=" " tag="792">
+         <marc:subfield code="a">Field, Robert</marc:subfield>
+         <marc:subfield code="d">c.1769-1819</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="8" ind2=" " tag="852">
+         <marc:subfield code="a">NNFr</marc:subfield>
+         <marc:subfield code="h">Field, Robert, 200, Portrait of W.B. Hulme, of Halifax, Nova Scotia</marc:subfield>
+         <marc:subfield code="x">mcq</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="4" ind2="1" tag="856">
+         <marc:subfield code="u">http://digitalcollections.frick.org/digico/#/details/bibRecordNumber/b12857774/Photoarchive</marc:subfield>
+         <marc:subfield code="z">Photoarchive images and documentation</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="996">
+         <marc:subfield code="a">.b12857774</marc:subfield>
+         <marc:subfield code="b">11-12-19</marc:subfield>
+         <marc:subfield code="c">03-06-14</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="997">
+         <marc:subfield code="a">fpw</marc:subfield>
+         <marc:subfield code="b">03-06-14</marc:subfield>
+         <marc:subfield code="c">d</marc:subfield>
+         <marc:subfield code="d">k</marc:subfield>
+         <marc:subfield code="e">-</marc:subfield>
+         <marc:subfield code="f">eng</marc:subfield>
+         <marc:subfield code="g">xx</marc:subfield>
+         <marc:subfield code="h">0</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="904">
+         <marc:subfield code="a">Record created with funding from</marc:subfield>
+         <marc:subfield code="b">ARTstor</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="906">
+         <marc:subfield code="a">ARTstor</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="948">
+         <marc:subfield code="a">LTI 06/30/2014</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="2" ind2=" " tag="980">
+         <marc:subfield code="a">Pull for Backstage 2014</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="2" ind2=" " tag="980">
+         <marc:subfield code="a">Ready for Publication</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1="4" ind2=" " tag="980">
+         <marc:subfield code="a">FARL Mounts File</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="981">
+         <marc:subfield code="c">03/06/2014</marc:subfield>
+      </marc:datafield>
+      <marc:datafield ind1=" " ind2=" " tag="983">
+         <marc:subfield code="a">1</marc:subfield>
+         <marc:subfield code="b">reproduction(s)</marc:subfield>
+      </marc:datafield>
+   </marc:record>
+   

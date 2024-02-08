@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCHEDA intestazione="Cavallini Pietro , Transito della Madonna" sercdoa="1715">
+		<PARAGRAFO etichetta="CODES">
+			<SERCD etichetta="SERCD">1715</SERCD>
+			<NRSCHEDA etichetta="Entry number">564</NRSCHEDA>
+			<RIPETIZIONE prog="1">
+				<UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+				<UBFN etichetta="Container number">0002</UBFN>
+				<UBFT etichetta="Container heading">Pittura italiana fino al sec. XIII. Roma 2</UBFT>
+				<UBFF etichetta="Folder number">2</UBFF>
+				<UBFU etichetta="Folder heading">Pietro Cavallini: Roma, S. Maria in Trastevere, mosaici</UBFU>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="2">
+				<UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+				<UBFN etichetta="Container number">0030</UBFN>
+				<UBFT etichetta="Container heading">Pittura italiana fino al sec. XIII. Miscellanea 1</UBFT>
+				<UBFF etichetta="Folder number">1</UBFF>
+				<UBFU etichetta="Folder heading">Mosaici e affreschi da identificare 1</UBFU>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="OBJECT">
+			<OGTD etichetta="Object">decorazione musiva</OGTD>
+			<OGTV etichetta="Identification">elemento d'insieme</OGTV>
+			<OGTT etichetta="Object type">mosaico</OGTT>
+			<SGTI etichetta="Subject">Transito della Madonna</SGTI>
+			<MTC etichetta="Medium or materials">mosaico</MTC>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="AUTHOR">
+			<RIPETIZIONE prog="1">
+				<AUTN etichetta="Artist's name">Cavallini Pietro</AUTN>
+				<AUTM etichetta="Reason for attribution">Bibliografia</AUTM>
+				<ATBD etichetta="Cultural context">Scuola italiana, scuola laziale, scuola romana</ATBD>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="DIFFERENT ATTRIBUTIONS">
+			<RIPETIZIONE prog="1">
+				   </RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="DATING">
+			<RIPETIZIONE prog="1">
+				<DTZG etichetta="Century">sec. XIII</DTZG>
+				<DTZS etichetta="Part of century">fine</DTZS>
+				<DTSI etichetta="From">1290</DTSI>
+				<DTSV etichetta="Degree of approximation">ca.</DTSV>
+				<DTSF etichetta="To">1299</DTSF>
+				<DTSL etichetta="Degree of approximation">ca.</DTSL>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="LOCATION">
+			<PVCS etichetta="Country">Italia</PVCS>
+			<PVCR etichetta="Region / Federal State">Lazio</PVCR>
+			<PVCP etichetta="District">Roma</PVCP>
+			<PVCC etichetta="Town / Municipality">Roma</PVCC>
+			<LDCN etichetta="Repository">Basilica di S. Maria in Trastevere</LDCN>
+			<LDCS etichetta="Precise location">abside</LDCS>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="PROVENANCE">
+			<RIPETIZIONE prog="1">
+				   </RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="RELATION TO OTHER OBJECTS">
+				   </PARAGRAFO>
+		<PARAGRAFO etichetta="RELATED ENTRIES">
+			<RSEC etichetta="Related entries">Mosaici di Pietro Cavallini in S. Maria in Trastevere e derivazioni</RSEC>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="ICONCLASS">
+			<DESS etichetta="Keywords">Transito della Madonna; animula; Cristo; mandorla; angeli; apostoli; turibolo; letto</DESS>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="BIBLIOGRAPHY">
+			<RIPETIZIONE prog="1">
+				<BIBX etichetta="Type">bibliografia specifica</BIBX>
+				<BIBA etichetta="Author">Muñoz A.</BIBA>
+				<BIBG etichetta="Title">Roma di Dante</BIBG>
+				<BIBD etichetta="Publication date">1921</BIBD>
+				<BIBN etichetta="Page">pp. 193-198</BIBN>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="2">
+				<BIBX etichetta="Type">bibliografia specifica</BIBX>
+				<BIBA etichetta="Author">Matthiae G.</BIBA>
+				<BIBG etichetta="Title">Mosaici medievali delle chiese di Roma</BIBG>
+				<BIBD etichetta="Publication date">1967</BIBD>
+				<BIBN etichetta="Page">pp. 367-376, figg. 307, 326, 327, 328, 329, 330, 331, 332</BIBN>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="3">
+				<BIBX etichetta="Type">bibliografia specifica</BIBX>
+				<BIBA etichetta="Author">Matthiae G.</BIBA>
+				<BIBG etichetta="Title">Pietro Cavallini</BIBG>
+				<BIBD etichetta="Publication date">1972</BIBD>
+				<BIBN etichetta="Page">pp. 74-75</BIBN>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="EXHIBITIONS">
+			    </PARAGRAFO>
+		<PARAGRAFO etichetta="NOTES">
+			<OSS etichetta="Notes">
+&amp;#10;</OSS>
+		</PARAGRAFO>
+		<ALLEGATI etichetta="Attached documents">
+			<FOTO aufb="" aufn="Anderson" fotoID="8122" ftan="\40000\8400\8122.jpg" ftat="insieme" misa="257" misl="200" note="Anderson , Roma - Il transito della Vergine - Musaico dell&amp;#039;Abside della Chiesa di S. Maria in Trastevere - insieme" progr="1" sercdf="4669" sgla="" sglt="Roma - Il transito della Vergine - Musaico dell'Abside della Chiesa di S. Maria in Trastevere">/40000/8400/8122.jpg</FOTO>
+			<FOTO aufb="" aufn="Alinari, Fratelli" fotoID="8121" ftan="\40000\8400\8121.jpg" ftat="insieme" misa="260" misl="192" note="Alinari, Fratelli , Roma - Basilica di S. Maria in Trastevere. La Morte della Vergine. (Pietro Cavallini). - insieme" progr="2" sercdf="4670" sgla="" sglt="Roma - Basilica di S. Maria in Trastevere. La Morte della Vergine. (Pietro Cavallini).">/40000/8400/8121.jpg</FOTO>
+			<FOTO aufb="" aufn="Alinari, Fratelli" fotoID="8158" ftan="\40000\8400\8158.jpg" ftat="insieme" misa="254" misl="194" note="Alinari, Fratelli , Roma - Basilica di S. Maria in Trastevere. La Morte della Vergine. (Pietro Cavallini). - insieme" progr="3" sercdf="4671" sgla="" sglt="Roma - Basilica di S. Maria in Trastevere. La Morte della Vergine. (Pietro Cavallini).">/40000/8400/8158.jpg</FOTO>
+			<FOTO aufb="" aufn="Alinari, Fratelli" fotoID="8120" ftan="\40000\8400\8120.jpg" ftat="insieme" misa="255" misl="191" note="Alinari, Fratelli , Roma - Basilica di S. Maria in Trastevere. La Morte della Vergine. (Pietro Cavallini). - insieme" progr="4" sercdf="4672" sgla="" sglt="Roma - Basilica di S. Maria in Trastevere. La Morte della Vergine. (Pietro Cavallini).">/40000/8400/8120.jpg</FOTO>
+			<FOTO aufb="" aufn="Istituto Centrale per il Catalogo e la Documentazione: Fototeca Nazionale" fotoID="8153" ftan="\40000\8400\8153.jpg" ftat="insieme" misa="228" misl="268" note="Istituto Centrale per il Catalogo e la Documentazione: Fototeca Nazionale , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna - insieme" progr="5" sercdf="4673" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna" sglt="">/40000/8400/8153.jpg</FOTO>
+			<FOTO aufb="" aufn="Moscioni, Romualdo" fotoID="8159" ftan="\40000\8400\8159.jpg" ftat="insieme" misa="196" misl="250" note="Moscioni, Romualdo , Mosaico Morte della Madonna - S. Maria in Trastevere - Roma - insieme" progr="6" sercdf="4674" sgla="" sglt="Mosaico Morte della Madonna - S. Maria in Trastevere - Roma">/40000/8400/8159.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8125" ftan="\40000\8400\8125.jpg" ftat="particolare" misa="115" misl="172" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, assistenti di sinistra - particolare" progr="7" sercdf="4675" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, assistenti di sinistra" sglt="">/40000/8400/8125.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8126" ftan="\40000\8400\8126.jpg" ftat="particolare" misa="115" misl="172" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, assistenti di sinistra - particolare" progr="8" sercdf="4677" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, assistenti di sinistra" sglt="">/40000/8400/8126.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8133" ftan="\40000\8400\8133.jpg" ftat="particolare" misa="120" misl="170" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, Apostoli di sinistra - particolare" progr="9" sercdf="4678" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, Apostoli di sinistra" sglt="">/40000/8400/8133.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8130" ftan="\40000\8400\8130.jpg" ftat="particolare" misa="114" misl="172" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, Apostoli di sinistra - particolare" progr="10" sercdf="4679" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, Apostoli di sinistra" sglt="">/40000/8400/8130.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8129" ftan="\40000\8400\8129.jpg" ftat="particolare" misa="174" misl="119" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, angelo a sinistra - particolare" progr="11" sercdf="4680" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, angelo a sinistra" sglt="">/40000/8400/8129.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8123" ftan="\40000\8400\8123.jpg" ftat="particolare" misa="118" misl="172" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: transito della Madonna, volto della Madonna - particolare" progr="12" sercdf="4681" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: transito della Madonna, volto della Madonna" sglt="">/40000/8400/8123.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8124" ftan="\40000\8400\8124.jpg" ftat="particolare" misa="120" misl="171" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, volto della Madonna - particolare" progr="13" sercdf="4682" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, volto della Madonna" sglt="">/40000/8400/8124.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8131" ftan="\40000\8400\8131.jpg" ftat="particolare" misa="173" misl="118" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, Cristo con l&amp;#039;animula della Madonna - particolare" progr="14" sercdf="4683" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, Cristo con l'animula della Madonna" sglt="">/40000/8400/8131.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8132" ftan="\40000\8400\8132.jpg" ftat="particolare" misa="177" misl="115" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, Cristo con l&amp;#039;animula della Madonna - particolare" progr="15" sercdf="4686" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, Cristo con l'animula della Madonna" sglt="">/40000/8400/8132.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8127" ftan="\40000\8400\8127.jpg" ftat="particolare" misa="113" misl="172" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, assistenti di destra - particolare" progr="16" sercdf="4684" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, assistenti di destra" sglt="">/40000/8400/8127.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="8128" ftan="\40000\8400\8128.jpg" ftat="particolare" misa="120" misl="170" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: Transito della Madonna, Apostoli di destra - particolare" progr="17" sercdf="4685" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: Transito della Madonna, Apostoli di destra" sglt="">/40000/8400/8128.jpg</FOTO>
+			<FOTO aufb="" aufn="Zigrossi, Giuseppe" fotoID="11316" ftan="\40000\11600\11316.jpg" ftat="particolare" misa="173" misl="122" note="Zigrossi, Giuseppe , Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell&amp;#039;abside: transito della Madonna, angelo a sinistra - particolare" progr="18" sercdf="144279" sgla="Cavallini Pietro - sec. XIII - S. Maria in Trastevere, mosaico dell'abside: transito della Madonna, angelo a sinistra" sglt="">/40000/11600/11316.jpg</FOTO>
+		</ALLEGATI>
+		<ISSHOWNBY>
+			   http://catalogo.fondazionezeri.unibo.it/entry/work/1715/
+			  </ISSHOWNBY>
+	</SCHEDA>

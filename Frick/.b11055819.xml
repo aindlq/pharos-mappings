@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <marc:leader>03003nkcaa2200589 a 4500</marc:leader>
+<marc:controlfield tag="005">20110429083828.0</marc:controlfield>
+<marc:controlfield tag="006">knnn |||||||||||cn</marc:controlfield>
+  <marc:controlfield tag="007">kh mom</marc:controlfield>
+  <marc:controlfield tag="008">110429k15001599xx nnn |||||| ||||cneng|d</marc:controlfield>
+  <marc:datafield ind1="0" ind2=" " tag="100">
+    <marc:subfield code="a">Anonymous</marc:subfield>
+    <marc:subfield code="c">Italian School, Florentine</marc:subfield>
+    <marc:subfield active="true" code="d">16th century</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2="0" tag="245">
+    <marc:subfield code="a">Scenes from the Story of Joseph</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="260">
+    <marc:subfield code="c">1490</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2=" " tag="300">
+    <marc:subfield code="e">Graphic reproduction(s) with documentation of a</marc:subfield>
+    <marc:subfield code="a">painting</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="340">
+    <marc:subfield code="b" dimension1="16 1/2" dimension2="64" unit="in">16 1/2 x 64 in</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="340">
+    <marc:subfield code="b" dimension1="17" dimension2="65" unit="in">17 x 65 in</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="340">
+    <marc:subfield code="b" dimension1="41.9" dimension2="162.6" unit="cm">41.9 x 162.6 cm</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="340">
+    <marc:subfield code="b" dimension1="43.2" dimension2="165.1" unit="cm">43.2 x 165.1 cm</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="340">
+    <marc:subfield code="c">panel</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " index="100" tag="561">
+    <marc:subfield code="a">Sir Lindsay George Holford, Westonbirt, England</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " index="101" tag="561">
+    <marc:subfield code="a">Sale Christie's, London, Holford Collection, July 15, 1927, lot 51 (£1,155, to Gooden and Fox)</marc:subfield>
+  </marc:datafield>
+  <marc:datafield count="1" ind1="1" ind2=" " tag="590">
+    <marc:subfield code="g">unlocated</marc:subfield>
+  </marc:datafield>
+  <marc:datafield count="2" ind1="5" ind2=" " tag="590">
+    <marc:subfield code="a">(a) Follower of Fra Damiante by Bernard Berenson. Fra Diamante who after the death of Filippo Lippi, fell under the influence of Ghirlandajo; (b) Follower of Filippo Lippi by Christie's, London, 1927. Or possibly Fra Diamante, cassone panels</marc:subfield>
+  </marc:datafield>
+  <marc:datafield count="3" ind1="7" ind2=" " tag="590">
+    <marc:subfield code="a">(a) Two panels. Joseph sold by his brethren and other episodes in his life. Joseph distributing corn to his brethren and other episodes</marc:subfield>
+  </marc:datafield>
+  <marc:datafield count="4" ind1="9" ind2=" " tag="590">
+    <marc:subfield code="a">Publication</marc:subfield>
+    <marc:subfield code="k">Westonbirt, Holford Collection. The Holford Collection [cat.]. 1924, pl.34-a</marc:subfield>
+    <marc:subfield code="n">m</marc:subfield>
+  </marc:datafield>
+  <marc:datafield count="5" ind1="9" ind2=" " tag="590">
+    <marc:subfield code="a">Digital image</marc:subfield>
+    <marc:subfield code="g">699.tif</marc:subfield>
+    <marc:subfield code="h">(image)</marc:subfield>
+    <marc:subfield code="l">March 6, 1999</marc:subfield>
+    <marc:subfield code="d">699</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="556">
+    <marc:subfield code="a">(a) Holford Collection, Westonbirt, 1924, pp.53 to 54, figs.28 to 29</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="556">
+    <marc:subfield code="a">(b) Sale, Holford Collection Sale, 15 July 1927, p.21, fig.51 (priced copy)</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="0" ind2="0" tag="600">
+    <marc:subfield code="a">Anonymous</marc:subfield>
+    <marc:subfield code="c">Italian School, Florentine</marc:subfield>
+    <marc:subfield active="true" code="d">16th century</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="0" tag="650">
+    <marc:subfield code="a">Art, Italian</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="7" tag="650">
+    <marc:subfield code="a">Old Testament</marc:subfield>
+    <marc:subfield code="2">local</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="7" tag="655">
+    <marc:subfield code="a">Italian School</marc:subfield>
+    <marc:subfield code="b">School</marc:subfield>
+    <marc:subfield code="2">local</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="7" tag="655">
+    <marc:subfield code="a">Paintings (visual works)</marc:subfield>
+    <marc:subfield code="2">aat</marc:subfield>
+    <marc:subfield code="0">http://vocab.getty.edu/aat/300033618</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="7" tag="655">
+    <marc:subfield code="a">Reproductions</marc:subfield>
+    <marc:subfield code="2">aat</marc:subfield>
+    <marc:subfield code="0">http://vocab.getty.edu/aat/300015643</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="0" ind2=" " tag="700">
+    <marc:subfield code="a">Diamante di Feo</marc:subfield>
+    <marc:subfield code="d">approximately 1430-approximately 1490</marc:subfield>
+    <marc:subfield code="e">former attribution</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="0" ind2=" " tag="700">
+    <marc:subfield code="a">Diamante di Feo</marc:subfield>
+    <marc:subfield code="d">approximately 1430-approximately 1490</marc:subfield>
+    <marc:subfield code="j">follower of</marc:subfield>
+    <marc:subfield code="e">former attribution</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2=" " tag="700">
+    <marc:subfield code="a">Lippi, Filippo</marc:subfield>
+    <marc:subfield code="d">approximately 1406-1469</marc:subfield>
+    <marc:subfield code="e">former attribution</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="710">
+    <marc:subfield code="a">Frick Art Reference Library</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="0" ind2=" " tag="792">
+    <marc:subfield code="a">Florentine School (16th century)</marc:subfield>
+    <marc:subfield code="d">16th C</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="8" ind2=" " tag="852">
+    <marc:subfield code="a">NNFr</marc:subfield>
+    <marc:subfield code="h">Florentine School (16th century) 701b</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="4" ind2="1" tag="856">
+    <marc:subfield code="u">http://digitalcollections.frick.org/digico/#/details/bibRecordNumber/b11055819/Photoarchive</marc:subfield>
+    <marc:subfield code="z">Photoarchive images and documentation</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="996">
+    <marc:subfield code="a">.b11055819</marc:subfield>
+    <marc:subfield code="b">10-31-19</marc:subfield>
+    <marc:subfield code="c">05-04-11</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="997">
+    <marc:subfield code="a">fpw</marc:subfield>
+    <marc:subfield code="b">05-04-11</marc:subfield>
+    <marc:subfield code="c">d</marc:subfield>
+    <marc:subfield code="d">k</marc:subfield>
+    <marc:subfield code="e">-</marc:subfield>
+    <marc:subfield code="f">eng</marc:subfield>
+    <marc:subfield code="g">xx</marc:subfield>
+    <marc:subfield code="h">0</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="935">
+    <marc:subfield code="a">STAR107420</marc:subfield>
+    <marc:subfield code="b">WID107420</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="948">
+    <marc:subfield code="a">LTI 07/20/2012</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="949">
+    <marc:subfield code="r">x</marc:subfield>
+    <marc:subfield code="q">1</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="980">
+    <marc:subfield code="a">Italian Anonymous completed record</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="980">
+    <marc:subfield code="a">Global Art Systems FASTR 699</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="980">
+    <marc:subfield code="a">Record created from Gasimport database February 2009</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="4" ind2=" " tag="980">
+    <marc:subfield code="a">FARL Mounts File</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="5" ind2=" " tag="980">
+    <marc:subfield code="a">STAR record stamp</marc:subfield>
+    <marc:subfield code="d">MCQ2</marc:subfield>
+    <marc:subfield code="e">2009 06 15</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="983">
+    <marc:subfield code="a">1</marc:subfield>
+    <marc:subfield code="b">reproduction(s)</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="980">
+    <marc:subfield code="a">PHAROS image source information exported August 2015</marc:subfield>
+  </marc:datafield>
+</marc:record>
