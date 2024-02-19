@@ -1,8 +1,18 @@
-<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source_type="xpath" version="1.0" xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      source_type="xpath"
+      version="1.0"
+      xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
    <info>
-      <title>hertziana</title>
-      <general_description>Mappings for Hertziana PHAROS data. This are mappings only for top lever obj (obj with lvl="1"). Mappings for nested objects are automatically generated from this project and saved to hertziana-generated project. </general_description>
+      <title>hertziana-generated</title>
+      <general_description/>
       <source>
+         <source_info>
+            <source_schema schema_file="08061278.xml" type="xml" version="">08061278</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
          <source_info>
             <source_schema schema_file="08066003.xml" type="xml" version="">08066003</source_schema>
             <namespaces>
@@ -11,12 +21,6 @@
          </source_info>
          <source_info>
             <source_schema schema_file="08101845.xml" type="xml" version="">08101845</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
-            <source_schema schema_file="08061278.xml" type="xml" version="">08061278</source_schema>
             <namespaces>
                <namespace prefix="" uri=""/>
             </namespaces>
@@ -54,7 +58,8 @@
    </info>
    <namespaces>
       <namespace prefix="gernsheim" uri="https://artresearch.net/resource/gernsheim/"/>
-      <namespace prefix="iiif_json" uri="https://img.biblhertz.it/digilib/Scaler/IIIF/fototeca!2048px!im!"/>
+      <namespace prefix="iiif_json"
+                 uri="https://img.biblhertz.it/digilib/Scaler/IIIF/fototeca!2048px!im!"/>
       <namespace prefix="prefix" uri="https://artresearch.net/resource/hertziana/"/>
       <namespace prefix="vocab" uri="https://artresearch.net/resource/midas/vocabulary/"/>
       <namespace prefix="image" uri="https://fotothek.biblhertz.it/bh/320px/"/>
@@ -152,18 +157,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -1962,7 +1955,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -2181,7 +2174,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -4436,7 +4429,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj</source_node>
             <target_node>
@@ -4526,18 +4519,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -6336,7 +6317,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -6555,7 +6536,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -8810,7 +8791,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj</source_node>
             <target_node>
@@ -8900,18 +8881,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -10710,7 +10679,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -10929,7 +10898,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -13184,7 +13153,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj/obj</source_node>
             <target_node>
@@ -13274,18 +13243,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -15084,7 +15041,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -15303,7 +15260,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -17558,7 +17515,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj</source_node>
             <target_node>
@@ -17610,15 +17567,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -17656,18 +17614,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -19416,7 +19362,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -19635,7 +19581,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -21890,7 +21836,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj</source_node>
             <target_node>
@@ -21942,15 +21888,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -21988,18 +21935,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -23748,7 +23683,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -23967,7 +23902,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -26222,7 +26157,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj</source_node>
             <target_node>
@@ -26274,15 +26209,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -26320,18 +26256,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -28080,7 +28004,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -28299,7 +28223,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -30554,7 +30478,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj/obj</source_node>
             <target_node>
@@ -30606,15 +30530,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -30652,18 +30577,6 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
-               </comment>
-               <comment type="">
-                  <rationale>One more comment</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-02-19 15:20:10" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -32412,7 +32325,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -32631,7 +32544,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
