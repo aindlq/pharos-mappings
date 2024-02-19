@@ -1,6 +1,0 @@
-@prefix custom: <https://artresearch.net/custom/> .
-@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
-@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix fr:    <https://artresearch.net/resource/fr/> .
-@prefix fc:    <https://artresearch.net/resource/fc/> .
-
