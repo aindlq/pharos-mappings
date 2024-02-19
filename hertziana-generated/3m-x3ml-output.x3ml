@@ -158,6 +158,30 @@
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
                </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
+               </comment>
             </comments>
          </domain>
          <link>
@@ -4519,6 +4543,30 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -8882,6 +8930,30 @@
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
                </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
+               </comment>
             </comments>
          </domain>
          <link>
@@ -13243,6 +13315,30 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -17615,6 +17711,30 @@
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
                </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
+               </comment>
             </comments>
          </domain>
          <link>
@@ -21935,6 +22055,30 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
@@ -26257,6 +26401,30 @@
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
                </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
+               </comment>
             </comments>
          </domain>
          <link>
@@ -30577,6 +30745,30 @@
                      <example_target/>
                   </example>
                   <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
