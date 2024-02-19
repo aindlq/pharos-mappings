@@ -1,7 +1,7 @@
 <x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source_type="xpath" version="1.0" xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
    <info>
       <title>hertziana</title>
-      <general_description/>
+      <general_description>Mappings for Hertziana PHAROS data. This are mappings only for top lever obj (obj with lvl="1"). Mappings for nested objects are automatically generated from this project and saved to hertziana-generated project. </general_description>
       <source>
          <source_info>
             <source_schema schema_file="08066003.xml" type="xml" version="">08066003</source_schema>
