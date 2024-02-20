@@ -61,7 +61,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
                         </instance_generator>
@@ -96,7 +96,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
                            </instance_generator>
@@ -132,7 +132,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -168,7 +168,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -345,7 +345,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300056109</arg>
                            </instance_generator>
@@ -612,7 +612,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300404621</arg>
                            </instance_generator>
@@ -648,7 +648,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">IAP</arg>
@@ -750,7 +750,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300435419</arg>
                            </instance_generator>
@@ -790,7 +790,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300055863</arg>
                            </instance_generator>
@@ -839,7 +839,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300435424</arg>
                            </instance_generator>
@@ -879,7 +879,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300435425</arg>
                            </instance_generator>
@@ -919,7 +919,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300404764</arg>
                            </instance_generator>
@@ -959,7 +959,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Subject Description</arg>
@@ -1000,7 +1000,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300015640</arg>
                            </instance_generator>
@@ -1040,7 +1040,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300435418</arg>
                            </instance_generator>
@@ -1086,7 +1086,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300127013</arg>
                            </instance_generator>
@@ -1132,7 +1132,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300055644</arg>
                            </instance_generator>
@@ -1191,7 +1191,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300055645</arg>
                            </instance_generator>
@@ -1505,7 +1505,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300028702</arg>
                            </instance_generator>
@@ -1686,7 +1686,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">photo_card</arg>
@@ -1723,7 +1723,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300311706</arg>
                            </instance_generator>
@@ -1753,7 +1753,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
                            </instance_generator>
@@ -1795,7 +1795,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300046300</arg>
                         </instance_generator>
@@ -1804,7 +1804,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300127104</arg>
                         </instance_generator>
@@ -1820,7 +1820,7 @@
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIorUUID">
                                  <arg name="text" type="constant">http://vocab.getty.edu/aat/300078817</arg>
                               </instance_generator>
@@ -1829,7 +1829,7 @@
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIwithType">
                                  <arg name="type" type="constant">type</arg>
                                  <arg name="id" type="constant">recto</arg>
@@ -1934,7 +1934,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Image Description</arg>
@@ -2104,7 +2104,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Mount Number</arg>
@@ -2181,7 +2181,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300046300</arg>
                         </instance_generator>
@@ -2190,7 +2190,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300127104</arg>
                         </instance_generator>
@@ -2206,7 +2206,7 @@
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIorUUID">
                                  <arg name="text" type="constant">http://vocab.getty.edu/aat/300078817</arg>
                               </instance_generator>
@@ -2215,7 +2215,7 @@
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIwithType">
                                  <arg name="type" type="constant">type</arg>
                                  <arg name="id" type="constant">recto</arg>
@@ -2320,7 +2320,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Image Description</arg>
@@ -2490,7 +2490,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Mount Number</arg>
@@ -2589,7 +2589,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
                            </instance_generator>
@@ -2765,7 +2765,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
                            </instance_generator>
@@ -2938,7 +2938,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
                            </instance_generator>
@@ -3130,7 +3130,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIwithGernsheimTypeAndId">
                            <arg name="id" type="constant">technique</arg>
                         </instance_generator>
@@ -3163,7 +3163,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300387329</arg>
                         </instance_generator>
@@ -3189,7 +3189,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300264092</arg>
                         </instance_generator>
@@ -3232,7 +3232,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300054631</arg>
                         </instance_generator>
@@ -3375,7 +3375,7 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300008389</arg>
                         </instance_generator>
@@ -3427,7 +3427,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
                            </instance_generator>
