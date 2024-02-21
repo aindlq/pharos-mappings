@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RISULTATI>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><RISULTATI>
 
    <SCHEDA intestazione="Anonimo , Fig. 10 - Todi, Cattedrale: capitello con San Michele Arcangelo che trafigge il Drago." sercdf="143516" sercdoa="82014">
                           <PARAGRAFO etichetta="CLASSIFICATION"> 
@@ -27,10 +26,10 @@
                                         <MISO etichetta="Type of dimensions">supporto primario</MISO>                                                                                               
                                         </PARAGRAFO>                                      
                           <PARAGRAFO etichetta="PHOTOGRAPHERS">
-                    <RIPETIZIONE >      
+                    <RIPETIZIONE>       
                                            <AUFN etichetta="Photographer">Anonimo</AUFN><AUFM etichetta="Reason for attribution">n.r.</AUFM></RIPETIZIONE>
                            </PARAGRAFO>                                                            
-                           <PARAGRAFO etichetta="AUTHOR OF ARTWORK REPRESENTED IN THE PHOTOGRAPH">
+                          <PARAGRAFO etichetta="AUTHOR OF ARTWORK REPRESENTED IN THE PHOTOGRAPH">
                     <RIPETIZIONE>       
                                            <AUTN etichetta="Artist's name">Venturini Giovanni Francesco</AUTN><AUTB etichetta="Cultural context">Scuola italiana, scuola romana</AUTB></RIPETIZIONE>
                            </PARAGRAFO>                                   
@@ -61,6 +60,7 @@
                         <PARAGRAFO etichetta="PROVENANCE">
                     </PARAGRAFO>                                  
                           
+                                                         
                           
                           <PARAGRAFO etichetta="CODES">                                           
                                    <TSK etichetta="Type of entry">F</TSK><LIR etichetta="Cataloguing level">I</LIR><NCTR etichetta="Regional code">08</NCTR><NCTN etichetta="Id. number">148425</NCTN><ESC etichetta="Cataloguing Institution">Fondazione Federico Zeri - Università di Bologna</ESC></PARAGRAFO>
@@ -85,7 +85,7 @@
                                    <AGGD etichetta="Data">01/06/2011</AGGD><AGGN etichetta="Nome revisore">Marcella Culatti</AGGN></RIPETIZIONE>
                            </PARAGRAFO>         
                           
-                                  
+       
                           <PARAGRAFO etichetta="SUPERVISING">
                     <RIPETIZIONE>
                                    <FUR etichetta="Funzionario">Giudici C.</FUR></RIPETIZIONE>
@@ -94,12 +94,11 @@
                          
                          
                           <ELENCO_FOTO>
-                            <FOTO note="Anonimo , Fig. 10 - Todi, Cattedrale: capitello con San Michele Arcangelo che trafigge il Drago. - insieme" sercdf="143516" altezza="175" larghezza="230">/160000/148800/148425.jpg</FOTO>
+                            <FOTO altezza="175" fotoID="148800!148425" larghezza="230" note="Anonimo , Fig. 10 - Todi, Cattedrale: capitello con San Michele Arcangelo che trafigge il Drago. - insieme" sercdf="143516">/160000/148800/148425.jpg</FOTO>
                                 </ELENCO_FOTO>
                           
                           <ISSHOWNBY>
                            http://catalogo.fondazionezeri.unibo.it/entry/photo/143516/
                           </ISSHOWNBY>
                   </SCHEDA>                       
-         </RISULTATI>    
-
+         </RISULTATI>
