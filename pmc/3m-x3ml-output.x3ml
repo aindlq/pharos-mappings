@@ -6,15 +6,32 @@
    <info>
       <title>pmc</title>
       <general_description/>
-      <source/>
+      <source>
+         <source_info>
+            <source_schema schema_file="objects-418362.xml" type="xml" version="">objects-418362</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
+      </source>
       <target>
          <target_info>
             <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
             <namespaces>
+               <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
+               <namespace prefix="prefix" uri="https://artresearch.net/resource/pmc/"/>
+               <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
                <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
                <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
-               <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
+               <namespace prefix="rkd" uri="https://rkd.nl/artists/"/>
+               <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
+               <namespace prefix="viaf" uri="http://viaf.org/viaf/"/>
+               <namespace prefix="ulan" uri="http://vocab.getty.edu/ulan/"/>
                <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+               <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
+               <namespace prefix="vocab" uri="https://artresearch.net/resource/pmc/vocabulary/"/>
+               <namespace prefix="lido" uri="http://www.lido-schema.org"/>
+               <namespace prefix="wikidata" uri="http://www.wikidata.org/entity/"/>
                <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
             </namespaces>
          </target_info>
