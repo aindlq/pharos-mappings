@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RISULTATI>
+
+   <SCHEDA intestazione="Anonimo , Fig. 10 - Todi, Cattedrale: capitello con San Michele Arcangelo che trafigge il Drago." sercdf="143516" sercdoa="82014">
+                          <PARAGRAFO etichetta="CLASSIFICATION"> 
+                                   <INVN etichetta="Inventory number">148425</INVN><LDCM etichetta="Collection">Fototeca Zeri</LDCM><UBFS etichetta="Archival series">Scultura italiana</UBFS><UBFN etichetta="Container number">43</UBFN><UBFT etichetta="Container heading">Scultura italiana sec. XVII. Roma. Gian Lorenzo Bernini 2, François Duquesnoy, Domenico Guidi</UBFT><UBFF etichetta="Folder number">2</UBFF><UBFU etichetta="Folder heading">Gian Lorenzo Bernini: fontane</UBFU><UBFC etichetta="Shelfmark">SI_043/2/54</UBFC></PARAGRAFO>            
+                          <PARAGRAFO etichetta="SUBJECT">
+                                        <RIPETIZIONE>
+                                                <SGTI etichetta="Subject">Veduta di Roma con la fontana del Tritone nel giardino di villa Mattei</SGTI>
+                                                 <OGTDOA etichetta="Object">incisione</OGTDOA>
+                                                 </RIPETIZIONE> 
+                                        </PARAGRAFO>                                                    
+                        <PARAGRAFO etichetta="SOURCE OF TITLE">
+                                <RIPETIZIONE>
+                                         <SGLS etichetta="Source of title">del catalogatore</SGLS>
+                                         <SGLA etichetta="Attributed title">Venturini Giovanni Francesco - sec. XVII - Veduta di Roma con la fontana del Tritone nel giardino di villa Mattei</SGLA>                                      
+                                         </RIPETIZIONE> 
+                                        <RIPETIZIONE>
+                                         <SGLS etichetta="Source of title">manoscritto sul verso</SGLS>
+                                         <SGLT etichetta="Proper title">Fig. 10 - Todi, Cattedrale: capitello con San Michele Arcangelo che trafigge il Drago.</SGLT>
+                                         </RIPETIZIONE> 
+                                        </PARAGRAFO>                                      
+                          <PARAGRAFO etichetta="OBJECT">
+                                    <QNTN etichetta="Number of items">1</QNTN><OGTD etichetta="Object">positivo</OGTD><OGTB etichetta="Type">m</OGTB><MTX etichetta="BW/C">BN</MTX><MTC etichetta="Medium or materials">albumina/ carta</MTC><MISU etichetta="Unit of measurement">mm</MISU>
+                                        <MISA etichetta="Height">175</MISA>
+                                        <MISL etichetta="Length">230</MISL>
+                                        <MISO etichetta="Type of dimensions">supporto primario</MISO>                                                                                               
+                                        </PARAGRAFO>                                      
+                          <PARAGRAFO etichetta="PHOTOGRAPHERS">
+                    <RIPETIZIONE >      
+                                           <AUFN etichetta="Photographer">Anonimo</AUFN><AUFM etichetta="Reason for attribution">n.r.</AUFM></RIPETIZIONE>
+                           </PARAGRAFO>                                                            
+                           <PARAGRAFO etichetta="AUTHOR OF ARTWORK REPRESENTED IN THE PHOTOGRAPH">
+                    <RIPETIZIONE>       
+                                           <AUTN etichetta="Artist's name">Venturini Giovanni Francesco</AUTN><AUTB etichetta="Cultural context">Scuola italiana, scuola romana</AUTB></RIPETIZIONE>
+                           </PARAGRAFO>                                   
+                          <PARAGRAFO etichetta="DATING">
+                                        <DTZG etichetta="Century">XX</DTZG>
+                                         <DTSI etichetta="From">1900</DTSI><DTSV etichetta="Degree of approximation">ca.</DTSV><DTSF etichetta="To">1920</DTSF><DTSL etichetta="Degree of approximation">ca.</DTSL><DTMM etichetta="Reason for dating">analisi tecnico-formale</DTMM>
+                                         </PARAGRAFO>                                    
+                          <PARAGRAFO etichetta="PLACE AND DATE OF THE SHOT">                                              
+                                   </PARAGRAFO>
+
+                          <PARAGRAFO etichetta="RELATIONS WITH OTHER PHOTOGRAPHIC OBJECTS (NEGATIVE)">
+                          
+                                   </PARAGRAFO> 
+                                  
+
+                         
+                          <PARAGRAFO etichetta="PRODUCTION AND PUBLISHING">
+                    </PARAGRAFO>        
+                          
+
+                          <PARAGRAFO etichetta="STATE OF PRESERVATION">
+                                   </PARAGRAFO>                                           
+                          
+                          <PARAGRAFO etichetta="LOCATION">                                                
+                                   <PVCR etichetta="Region / Federal State">Emilia-Romagna</PVCR><PVCP etichetta="District">BO</PVCP><PVCC etichetta="Town / Municipality">Bologna</PVCC><LDCN etichetta="Repository">Ex convento di S. Cristina</LDCN><LDCU etichetta="Address">piazzetta G. Morandi, 2</LDCU></PARAGRAFO>
+          
+          
+                        <PARAGRAFO etichetta="PROVENANCE">
+                    </PARAGRAFO>                                  
+                          
+                          
+                          <PARAGRAFO etichetta="CODES">                                           
+                                   <TSK etichetta="Type of entry">F</TSK><LIR etichetta="Cataloguing level">I</LIR><NCTR etichetta="Regional code">08</NCTR><NCTN etichetta="Id. number">148425</NCTN><ESC etichetta="Cataloguing Institution">Fondazione Federico Zeri - Università di Bologna</ESC></PARAGRAFO>
+                          <PARAGRAFO etichetta="RELATION TO OTHER OBJECTS">                                               
+                                   </PARAGRAFO>
+
+                          <PARAGRAFO etichetta="OWNERSHIP">
+                                   <CDGG etichetta="General ownership">proprietà Ente pubblico non territoriale</CDGG><CDGS etichetta="Specific owner">Alma Mater Studiorum Università di Bologna</CDGS></PARAGRAFO>                                               
+                          <PARAGRAFO etichetta="COPYRIGHT">
+                                   </PARAGRAFO>                         
+                          <PARAGRAFO etichetta="CATALOGUING">
+                                   <CMPD etichetta="Cataloguing date">19/05/2011</CMPD><CMPN etichetta="Cataloguer">Matteo Benini</CMPN></PARAGRAFO>                                               
+                          <PARAGRAFO etichetta="NOTES">
+                                   </PARAGRAFO>                                   
+                          <PARAGRAFO etichetta="DIGITAL IMAGE">
+                    <FTAT etichetta="Detail / Whole">insieme</FTAT><FTAN etichetta="File name">\160000\148800\148425.jpg</FTAN><FTAX etichetta="Attached / Unattached image">allegata</FTAX><FTAP etichetta="Type">fotografia digitale</FTAP></PARAGRAFO>                          
+                                  
+                          <PARAGRAFO etichetta="UPDATING">
+                    <RIPETIZIONE>
+                                   <AGGD etichetta="Data">19/05/2011</AGGD><AGGN etichetta="Nome revisore">Matteo Benini</AGGN></RIPETIZIONE>
+                           <RIPETIZIONE>
+                                   <AGGD etichetta="Data">01/06/2011</AGGD><AGGN etichetta="Nome revisore">Marcella Culatti</AGGN></RIPETIZIONE>
+                           </PARAGRAFO>         
+                          
+                                  
+                          <PARAGRAFO etichetta="SUPERVISING">
+                    <RIPETIZIONE>
+                                   <FUR etichetta="Funzionario">Giudici C.</FUR></RIPETIZIONE>
+                           </PARAGRAFO>         
+                                                                                 
+                         
+                         
+                          <ELENCO_FOTO>
+                            <FOTO note="Anonimo , Fig. 10 - Todi, Cattedrale: capitello con San Michele Arcangelo che trafigge il Drago. - insieme" sercdf="143516" altezza="175" larghezza="230">/160000/148800/148425.jpg</FOTO>
+                                </ELENCO_FOTO>
+                          
+                          <ISSHOWNBY>
+                           http://catalogo.fondazionezeri.unibo.it/entry/photo/143516/
+                          </ISSHOWNBY>
+                  </SCHEDA>                       
+         </RISULTATI>    
+
