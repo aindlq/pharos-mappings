@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SCHEDA intestazione="Primo Maestro di Anagni, Secondo Maestro di Anagni, Terzo Maestro di Anagni , Vedute parziali della cripta" sercdoa="1428">
+                <PARAGRAFO etichetta="CODES">
+                        <SERCD etichetta="SERCD">1428</SERCD>
+                        <NRSCHEDA etichetta="Entry number">100</NRSCHEDA>
+                        <RIPETIZIONE prog="1">
+                                <UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+                                <UBFN etichetta="Container number">0009</UBFN>
+                                <UBFT etichetta="Container heading">Pittura italiana fino al sec. XIII. Lazio. Affreschi 1</UBFT>
+                                <UBFF etichetta="Folder number">1</UBFF>
+                                <UBFU etichetta="Folder heading">Anagni, Cattedrale</UBFU>
+                        </RIPETIZIONE>
+                        <RIPETIZIONE prog="2">
+                                <UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+                                <UBFN etichetta="Container number">0030</UBFN>
+                                <UBFT etichetta="Container heading">Pittura italiana fino al sec. XIII. Miscellanea 1</UBFT>
+                                <UBFF etichetta="Folder number">3</UBFF>
+                                <UBFU etichetta="Folder heading">Affreschi da studiare 1</UBFU>
+                        </RIPETIZIONE>
+                        <RIPETIZIONE prog="3">
+                                <UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+                                <UBFN etichetta="Container number">0031</UBFN>
+                                <UBFT etichetta="Container heading">Pittura italiana fino al sec. XIII. Miscellanea 2</UBFT>
+                                <UBFF etichetta="Folder number">1</UBFF>
+                                <UBFU etichetta="Folder heading">Affreschi: varie località da dividere (fuori Roma) 1</UBFU>
+                        </RIPETIZIONE>
+                        <RIPETIZIONE prog="4">
+                                <UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+                                <UBFN etichetta="Container number">0031</UBFN>
+                                <UBFT etichetta="Container heading">Pittura italiana fino al sec. XIII. Miscellanea 2</UBFT>
+                                <UBFF etichetta="Folder number">3</UBFF>
+                                <UBFU etichetta="Folder heading">Affreschi: varie località da dividere (fuori Roma) 3</UBFU>
+                        </RIPETIZIONE>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="OBJECT">
+                        <OGTD etichetta="Object">dipinto murale</OGTD>
+                        <OGTV etichetta="Identification">elemento d'insieme</OGTV>
+                        <OGTT etichetta="Object type">dipinto</OGTT>
+                        <SGTI etichetta="Subject">Vedute parziali della cripta</SGTI>
+                        <MTC etichetta="Medium or materials">affresco</MTC>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="AUTHOR">
+                        <RIPETIZIONE prog="1">
+                                <AUTN etichetta="Artist's name">Primo Maestro di Anagni</AUTN>
+                                <AUTM etichetta="Reason for attribution">Bibliografia</AUTM>
+                                <ATBD etichetta="Cultural context">Scuola italiana, scuola laziale, scuola romana</ATBD>
+                        </RIPETIZIONE>
+                        <RIPETIZIONE prog="2">
+                                <AUTN etichetta="Artist's name">Secondo Maestro di Anagni</AUTN>
+                                <AUTM etichetta="Reason for attribution">Bibliografia</AUTM>
+                                <ATBD etichetta="Cultural context">Scuola italiana, scuola laziale, scuola romana</ATBD>
+                        </RIPETIZIONE>
+                        <RIPETIZIONE prog="3">
+                                <AUTN etichetta="Artist's name">Terzo Maestro di Anagni</AUTN>
+                                <AUTM etichetta="Reason for attribution">Bibliografia</AUTM>
+                                <ATBD etichetta="Cultural context">Scuola italiana, scuola laziale, scuola romana</ATBD>
+                        </RIPETIZIONE>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="DIFFERENT ATTRIBUTIONS">
+                        <RIPETIZIONE prog="1">
+                                   </RIPETIZIONE>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="DATING">
+                        <RIPETIZIONE prog="1">
+                                <DTZG etichetta="Century">sec. XIII</DTZG>
+                                <DTSI etichetta="From">1231</DTSI>
+                                <DTSF etichetta="To">1255</DTSF>
+                        </RIPETIZIONE>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="LOCATION">
+                        <PVCS etichetta="Country">Italia</PVCS>
+                        <PVCR etichetta="Region / Federal State">Lazio</PVCR>
+                        <PVCP etichetta="District">Frosinone</PVCP>
+                        <PVCC etichetta="Town / Municipality">Anagni</PVCC>
+                        <LDCN etichetta="Repository">Cattedrale di S. Maria</LDCN>
+                        <LDCS etichetta="Precise location">cripta di S. Magno</LDCS>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="PROVENANCE">
+                        <RIPETIZIONE prog="1">
+                                   </RIPETIZIONE>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="RELATION TO OTHER OBJECTS">
+                                   </PARAGRAFO>
+                <PARAGRAFO etichetta="RELATED ENTRIES">
+                                   </PARAGRAFO>
+                <PARAGRAFO etichetta="ICONCLASS">
+                        <DESS etichetta="Keywords">Motivi decorativi geometrici; motivi decorativi vegetali; girali di foglie</DESS>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="BIBLIOGRAPHY">
+                        <RIPETIZIONE prog="1">
+                                <BIBX etichetta="Type">bibliografia specifica</BIBX>
+                                <BIBA etichetta="Author">Toesca P.</BIBA>
+                                <BIBG etichetta="Title">Le Gallerie Nazionali Italiane. Notizie e documenti, vol. V</BIBG>
+                                <BIBT etichetta="Title">Gli affreschi della cattedrale di Anagni</BIBT>
+                                <BIBD etichetta="Publication date">1902</BIBD>
+                        </RIPETIZIONE>
+                        <RIPETIZIONE prog="2">
+                                <BIBX etichetta="Type">bibliografia specifica</BIBX>
+                                <BIBA etichetta="Author">Matthiae G.</BIBA>
+                                <BIBG etichetta="Title">Pittura romana del Medioevo</BIBG>
+                                <BIBD etichetta="Publication date">1965-1966</BIBD>
+                                <BIBN etichetta="Page">v. II pp. 131-145</BIBN>
+                        </RIPETIZIONE>
+                </PARAGRAFO>
+                <PARAGRAFO etichetta="EXHIBITIONS">
+                            </PARAGRAFO>
+                <PARAGRAFO etichetta="NOTES">
+                    <OSS etichetta="Notes">Le foto che documentano l'opera sono conservate in fascicoli con intestazioni diverse.</OSS>
+                </PARAGRAFO>
+                <ALLEGATI etichetta="Attached documents">
+                        <FOTO aufb="" aufn="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo" fotoID="6264" ftan="\40000\6400\6264.jpg" ftat="particolare" misa="233" misl="173" note="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo , Anagni, Cattedrale: cripta di S. Magno - particolare" progr="1" sercdf="3598" sgla="Anagni, Cattedrale: cripta di S. Magno" sglt="">/40000/6400/6264.jpg</FOTO>
+                        <FOTO aufb="" aufn="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo" fotoID="6297" ftan="\40000\6400\6297.jpg" ftat="particolare" misa="234" misl="174" note="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo , Anagni, Cattedrale: cripta di S. Magno - particolare" progr="2" sercdf="3600" sgla="Anagni, Cattedrale: cripta di S. Magno" sglt="">/40000/6400/6297.jpg</FOTO>
+                        <FOTO aufb="" aufn="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo" fotoID="6299" ftan="\40000\6400\6299.jpg" ftat="particolare" misa="233" misl="172" note="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo , Anagni, Cattedrale, cripta di S. Magno: capitello e imposta dell&amp;#039;arco della volta XI - particolare" progr="3" sercdf="3599" sgla="Anagni, Cattedrale, cripta di S. Magno: capitello e imposta dell'arco della volta XI" sglt="">/40000/6400/6299.jpg</FOTO>
+                        <FOTO aufb="" aufn="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo" fotoID="11383" ftan="\40000\11600\11383.jpg" ftat="particolare" misa="233" misl="173" note="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo , Anagni, Cattedrale: cripta di S. Magno - particolare" progr="4" sercdf="145791" sgla="Anagni, Cattedrale: cripta di S. Magno" sglt="">/40000/11600/11383.jpg</FOTO>
+                        <FOTO aufb="" aufn="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo" fotoID="11613" ftan="\40000\12000\11613.jpg" ftat="particolare" misa="233" misl="173" note="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo , Anagni, Cattedrale: cripta di S. Magno - particolare" progr="5" sercdf="146557" sgla="Anagni, Cattedrale: cripta di S. Magno" sglt="">/40000/12000/11613.jpg</FOTO>
+                        <FOTO aufb="" aufn="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo" fotoID="11816" ftan="\40000\12000\11816.jpg" ftat="particolare" misa="172" misl="233" note="Archivio fotografico della Soprintendenza per i Beni Architettonici e Paesaggistici per le province di Roma, Frosinone, Latina, Rieti e Viterbo , Anagni - Duomo: pressatoi in opera per il consolidamento degli affreschi delle pareti della cripta - particolare" progr="6" sercdf="148598" sgla="" sglt="Anagni - Duomo: pressatoi in opera per il consolidamento degli affreschi delle pareti della cripta">/40000/12000/11816.jpg</FOTO>
+                </ALLEGATI>
+                <ISSHOWNBY>
+                    http://catalogo.fondazionezeri.unibo.it/entry/work/1428/
+                </ISSHOWNBY>
+</SCHEDA>

@@ -6,7 +6,14 @@
    <info>
       <title>zeri</title>
       <general_description/>
-      <source/>
+      <source>
+         <source_info>
+            <source_schema schema_file="100.xml" type="xml" version="">100</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
+      </source>
       <target>
          <target_info>
             <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
