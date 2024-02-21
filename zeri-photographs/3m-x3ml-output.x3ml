@@ -59,7 +59,7 @@
    <mappings>
       <mapping>
          <domain>
-            <source_node>//RISULTATI/SCHEDA</source_node>
+            <source_node>/RISULTATI/SCHEDA</source_node>
             <target_node>
                <entity>
                   <type>crm:E22_Man-Made_Object</type>
