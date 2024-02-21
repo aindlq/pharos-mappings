@@ -263,7 +263,7 @@
                         <entity>
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
                         </entity>
                      </additional>
