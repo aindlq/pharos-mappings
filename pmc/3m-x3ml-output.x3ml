@@ -52,13 +52,13 @@
       </example_data_info>
    </info>
    <namespaces>
-      <namespace prefix="prefix" uri=""/>
+      <namespace prefix="prefix" uri="https://artresearch.net/resource/pmc/"/>
       <namespace prefix="ulan" uri="http://vocab.getty.edu/ulan/"/>
       <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
       <namespace prefix="rkd" uri="https://rkd.nl/artists/"/>
       <namespace prefix="viaf" uri="http://viaf.org/viaf/"/>
       <namespace prefix="wikidata" uri="http://www.wikidata.org/entity/"/>
-      <namespace prefix="vocab" uri=""/>
+      <namespace prefix="vocab" uri="https://artresearch.net/resource/pmc/vocabulary/"/>
    </namespaces>
    <mappings>
       <mapping>
@@ -75,26 +75,16 @@
                      <arg name="text" type="xpath">lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:titleWrap/lido:titleSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIorUUID">
                                  <arg name="text" type="constant">https://artresearch.net/resource/vocab/maintype</arg>
                               </instance_generator>
@@ -112,7 +102,7 @@
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIorUUID">
                                  <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
                               </instance_generator>
@@ -130,7 +120,7 @@
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIorUUID">
                                  <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
                               </instance_generator>
@@ -203,7 +193,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Subject Description</arg>
@@ -381,7 +371,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300055644</arg>
                            </instance_generator>
@@ -440,7 +430,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300055647</arg>
                            </instance_generator>
@@ -499,7 +489,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300072633</arg>
                            </instance_generator>
@@ -817,7 +807,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Exhibition</arg>
@@ -870,7 +860,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300055863</arg>
                            </instance_generator>
@@ -914,7 +904,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300435419</arg>
                            </instance_generator>
@@ -954,7 +944,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300028702</arg>
                            </instance_generator>
@@ -997,7 +987,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="xpath">../../lido:subjectConcept/lido:conceptID/text()</arg>
@@ -1243,7 +1233,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="xpath">../lido:eventType/lido:conceptID/text()</arg>
                            </instance_generator>
@@ -1278,26 +1268,16 @@
                      <arg name="id" type="xpath">.</arg>
                   </instance_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300046300</arg>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P2_has_type</relationship>
                            <entity>
-                              <type>custom:noType</type>
+                              <type>crm:E55_Type</type>
                               <instance_generator name="URIorUUID">
                                  <arg name="text" type="constant">https://artresearch.net/resource/vocab/maintype</arg>
                               </instance_generator>
@@ -1367,7 +1347,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://iiif.io/api/image</arg>
                            </instance_generator>
@@ -1376,7 +1356,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">recto</arg>
@@ -1386,7 +1366,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300078817</arg>
                            </instance_generator>
@@ -1435,7 +1415,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://iiif.io/api/image</arg>
                            </instance_generator>
@@ -1444,7 +1424,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">verso</arg>
@@ -1454,7 +1434,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300010292</arg>
                            </instance_generator>
@@ -1598,7 +1578,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithAATId">
                               <arg name="id" type="constant">300435704</arg>
                            </instance_generator>
@@ -1635,19 +1615,9 @@
                      <arg name="text" type="xpath">lido:actorInRole/lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300264595</arg>
                         </instance_generator>
@@ -1698,7 +1668,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
                            </instance_generator>
@@ -1741,7 +1711,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="constant">Inventory Number</arg>
@@ -1778,7 +1748,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -1879,19 +1849,9 @@
                      <arg name="text" type="xpath">lido:actorInRole/lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300264595</arg>
                         </instance_generator>
@@ -1948,7 +1908,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -2044,19 +2004,9 @@
                      <arg name="text" type="xpath">lido:actorInRole/lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300417644</arg>
                         </instance_generator>
@@ -2091,7 +2041,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -2192,19 +2142,9 @@
                      <arg name="text" type="xpath">lido:actorInRole/lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300417644</arg>
                         </instance_generator>
@@ -2239,7 +2179,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -2326,19 +2266,9 @@
                      <arg name="text" type="xpath">lido:actorInRole/lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300264595</arg>
                         </instance_generator>
@@ -2373,7 +2303,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -2456,16 +2386,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:appellationValue/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -2492,16 +2412,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -2751,7 +2661,7 @@
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
                            </instance_generator>
@@ -2792,16 +2702,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:actor/lido:nameActorSet/lido:appellationValue[@lido:pref="preferred"]/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3042,20 +2942,10 @@
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIwithType">
                            <arg name="type" type="constant">type</arg>
                            <arg name="id" type="constant">National Group</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
                         </instance_generator>
                      </entity>
                   </additional>
@@ -3075,16 +2965,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">../lido:term/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3111,16 +2991,6 @@
                         </instance_generator>
                      </entity>
                   </additional>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3138,16 +3008,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:term/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3165,16 +3025,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:term/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3192,16 +3042,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:term/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3219,16 +3059,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:term/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3246,16 +3076,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:term/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
@@ -3274,19 +3094,9 @@
                      <arg name="text" type="xpath">lido:namePlaceSet/lido:appellationValue/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300404126</arg>
                         </instance_generator>
@@ -3308,16 +3118,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="constant">record identifiers</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">PMC</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
