@@ -109,7 +109,7 @@
                      <entity>
                         <type>crmdig:D1_Digital_Object</type>
                         <instance_generator name="IIIF_Generator">
-                           <arg name="id" type="xpath">ELENCO_FOTO/FOTO/@fotoID</arg>
+                           <arg name="id" type="xpath">ELENCO_FOTO/FOTO/text()</arg>
                            <arg name="postfix" type="constant">_g.jpg/full/full/0/default.jpg</arg>
                         </instance_generator>
                         <additional>
