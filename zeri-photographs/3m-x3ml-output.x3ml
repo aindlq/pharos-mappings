@@ -235,7 +235,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>PARAGRAFO[@etichetta="SOURCE OF TITLE"]/RIPETIZIONE/SGLT</relation>
+                  <relation>PARAGRAFO[@etichetta="SOURCE OF TITLE"]/RIPETIZIONE/SGLA</relation>
                </source_relation>
                <target_relation>
                   <if>
@@ -245,7 +245,7 @@
                </target_relation>
             </path>
             <range>
-               <source_node>PARAGRAFO[@etichetta="SOURCE OF TITLE"]/RIPETIZIONE/SGLT</source_node>
+               <source_node>PARAGRAFO[@etichetta="SOURCE OF TITLE"]/RIPETIZIONE/SGLA</source_node>
                <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
