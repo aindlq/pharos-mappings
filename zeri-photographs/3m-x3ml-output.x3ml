@@ -702,7 +702,7 @@
                <source_node>PARAGRAFO[@etichetta="DATING"]/DTSF</source_node>
                <target_node>
                   <entity>
-                     <type>xsd:date</type>
+                     <type>xsd:dateTime</type>
                      <instance_generator name="TypedLiteralGen">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
