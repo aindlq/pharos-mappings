@@ -53,11 +53,11 @@
    </info>
    <namespaces>
       <namespace prefix="prefix" uri=""/>
-      <namespace prefix="ulan" uri=""/>
-      <namespace prefix="aat" uri=""/>
-      <namespace prefix="rkd" uri=""/>
-      <namespace prefix="viaf" uri=""/>
-      <namespace prefix="wikidata" uri=""/>
+      <namespace prefix="ulan" uri="http://vocab.getty.edu/ulan/"/>
+      <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
+      <namespace prefix="rkd" uri="https://rkd.nl/artists/"/>
+      <namespace prefix="viaf" uri="http://viaf.org/viaf/"/>
+      <namespace prefix="wikidata" uri="http://www.wikidata.org/entity/"/>
       <namespace prefix="vocab" uri=""/>
    </namespaces>
    <mappings>
