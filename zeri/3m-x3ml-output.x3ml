@@ -1778,11 +1778,14 @@
                      <additional>
                         <relationship>crm:P91_has_unit</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E58_Measurement_Unit</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">measurement_unit</arg>
                               <arg name="id" type="xpath">../MISU[@etichetta="Unit of measurement"]/text()</arg>
                            </instance_generator>
+                           <label_generator name="Literal">
+                              <arg name="text" type="constant">../MISU[@etichetta="Unit of measurement"]/text()</arg>
+                           </label_generator>
                         </entity>
                      </additional>
                   </entity>
