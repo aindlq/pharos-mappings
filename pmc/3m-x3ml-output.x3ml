@@ -3000,22 +3000,5 @@
             </target_node>
          </domain>
       </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:objectRelationWrap/lido:subjectWrap/lido:subjectSet/lido:subject/lido:subjectConcept</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E55_Type</type>
-                  <instance_generator name="URIwithTypeAndId">
-                     <arg name="type" type="constant">type</arg>
-                     <arg name="id" type="xpath">lido:conceptID/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:term/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
    </mappings>
 </x3ml>
