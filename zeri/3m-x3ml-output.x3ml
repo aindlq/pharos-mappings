@@ -4854,23 +4854,6 @@
       </mapping>
       <mapping>
          <domain>
-            <source_node>/SCHEDA/PARAGRAFO[@etichetta="OBJECT"]/MISU[@etichetta="Unit of measurement"]</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E58_Measurement_Unit</type>
-                  <instance_generator name="URIwithType">
-                     <arg name="type" type="constant">measurement_unit</arg>
-                     <arg name="id" type="xpath">text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
             <source_node>/SCHEDA/PARAGRAFO[@etichetta="BIBLIOGRAPHY"]/RIPETIZIONE/BIBG[@etichetta="Title"]</source_node>
             <target_node>
                <entity>
