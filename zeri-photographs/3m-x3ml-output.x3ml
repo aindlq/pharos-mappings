@@ -176,7 +176,7 @@
                   <additional>
                      <relationship>crm:P50_has_current_keeper</relationship>
                      <entity>
-                        <type>custom:noType</type>
+                        <type>crm:E39_Actor</type>
                         <instance_generator name="URIwithType">
                            <arg name="type" type="constant">actor</arg>
                            <arg name="id" type="constant">Fondazione Federico Zeri - Università di Bologna</arg>
@@ -876,11 +876,14 @@
                      <additional>
                         <relationship>crm:P91_has_unit</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E58_Measurement_Unit</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">measurement_unit</arg>
                               <arg name="id" type="xpath">../MISU/text()</arg>
                            </instance_generator>
+                           <label_generator name="Literal">
+                              <arg name="text" type="xpath">../MISU/text()</arg>
+                           </label_generator>
                         </entity>
                      </additional>
                   </entity>
@@ -943,7 +946,7 @@
                      <additional>
                         <relationship>crm:P91_has_unit</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E58_Measurement_Unit</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">measurement_unit</arg>
                               <arg name="id" type="xpath">../MISU/text()</arg>
@@ -1276,7 +1279,7 @@
                <source_node>PARAGRAFO[@etichetta="PROVENANCE"]/RIPETIZIONE/PRCM</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E39_Actor</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">actor</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -1329,7 +1332,7 @@
                <source_node>PARAGRAFO[@etichetta="PROVENANCE"]/RIPETIZIONE/PRCM</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E39_Actor</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">actor</arg>
                         <arg name="id" type="xpath">text()</arg>
