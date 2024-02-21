@@ -144,11 +144,14 @@
                <source_node>lido:descriptiveMetadata/lido:objectClassificationWrap/lido:objectWorkTypeWrap/lido:objectWorkType</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">type</arg>
                         <arg name="id" type="xpath">lido:conceptID/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:term/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -166,11 +169,14 @@
                <source_node>lido:descriptiveMetadata/lido:objectClassificationWrap/lido:classificationWrap/lido:classification</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E29_Design_or_Procedure</type>
                      <instance_generator name="URIwithVocabTypeAndId">
                         <arg name="type" type="constant">technique</arg>
                         <arg name="id" type="xpath">lido:conceptID/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:term/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -229,11 +235,14 @@
                <source_node>lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventMaterialsTech/lido:materialsTech/lido:termMaterialsTech</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E57_Material</type>
                      <instance_generator name="URIwithVocabType">
                         <arg name="type" type="constant">material</arg>
                         <arg name="id" type="xpath">lido:conceptID/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:term/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -984,6 +993,9 @@
                         <arg name="type" type="constant">place</arg>
                         <arg name="id" type="xpath">lido:placeID/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:namePlaceSet/lido:appellationValue/text()</arg>
+                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -991,6 +1003,15 @@
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="xpath">../../lido:subjectConcept/lido:conceptID/text()</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300404126</arg>
                            </instance_generator>
                         </entity>
                      </additional>
@@ -1187,11 +1208,14 @@
                <source_node>lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:repositoryLocation/lido:namePlaceSet</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E53_Place</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">place</arg>
                         <arg name="id" type="xpath">string-join((lido:appellationValue/text(),lido:appellationValue/@xml:label),'_')</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:appellationValue/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -1544,10 +1568,13 @@
                <source_node>../../../lido:recordWrap/lido:recordType</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIwithAATId">
                         <arg name="id" type="xpath">lido:conceptID/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:term/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -1639,11 +1666,14 @@
                <source_node>../../../../lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:repositoryLocation/lido:namePlaceSet</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E53_Place</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">place</arg>
                         <arg name="id" type="xpath">string-join((lido:appellationValue/text(),lido:appellationValue/@xml:label),'_')</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:appellationValue/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -1873,11 +1903,14 @@
                <source_node>../../../../lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:repositoryLocation/lido:namePlaceSet</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E53_Place</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">place</arg>
                         <arg name="id" type="xpath">string-join((lido:appellationValue/text(),lido:appellationValue/@xml:label),'_')</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:appellationValue/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -2375,23 +2408,6 @@
       </mapping>
       <mapping>
          <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:repositoryWrap/lido:repositorySet/lido:repositoryLocation/lido:namePlaceSet</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E53_Place</type>
-                  <instance_generator name="URIwithType">
-                     <arg name="type" type="constant">place</arg>
-                     <arg name="id" type="xpath">string-join((lido:appellationValue/text(),lido:appellationValue/@xml:label),'_')</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:appellationValue/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
             <source_node>//lido:lido/lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventActor/lido:actorInRole</source_node>
             <target_node>
                <if>
@@ -2428,10 +2444,13 @@
                <source_node>lido:roleActor/lido:conceptID[@lido:source="AAT"]</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIwithAATId">
                         <arg name="id" type="xpath">text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">../lido:term/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -2626,11 +2645,24 @@
                <source_node>lido:actor/lido:nationalityActor</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E39_Actor</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">group</arg>
                         <arg name="id" type="xpath">lido:term/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:term/text()</arg>
+                     </label_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIwithType">
+                              <arg name="type" type="constant">type</arg>
+                              <arg name="id" type="constant">National Group</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
                   </entity>
                </target_node>
             </range>
@@ -2718,10 +2750,13 @@
                <source_node>lido:roleActor/lido:conceptID[@lido:source="AAT"]</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIwithAATId">
                         <arg name="id" type="xpath">text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">../lido:term/text()</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
@@ -2916,58 +2951,28 @@
                <source_node>lido:actor/lido:nationalityActor</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E39_Actor</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">group</arg>
                         <arg name="id" type="xpath">lido:term/text()</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">lido:term/text()</arg>
+                     </label_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIwithType">
+                              <arg name="type" type="constant">type</arg>
+                              <arg name="id" type="constant">National Group</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
                   </entity>
                </target_node>
             </range>
          </link>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventActor/lido:actorInRole/lido:actor/lido:nationalityActor</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E39_Actor</type>
-                  <instance_generator name="URIwithType">
-                     <arg name="type" type="constant">group</arg>
-                     <arg name="id" type="xpath">lido:term/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:term/text()</arg>
-                  </label_generator>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>crm:E55_Type</type>
-                        <instance_generator name="URIwithType">
-                           <arg name="type" type="constant">type</arg>
-                           <arg name="id" type="constant">National Group</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventActor/lido:actorInRole/lido:roleActor/lido:conceptID[@lido:source="AAT"]</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E55_Type</type>
-                  <instance_generator name="URIwithAATId">
-                     <arg name="id" type="xpath">text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">../lido:term/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
       </mapping>
       <mapping>
          <domain>
@@ -2997,74 +3002,6 @@
       </mapping>
       <mapping>
          <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:objectClassificationWrap/lido:objectWorkTypeWrap/lido:objectWorkType</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E55_Type</type>
-                  <instance_generator name="URIwithTypeAndId">
-                     <arg name="type" type="constant">type</arg>
-                     <arg name="id" type="xpath">lido:conceptID/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:term/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:administrativeMetadata/lido:recordWrap/lido:recordType</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E55_Type</type>
-                  <instance_generator name="URIwithAATId">
-                     <arg name="type" type="constant">type</arg>
-                     <arg name="id" type="xpath">lido:conceptID/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:term/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:objectClassificationWrap/lido:classificationWrap/lido:classification</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E29_Design_or_Procedure</type>
-                  <instance_generator name="URIwithVocabTypeAndId">
-                     <arg name="type" type="constant">technique</arg>
-                     <arg name="id" type="xpath">lido:conceptID/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:term/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:eventWrap/lido:eventSet/lido:event/lido:eventMaterialsTech/lido:materialsTech/lido:termMaterialsTech</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E57_Material</type>
-                  <instance_generator name="URIwithVocabType">
-                     <arg name="type" type="constant">material</arg>
-                     <arg name="id" type="xpath">lido:conceptID/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:term/text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
             <source_node>//lido:lido/lido:descriptiveMetadata/lido:objectRelationWrap/lido:subjectWrap/lido:subjectSet/lido:subject/lido:subjectConcept</source_node>
             <target_node>
                <entity>
@@ -3076,32 +3013,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">lido:term/text()</arg>
                   </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//lido:lido/lido:descriptiveMetadata/lido:objectRelationWrap/lido:subjectWrap/lido:subjectSet/lido:subject/lido:subjectPlace/lido:place</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E53_Place</type>
-                  <instance_generator name="URIwithTypeAndId">
-                     <arg name="type" type="constant">place</arg>
-                     <arg name="id" type="xpath">lido:placeID/text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">lido:namePlaceSet/lido:appellationValue/text()</arg>
-                  </label_generator>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>crm:E55_Type</type>
-                        <instance_generator name="URIorUUID">
-                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300404126</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
          </domain>
