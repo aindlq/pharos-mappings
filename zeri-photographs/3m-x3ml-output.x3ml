@@ -8,12 +8,6 @@
       <general_description/>
       <source>
          <source_info>
-            <source_schema schema_file="scheda_F_34856.xml" type="xml" version="">scheda_F_34856</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
             <source_schema schema_file="scheda_F_143516.xml" type="xml" version="">scheda_F_143516</source_schema>
             <namespaces>
                <namespace prefix="" uri=""/>
