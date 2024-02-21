@@ -1,18 +1,202 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><metadata xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><lido:
-                                                                                                                                                                       lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd"><lido:lidoRecID lido:so
-                                                                                                                                                                                                                                                                                                                                         urce="Paul Mellon Centre" lido:type="local">PA-F02504-0031</lido:lidoRecID><lido:category><lido:conceptID lido:type="URI">http://www.cidoc-crm.org/crm-concepts/#E22</lid
-o:conceptID><lido:term xml:lang="en">Man-Made Object</lido:term></lido:category><lido:descriptiveMetadata xml:lang="en"><lido:objectClassificationWrap><lido:objectWorkTy
-                                                                                                                                                           peWrap/><lido:classificationWrap/></lido:objectClassificationWrap><lido:objectIdentificationWrap><lido:titleWrap><lido:titleSet lido:type="Primary Title"><lido:appellati
-                                                                                                                                                                                                                                                                                                                         onValue lido:pref="preferred" xml:lang="en">Evacuation Of New York By The British Army, 1783</lido:appellationValue></lido:titleSet></lido:titleWrap><lido:objectMeasurem
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  entsWrap/></lido:objectIdentificationWrap><lido:eventWrap><lido:eventSet><lido:event><lido:eventID lido:source="AAT" lido:type="id">300157782</lido:eventID><lido:eventTy
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  pe><lido:conceptID lido:source="LIDO Terminology" lido:type="uri">http://terminology.lido-schema.org/eventType/acquisition</lido:conceptID><lido:term>Acquisition</lido:t
-erm></lido:eventType><lido:eventActor><lido:displayActorInRole>Metropolitan Museum</lido:displayActorInRole><lido:actorInRole><lido:actor lido:type="Institution"><lido:a
-                                                                                                                                                                      ctorID lido:source="local" lido:type="id">6671</lido:actorID><lido:actorID lido:source="ULAN" lido:type="id">500125157</lido:actorID><lido:actorID lido:source="VIAF" lid
-                                                                                                                                                                                                                                                                                                                         o:type="id">126238294</lido:actorID><lido:nameActorSet><lido:appellationValue lido:pref="preferred">Metropolitan Museum</lido:appellationValue></lido:nameActorSet></lido
-:actor><lido:roleActor><lido:conceptID lido:source="AAT" lido:type="id">300312296</lido:conceptID><lido:term>Photograph Source</lido:term></lido:roleActor></lido:actorIn
-Role></lido:eventActor><lido:eventDate><lido:displayDate>1783</lido:displayDate><lido:date><lido:earliestDate>1783</lido:earliestDate><lido:latestDate>1783</lido:latestD
-ate></lido:date></lido:eventDate><lido:eventMaterialsTech><lido:materialsTech><lido:termMaterialsTech><lido:conceptID lido:source="AAT" lido:type="uri">ink</lido:concept
-ID><lido:term xml:lang="en">ink</lido:term></lido:termMaterialsTech><lido:termMaterialsTech><lido:conceptID lido:source="AAT" lido:type="uri">wash</lido:conceptID><lido:
-                                                                                                                                                                       term xml:lang="en">wash</lido:term></lido:termMaterialsTech></lido:materialsTech></lido:eventMaterialsTech></lido:event></lido:eventSet><lido:eventSet><lido:event><lido:
-                                                                                                                                                                                                                                                                                                                                              eventID lido:source="AAT" lido:type="id">300404387</lido:eventID><lido:eventType><lido:conceptID lido:source="LIDO Terminology" lido:type="uri">http://terminology.lido-s
-    chema.org/eventType/production</lido:conceptID><lido:term>Production</lido:term></lido:eventType><lido:eventActor><lido:displayActorInRole>Johann Heinrich Ramberg</lido:displayActorInRole><lido:actorInRole><lido:actor lido:type="Individual"><lido:actorID lido:source="local" lido:type="id">4589</lido:actorID><lido:actorID lido:source="Heritage F-Number" lido:type="id">F1153</lido:actorID><lido:actorID lido:source="ULAN" lido:type="id">500015910</lido:actorID><lido:actorID lido:source="Heritage F-Number" lido:type="id">F5121</lido:actorID><lido:actorID lido:source="Heritage E-Number" lido:type="id">E4418</lido:actorID><lido:actorID lido:source="Heritage F-Number" lido:type="id">F1925</lido:actorID><lido:nameActorSet><lido:appellationValue lido:pref="alternate">ramberg, j. heinric</lido:appellationValue><lido:appellationValue lido:pref="alternate">heinrich ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">joh. heinr. ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">joh. heinrich ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">ramberg, h.</lido:appellationValue><lido:appellationValue lido:pref="preferred">Johann Heinrich Ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">Remberg, Johann Heinrich</lido:appellationValue><lido:appellationValue lido:pref="preferred">Johann Heinrich Ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">ramberg, J. H.</lido:appellationValue><lido:appellationValue lido:pref="alternate">j. h. ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">Ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">Ramberg, Heinrich von</lido:appellationValue><lido:appellationValue lido:pref="alternate">Raimberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">johann heinr. ramberg</lido:appellationValue><lido:appellationValue lido:pref="alternate">Raimberg, Johann Heinrich</lido:appellationValue></lido:nameActorSet><lido:genderActor>male</lido:genderActor></lido:actor><lido:roleActor><lido:conceptID lido:source="AAT" lido:type="id">300025103</lido:conceptID><lido:term>Artist</lido:term></lido:roleActor></lido:actorInRole></lido:eventActor></lido:event></lido:eventSet><lido:eventSet><lido:event><lido:eventID lido:source="AAT" lido:type="id">300055863</lido:eventID><lido:eventType><lido:conceptID lido:source="LIDO Terminology" lido:type="uri">http://terminology.lido-schema.org/eventType/move_of_object</lido:conceptID><lido:term>Provenance (history of ownership)</lido:term></lido:eventType><lido:eventDescriptionSet><lido:descriptiveNoteValue xml:lang="en">Bequest of Charles Allen Munn, 1924, to; The Metropolitan Museum of Art, New York (24. 90. 1865 (35) )</lido:descriptiveNoteValue></lido:eventDescriptionSet></lido:event></lido:eventSet></lido:eventWrap><lido:objectRelationWrap><lido:subjectWrap><lido:subjectSet><lido:subject lido:type="description"/></lido:subjectSet></lido:subjectWrap></lido:objectRelationWrap></lido:descriptiveMetadata><lido:administrativeMetadata xml:lang="en"><lido:rightsWorkWrap><lido:rightsWorkSet><lido:rightsType><lido:conceptID lido:source="AAT" lido:type="id">300055598</lido:conceptID><lido:term>https://creativecommons.org/licenses/by-nc/4.0/</lido:term></lido:rightsType><lido:rightsHolder><lido:legalBodyID lido:source="ULAN" lido:type="id">500301928</lido:legalBodyID><lido:legalBodyName><lido:appellationValue>Paul Mellon Centre for Studies in British Art</lido:appellationValue></lido:legalBodyName><lido:legalBodyWeblink>https://www.paul-mellon-centre.ac.uk</lido:legalBodyWeblink></lido:rightsHolder></lido:rightsWorkSet></lido:rightsWorkWrap><lido:recordWrap><lido:recordID lido:type="local">418362</lido:recordID><lido:recordType><lido:conceptID lido:source="AAT" lido:type="id">300379505</lido:conceptID><lido:term>archival materials</lido:term></lido:recordType><lido:recordSource><lido:legalBodyName><lido:appellationValue>Paul Mellon Centre</lido:appellationValue></lido:legalBodyName><lido:legalBodyWeblink>https://photoarchive.paul-mellon-centre.ac.uk</lido:legalBodyWeblink></lido:recordSource><lido:recordInfoSet><lido:recordInfoLink lido:formatResource="text/html">https://photoarchive.paul-mellon-centre.ac.uk/objects/418362/evacuation-of-new-york-by-the-british-army-1783</lido:recordInfoLink></lido:recordInfoSet></lido:recordWrap><lido:resourceWrap><lido:resourceSet lido:recordID="1-objects-418362" lido:type="recto"><lido:resourceRepresentation lido:type="thumb"><lido:linkResource lido:formatResource="image/jpg" lido:recordInfoLink="https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184633/info.json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184633/full/300%2C/0/default.jpg</lido:linkResource></lido:resourceRepresentation><lido:resourceRepresentation lido:type="http://iiif.io/api/presentation/2/context.json"><lido:linkResource lido:formatResource="application/ld+json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/presentation/v2/1-objects-418362/manifest</lido:linkResource></lido:resourceRepresentation><lido:resourceType><lido:term>IIIF Image Info</lido:term></lido:resourceType><lido:resourceSource><lido:legalBodyName><lido:appellationValue>Paul Mellon Centre</lido:appellationValue></lido:legalBodyName></lido:resourceSource></lido:resourceSet><lido:resourceSet lido:recordID="1-objects-418362" lido:type="verso"><lido:resourceRepresentation lido:type="thumb"><lido:linkResource lido:formatResource="image/jpg" lido:recordInfoLink="https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184634/info.json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184634/full/300%2C/0/default.jpg</lido:linkResource></lido:resourceRepresentation><lido:resourceRepresentation lido:type="http://iiif.io/api/presentation/2/context.json"><lido:linkResource lido:formatResource="application/ld+json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/presentation/v2/1-objects-418362/manifest</lido:linkResource></lido:resourceRepresentation><lido:resourceType><lido:term>IIIF Image Info</lido:term></lido:resourceType><lido:resourceSource><lido:legalBodyName><lido:appellationValue>Paul Mellon Centre</lido:appellationValue></lido:legalBodyName></lido:resourceSource></lido:resourceSet></lido:resourceWrap></lido:administrativeMetadata></lido:lido></metadata>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<metadata xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <lido:lido xmlns:lido="http://www.lido-schema.org" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+        <lido:lidoRecID lido:source="Paul Mellon Centre" lido:type="local">PA-F02504-0031</lido:lidoRecID>
+        <lido:category>
+            <lido:conceptID lido:type="URI">http://www.cidoc-crm.org/crm-concepts/#E22</lido:conceptID>
+            <lido:term xml:lang="en">Man-Made Object</lido:term>
+        </lido:category>
+        <lido:descriptiveMetadata xml:lang="en">
+            <lido:objectClassificationWrap>
+                <lido:objectWorkTypeWrap/>
+                <lido:classificationWrap/>
+            </lido:objectClassificationWrap>
+            <lido:objectIdentificationWrap>
+                <lido:titleWrap>
+                    <lido:titleSet lido:type="Primary Title">
+                        <lido:appellationValue lido:pref="preferred" xml:lang="en">Evacuation Of New York By The British Army, 1783</lido:appellationValue>
+                    </lido:titleSet>
+                </lido:titleWrap>
+                <lido:objectMeasurementsWrap/>
+            </lido:objectIdentificationWrap>
+            <lido:eventWrap>
+                <lido:eventSet>
+                    <lido:event>
+                        <lido:eventID lido:source="AAT" lido:type="id">300157782</lido:eventID>
+                        <lido:eventType>
+                            <lido:conceptID lido:source="LIDO Terminology" lido:type="uri">http://terminology.lido-schema.org/eventType/acquisition</lido:conceptID>
+                            <lido:term>Acquisition</lido:term>
+                        </lido:eventType>
+                        <lido:eventActor>
+                            <lido:displayActorInRole>Metropolitan Museum</lido:displayActorInRole>
+                            <lido:actorInRole>
+                                <lido:actor lido:type="Institution">
+                                    <lido:actorID lido:source="local" lido:type="id">6671</lido:actorID>
+                                    <lido:actorID lido:source="ULAN" lido:type="id">500125157</lido:actorID>
+                                    <lido:actorID lido:source="VIAF" lido:type="id">126238294</lido:actorID>
+                                    <lido:nameActorSet>
+                                        <lido:appellationValue lido:pref="preferred">Metropolitan Museum</lido:appellationValue>
+                                    </lido:nameActorSet>
+                                </lido:actor>
+                                <lido:roleActor>
+                                    <lido:conceptID lido:source="AAT" lido:type="id">300312296</lido:conceptID>
+                                    <lido:term>Photograph Source</lido:term>
+                                </lido:roleActor>
+                            </lido:actorInRole>
+                        </lido:eventActor>
+                        <lido:eventDate>
+                            <lido:displayDate>1783</lido:displayDate>
+                            <lido:date>
+                                <lido:earliestDate>1783</lido:earliestDate>
+                                <lido:latestDate>1783</lido:latestDate>
+                            </lido:date>
+                        </lido:eventDate>
+                        <lido:eventMaterialsTech>
+                            <lido:materialsTech>
+                                <lido:termMaterialsTech>
+                                    <lido:conceptID lido:source="AAT" lido:type="uri">ink</lido:conceptID>
+                                    <lido:term xml:lang="en">ink</lido:term>
+                                </lido:termMaterialsTech>
+                                <lido:termMaterialsTech>
+                                    <lido:conceptID lido:source="AAT" lido:type="uri">wash</lido:conceptID>
+                                    <lido:term xml:lang="en">wash</lido:term>
+                                </lido:termMaterialsTech>
+                            </lido:materialsTech>
+                        </lido:eventMaterialsTech>
+                    </lido:event>
+                </lido:eventSet>
+                <lido:eventSet>
+                    <lido:event>
+                        <lido:eventID lido:source="AAT" lido:type="id">300404387</lido:eventID>
+                        <lido:eventType>
+                            <lido:conceptID lido:source="LIDO Terminology" lido:type="uri">http://terminology.lido-schema.org/eventType/production</lido:conceptID>
+                            <lido:term>Production</lido:term>
+                        </lido:eventType>
+                        <lido:eventActor>
+                            <lido:displayActorInRole>Johann Heinrich Ramberg</lido:displayActorInRole>
+                            <lido:actorInRole>
+                                <lido:actor lido:type="Individual">
+                                    <lido:actorID lido:source="local" lido:type="id">4589</lido:actorID>
+                                    <lido:actorID lido:source="Heritage F-Number" lido:type="id">F1153</lido:actorID>
+                                    <lido:actorID lido:source="ULAN" lido:type="id">500015910</lido:actorID>
+                                    <lido:actorID lido:source="Heritage F-Number" lido:type="id">F5121</lido:actorID>
+                                    <lido:actorID lido:source="Heritage E-Number" lido:type="id">E4418</lido:actorID>
+                                    <lido:actorID lido:source="Heritage F-Number" lido:type="id">F1925</lido:actorID>
+                                    <lido:nameActorSet>
+                                        <lido:appellationValue lido:pref="alternate">ramberg, j. heinric</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">heinrich ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">joh. heinr. ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">joh. heinrich ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">ramberg, h.</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="preferred">Johann Heinrich Ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">Remberg, Johann Heinrich</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="preferred">Johann Heinrich Ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">ramberg, J. H.</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">j. h. ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">Ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">Ramberg, Heinrich von</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">Raimberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">johann heinr. ramberg</lido:appellationValue>
+                                        <lido:appellationValue lido:pref="alternate">Raimberg, Johann Heinrich</lido:appellationValue>
+                                    </lido:nameActorSet>
+                                    <lido:genderActor>male</lido:genderActor>
+                                </lido:actor>
+                                <lido:roleActor>
+                                    <lido:conceptID lido:source="AAT" lido:type="id">300025103</lido:conceptID>
+                                    <lido:term>Artist</lido:term>
+                                </lido:roleActor>
+                            </lido:actorInRole>
+                        </lido:eventActor>
+                    </lido:event>
+                </lido:eventSet>
+                <lido:eventSet>
+                    <lido:event>
+                        <lido:eventID lido:source="AAT" lido:type="id">300055863</lido:eventID>
+                        <lido:eventType>
+                            <lido:conceptID lido:source="LIDO Terminology" lido:type="uri">http://terminology.lido-schema.org/eventType/move_of_object</lido:conceptID>
+                            <lido:term>Provenance (history of ownership)</lido:term>
+                        </lido:eventType>
+                        <lido:eventDescriptionSet>
+                            <lido:descriptiveNoteValue xml:lang="en">Bequest of Charles Allen Munn, 1924, to; The Metropolitan Museum of Art, New York (24. 90. 1865 (35) )</lido:descriptiveNoteValue>
+                        </lido:eventDescriptionSet>
+                    </lido:event>
+                </lido:eventSet>
+            </lido:eventWrap>
+            <lido:objectRelationWrap>
+                <lido:subjectWrap>
+                    <lido:subjectSet>
+                        <lido:subject lido:type="description"/>
+                    </lido:subjectSet>
+                </lido:subjectWrap>
+            </lido:objectRelationWrap>
+        </lido:descriptiveMetadata>
+        <lido:administrativeMetadata xml:lang="en">
+            <lido:rightsWorkWrap>
+                <lido:rightsWorkSet>
+                    <lido:rightsType>
+                        <lido:conceptID lido:source="AAT" lido:type="id">300055598</lido:conceptID>
+                        <lido:term>https://creativecommons.org/licenses/by-nc/4.0/</lido:term>
+                    </lido:rightsType>
+                    <lido:rightsHolder>
+                        <lido:legalBodyID lido:source="ULAN" lido:type="id">500301928</lido:legalBodyID>
+                        <lido:legalBodyName>
+                            <lido:appellationValue>Paul Mellon Centre for Studies in British Art</lido:appellationValue>
+                        </lido:legalBodyName>
+                        <lido:legalBodyWeblink>https://www.paul-mellon-centre.ac.uk</lido:legalBodyWeblink>
+                    </lido:rightsHolder>
+                </lido:rightsWorkSet>
+            </lido:rightsWorkWrap>
+            <lido:recordWrap>
+                <lido:recordID lido:type="local">418362</lido:recordID>
+                <lido:recordType>
+                    <lido:conceptID lido:source="AAT" lido:type="id">300379505</lido:conceptID>
+                    <lido:term>archival materials</lido:term>
+                </lido:recordType>
+                <lido:recordSource>
+                    <lido:legalBodyName>
+                        <lido:appellationValue>Paul Mellon Centre</lido:appellationValue>
+                    </lido:legalBodyName>
+                    <lido:legalBodyWeblink>https://photoarchive.paul-mellon-centre.ac.uk</lido:legalBodyWeblink>
+                </lido:recordSource>
+                <lido:recordInfoSet>
+                    <lido:recordInfoLink lido:formatResource="text/html">https://photoarchive.paul-mellon-centre.ac.uk/objects/418362/evacuation-of-new-york-by-the-british-army-1783</lido:recordInfoLink>
+                </lido:recordInfoSet>
+            </lido:recordWrap>
+            <lido:resourceWrap>
+                <lido:resourceSet lido:recordID="1-objects-418362" lido:type="recto">
+                    <lido:resourceRepresentation lido:type="thumb">
+                        <lido:linkResource lido:formatResource="image/jpg" lido:recordInfoLink="https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184633/info.json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184633/full/300%2C/0/default.jpg</lido:linkResource>
+                    </lido:resourceRepresentation>
+                    <lido:resourceRepresentation lido:type="http://iiif.io/api/presentation/2/context.json">
+                        <lido:linkResource lido:formatResource="application/ld+json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/presentation/v2/1-objects-418362/manifest</lido:linkResource>
+                    </lido:resourceRepresentation>
+                    <lido:resourceType>
+                        <lido:term>IIIF Image Info</lido:term>
+                    </lido:resourceType>
+                    <lido:resourceSource>
+                        <lido:legalBodyName>
+                            <lido:appellationValue>Paul Mellon Centre</lido:appellationValue>
+                        </lido:legalBodyName>
+                    </lido:resourceSource>
+                </lido:resourceSet>
+                <lido:resourceSet lido:recordID="1-objects-418362" lido:type="verso">
+                    <lido:resourceRepresentation lido:type="thumb">
+                        <lido:linkResource lido:formatResource="image/jpg" lido:recordInfoLink="https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184634/info.json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/image/v2/184634/full/300%2C/0/default.jpg</lido:linkResource>
+                    </lido:resourceRepresentation>
+                    <lido:resourceRepresentation lido:type="http://iiif.io/api/presentation/2/context.json">
+                        <lido:linkResource lido:formatResource="application/ld+json">https://photoarchive.paul-mellon-centre.ac.uk/apis/iiif/presentation/v2/1-objects-418362/manifest</lido:linkResource>
+                    </lido:resourceRepresentation>
+                    <lido:resourceType>
+                        <lido:term>IIIF Image Info</lido:term>
+                    </lido:resourceType>
+                    <lido:resourceSource>
+                        <lido:legalBodyName>
+                            <lido:appellationValue>Paul Mellon Centre</lido:appellationValue>
+                        </lido:legalBodyName>
+                    </lido:resourceSource>
+                </lido:resourceSet>
+            </lido:resourceWrap>
+        </lido:administrativeMetadata>
+    </lido:lido>
+</metadata>

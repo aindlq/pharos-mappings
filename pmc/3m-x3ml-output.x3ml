@@ -10,7 +10,8 @@
          <source_info>
             <source_schema schema_file="objects-418362.xml" type="xml" version="">objects-418362</source_schema>
             <namespaces>
-               <namespace prefix="" uri=""/>
+               <namespace prefix="qname1" uri="http://www.openarchives.org/OAI/2.0/"/>
+               <namespace prefix="lido" uri="http://www.lido-schema.org"/>
             </namespaces>
          </source_info>
       </source>
