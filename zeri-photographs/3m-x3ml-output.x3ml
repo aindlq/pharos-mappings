@@ -199,6 +199,9 @@
                   <relation>PARAGRAFO[@etichetta="SOURCE OF TITLE"]/RIPETIZIONE/SGLT</relation>
                </source_relation>
                <target_relation>
+                  <if>
+                     <exists>text()</exists>
+                  </if>
                   <relationship>crm:P1_is_identified_by</relationship>
                </target_relation>
             </path>
