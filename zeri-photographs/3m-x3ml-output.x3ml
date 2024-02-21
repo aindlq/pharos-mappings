@@ -951,6 +951,9 @@
                               <arg name="type" type="constant">measurement_unit</arg>
                               <arg name="id" type="xpath">../MISU/text()</arg>
                            </instance_generator>
+                           <label_generator name="Literal">
+                              <arg name="text" type="xpath">../MISU/text()</arg>
+                           </label_generator>
                         </entity>
                      </additional>
                   </entity>
@@ -1002,11 +1005,14 @@
                      <additional>
                         <relationship>crm:P91_has_unit</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E58_Measurement_Unit</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">measurement_unit</arg>
                               <arg name="id" type="xpath">../MISU/text()</arg>
                            </instance_generator>
+                           <label_generator name="Literal">
+                              <arg name="text" type="xpath">../MISU/text()</arg>
+                           </label_generator>
                         </entity>
                      </additional>
                   </entity>
@@ -2464,23 +2470,6 @@
                </target_node>
             </range>
          </link>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//RISULTATI/SCHEDA/PARAGRAFO[@etichetta="OBJECT"]/MISU</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E58_Measurement_Unit</type>
-                  <instance_generator name="URIwithType">
-                     <arg name="type" type="constant">measurement_unit</arg>
-                     <arg name="id" type="xpath">text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
       </mapping>
       <mapping>
          <domain>
