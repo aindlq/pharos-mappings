@@ -1371,7 +1371,7 @@
                         <arg name="eventType" type="constant">acquisition</arg>
                         <arg name="from" type="constant">text()</arg>
                         <arg name="to" type="constant">-</arg>
-                        <arg name="timespan" type="xpath">-</arg>
+                        <arg name="timespan" type="constant">-</arg>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">string-join(("Former Location:",text()),' ')</arg>
