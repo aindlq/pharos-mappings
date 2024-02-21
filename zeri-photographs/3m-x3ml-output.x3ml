@@ -1323,15 +1323,6 @@
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">string-join(("Former Location:",text(),"- Acquisition:",../PRDU/text()),' ')</arg>
                      </label_generator>
-                     <additional>
-                        <relationship>custom:has_order</relationship>
-                        <entity>
-                           <type>xsd:integer</type>
-                           <instance_generator name="TypedLiteralGen">
-                              <arg name="text" type="xpath">../@prog</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
                   </entity>
                   <relationship>crm:P23_transferred_title_from</relationship>
                </target_relation>
@@ -1376,15 +1367,6 @@
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">string-join(("Former Location:",text()),' ')</arg>
                      </label_generator>
-                     <additional>
-                        <relationship>custom:has_order</relationship>
-                        <entity>
-                           <type>xsd:integer</type>
-                           <instance_generator name="TypedLiteralGen">
-                              <arg name="text" type="xpath">../@prog</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
                   </entity>
                   <relationship>crm:P23_transferred_title_from</relationship>
                </target_relation>
@@ -1422,15 +1404,6 @@
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">string-join(("Former Location:",../PRCM/text(),"- Acquisition:",text()),' ')</arg>
                      </label_generator>
-                     <additional>
-                        <relationship>custom:has_order</relationship>
-                        <entity>
-                           <type>xsd:integer</type>
-                           <instance_generator name="TypedLiteralGen">
-                              <arg name="text" type="xpath">../@prog</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
                   </entity>
                   <relationship>crm:P4_has_time-span</relationship>
                   <entity>
