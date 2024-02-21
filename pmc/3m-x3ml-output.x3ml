@@ -23,6 +23,7 @@
                <namespace prefix="prefix" uri="https://artresearch.net/resource/pmc/"/>
                <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
                <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/>
                <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="rkd" uri="https://rkd.nl/artists/"/>
                <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
@@ -1004,6 +1005,9 @@
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="xpath">../../lido:subjectConcept/lido:conceptID/text()</arg>
                            </instance_generator>
+                           <label_generator name="Literal">
+                              <arg name="text" type="xpath">../../lido:subjectConcept/lido:term/text()</arg>
+                           </label_generator>
                         </entity>
                      </additional>
                      <additional>
