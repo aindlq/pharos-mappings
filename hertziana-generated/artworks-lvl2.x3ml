@@ -74,10 +74,10 @@
                   <type>crm:E22_Man-Made_Object</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">work</arg>
-                     <arg name="id" type="xpath">a5002/text()</arg>
+                     <arg name="id" type="xpath">a5001/text()</arg>
                   </instance_generator>
                   <label_generator name="Literal">
-                     <arg name="text" type="xpath">string-join((../a5200/text(),../a5202/text(),a5200/text()),", ")</arg>
+                     <arg name="text" type="xpath">string-join((../a5200/text(),a5200/text()),", ")</arg>
                   </label_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
