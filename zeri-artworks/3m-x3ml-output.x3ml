@@ -2975,7 +2975,11 @@
             <target_node>
                <entity>
                   <type>crm:E12_Production</type>
-                  <instance_generator name="UUID"/>
+                  <instance_generator name="EventUri">
+                     <arg name="resourceType" type="constant">work</arg>
+                     <arg name="resourceId" type="xpath">../../PARAGRAFO[@etichetta="CODES"]/NRSCHEDA[@etichetta="Entry number"]/text()</arg>
+                     <arg name="eventType" type="constant">production</arg>
+                  </instance_generator>
                </entity>
             </target_node>
             <comments>
@@ -2993,6 +2997,25 @@
                </comment>
             </comments>
          </domain>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>DTZG[@etichetta="Century"]</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P4_has_time-span</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>DTZG[@etichetta="Century"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E52_Time-Span</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
    </mappings>
 </x3ml>
