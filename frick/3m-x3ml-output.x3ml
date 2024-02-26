@@ -3946,16 +3946,6 @@
                      <arg name="text" type="xpath">marc:subfield[@code="a"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">Frick</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
                         <type>crm:E55_Type</type>
@@ -4106,16 +4096,6 @@
                      <arg name="text" type="xpath">text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">Frick</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
                         <type>crm:E55_Type</type>
@@ -4141,16 +4121,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">Frick</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
@@ -4178,16 +4148,6 @@
                      <arg name="text" type="xpath">text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">Frick</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
                         <type>crm:E55_Type</type>
@@ -4213,16 +4173,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_provider</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIwithTypeAndId">
-                           <arg name="type" type="constant">source</arg>
-                           <arg name="id" type="constant">Frick</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
