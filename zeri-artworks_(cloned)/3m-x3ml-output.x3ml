@@ -113,11 +113,11 @@
             <range>
                <source_node>.</source_node>
                <target_node>
-                  <entity>
+                  <entity variable="production">
                      <type>crm:E12_Production</type>
                      <instance_generator name="EventUri">
                         <arg name="resourceType" type="constant">work</arg>
-                        <arg name="resourceId" type="xpath">PARAGRAFO[@etichetta="CODES"]/NRSCHEDA[@etichetta="Entry number"]/text()</arg>
+                        <arg name="resourceId" type="xpath">./PARAGRAFO[@etichetta="CODES"]/NRSCHEDA[@etichetta="Entry number"]/text()</arg>
                         <arg name="eventType" type="constant">production</arg>
                      </instance_generator>
                   </entity>
