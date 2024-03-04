@@ -71,7 +71,7 @@
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
                         <type>crm:E55_Type</type>
-                        <instance_generator name="URIorUUID">
+                        <instance_generator name="URI">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
                         </instance_generator>
                      </entity>
@@ -199,6 +199,15 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">.</arg>
                      </instance_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URI">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300435704</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
@@ -222,10 +231,9 @@
                <target_node>
                   <entity>
                      <type>rdfs:Literal</type>
-                     <instance_generator name="UUID"/>
-                     <label_generator name="Literal">
+                     <instance_generator name="Literal">
                         <arg name="text" type="xpath">.</arg>
-                     </label_generator>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
