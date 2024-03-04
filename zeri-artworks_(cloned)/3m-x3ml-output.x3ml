@@ -89,7 +89,7 @@
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="URIorUUID">
-                        <arg name="text" type="xpath">.</arg>
+                        <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
@@ -97,6 +97,15 @@
                            <type>crm:E55_Type</type>
                            <instance_generator name="URI">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300404629</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URI">
+                              <arg name="text" type="constant">https://artresearch.net/vocab/original_catalog_record</arg>
                            </instance_generator>
                         </entity>
                      </additional>
@@ -124,7 +133,7 @@
                   <entity>
                      <type>rdfs:Literal</type>
                      <instance_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
+                        <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
                   </entity>
                </target_node>
