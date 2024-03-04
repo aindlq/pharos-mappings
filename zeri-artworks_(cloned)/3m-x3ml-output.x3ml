@@ -16,18 +16,23 @@
       </source>
       <target>
          <target_info>
-            <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
+            <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
             <namespaces>
+               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
                <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-               <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
-               <namespace prefix="prefix" uri="https://artresearch.net/resource/zeri/"/>
-               <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
-               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
-               <namespace prefix="vocab" uri="https://artresearch.net/resource/zeri/vocabulary/"/>
-               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
-               <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
                <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+            </namespaces>
+         </target_info>
+         <target_info>
+            <target_schema schema_file="CRMdig_v3.2.1.xml" type="xml" version="">CRMdig_v3.2.1</target_schema>
+            <namespaces>
+               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
+               <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
+               <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+               <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
             </namespaces>
          </target_info>
       </target>
@@ -96,9 +101,16 @@
             <path>
                <source_relation>
                   <relation>.</relation>
+                  <node>ISSHOWNBY</node>
+                  <relation>.</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E42_Identifier</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -119,7 +131,7 @@
                <source_node>.</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E42_Identifier</type>
+                     <type>rdfs:Literal</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">work</arg>
                         <arg name="subject_id" type="xpath">/SCHEDA/PARAGRAFO[@etichetta="CODES"]/NRSCHEDA</arg>
