@@ -88,7 +88,7 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E42_Identifier</type>
-                     <instance_generator name="URI">
+                     <instance_generator name="URIorUUID">
                         <arg name="text" type="xpath">.</arg>
                      </instance_generator>
                      <additional>
