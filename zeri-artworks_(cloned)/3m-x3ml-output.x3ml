@@ -131,7 +131,7 @@
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">../PARAGRAFO[@etichetta="CODES"]/NRSCHEDA[@etichetta="Entry number"]/text()</arg>
+                        <arg name="subject_id" type="xpath">/PARAGRAFO[@etichetta="CODES"]/NRSCHEDA/text()</arg>
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">.</arg>
                      </instance_generator>
