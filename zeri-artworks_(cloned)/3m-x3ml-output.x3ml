@@ -71,7 +71,7 @@
                      <relationship>crm:P2_has_type</relationship>
                      <entity>
                         <type>crm:E55_Type</type>
-                        <instance_generator name="URI">
+                        <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
                         </instance_generator>
                      </entity>
@@ -95,8 +95,8 @@
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
-                           <instance_generator name="URI">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="xpath">http://vocab.getty.edu/aat/300404630</arg>
                            </instance_generator>
                         </entity>
                      </additional>
