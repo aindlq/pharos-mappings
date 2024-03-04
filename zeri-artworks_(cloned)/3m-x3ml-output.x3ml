@@ -88,8 +88,8 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E42_Identifier</type>
-                     <instance_generator name="URI">
-                        <arg name="text" type="xpath">.</arg>
+                     <instance_generator name="URIorUUID">
+                        <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
@@ -119,7 +119,7 @@
                </comments>
             </path>
             <range>
-               <source_node>.</source_node>
+               <source_node>ISSHOWNBY</source_node>
                <target_node>
                   <entity>
                      <type>rdfs:Literal</type>
