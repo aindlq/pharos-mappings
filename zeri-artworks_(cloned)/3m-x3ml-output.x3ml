@@ -88,7 +88,7 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E42_Identifier</type>
-                     <instance_generator name="URIorUUID">
+                     <instance_generator name="URI">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
@@ -123,10 +123,9 @@
                <target_node>
                   <entity>
                      <type>rdfs:Literal</type>
-                     <instance_generator name="UUID"/>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
-                     </label_generator>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
