@@ -96,7 +96,7 @@
                         <entity>
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
-                              <arg name="text" type="xpath">http://vocab.getty.edu/aat/300404630</arg>
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
                            </instance_generator>
                         </entity>
                      </additional>
@@ -104,7 +104,7 @@
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
-                           <instance_generator name="URI">
+                           <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">https://artresearch.net/vocab/original_catalog_record</arg>
                            </instance_generator>
                         </entity>
