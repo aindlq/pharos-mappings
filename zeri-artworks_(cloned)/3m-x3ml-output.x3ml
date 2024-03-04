@@ -97,7 +97,9 @@
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
-                           <instance_generator name="UUID"/>
+                           <instance_generator name="URI">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300404629</arg>
+                           </instance_generator>
                         </entity>
                      </additional>
                   </entity>
