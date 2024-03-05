@@ -3125,6 +3125,28 @@
                </target_node>
             </range>
          </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>../a2864</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P22_transferred_title_to</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>../a2864</source_node>
+               <target_node>
+                  <entity>
+                     <type>E39_Actor</type>
+                     <instance_generator name="URIwithType">
+                        <arg name="type" type="constant">actor</arg>
+                        <arg name="id" type="xpath">string-join((../a2900/text(),text()),"_")</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
    </mappings>
 </x3ml>
