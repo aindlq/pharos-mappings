@@ -3138,7 +3138,7 @@
                <source_node>../a2864</source_node>
                <target_node>
                   <entity>
-                     <type>E39_Actor</type>
+                     <type>crm:E39_Actor</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">actor</arg>
                         <arg name="id" type="xpath">string-join((../a2900/text(),text()),"_")</arg>
