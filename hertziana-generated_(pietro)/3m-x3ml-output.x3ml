@@ -3131,15 +3131,15 @@
                   <relation>../a2864</relation>
                </source_relation>
                <target_relation>
-                  <relationship>crm:P22_transferred_title_to</relationship>
+                  <relationship>crm:P22i_acquired_title_through</relationship>
                   <entity>
-                     <type>crm:E39_Actor</type>
+                     <type>crm:E8_Acquisition</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">actor</arg>
                         <arg name="id" type="xpath">string-join((../text(),text()),"_")</arg>
                      </instance_generator>
                   </entity>
-                  <relationship>crm:E55_Type</relationship>
+                  <relationship>crm:P2_has_type</relationship>
                </target_relation>
             </path>
             <range>
