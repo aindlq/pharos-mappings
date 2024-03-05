@@ -3134,9 +3134,13 @@
                   <relationship>crm:P22i_acquired_title_through</relationship>
                   <entity>
                      <type>crm:E8_Acquisition</type>
-                     <instance_generator name="URIwithType">
-                        <arg name="type" type="constant">actor</arg>
-                        <arg name="id" type="xpath">string-join((../text(),text()),"_")</arg>
+                     <instance_generator name="AcquisitionUri">
+                        <arg name="resourceType" type="constant">work</arg>
+                        <arg name="resourceId" type="xpath">../../a5000/text()</arg>
+                        <arg name="eventType" type="constant">acquisition</arg>
+                        <arg name="from" type="constant">-</arg>
+                        <arg name="to" type="xpath">../a2900/text()</arg>
+                        <arg name="timespan" type="constant">-</arg>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P2_has_type</relationship>
