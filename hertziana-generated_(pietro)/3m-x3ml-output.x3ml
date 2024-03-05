@@ -3155,8 +3155,12 @@
                   <entity>
                      <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
-                        <arg name="text" type="constant">http://vocab.getty.edu/page/aat/300417634</arg>
+                        <arg name="text" type="constant">http://vocab.getty.edu/page/aat/300417644</arg>
                      </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">../text()</arg>
+                        <arg name="language" type="constant">de</arg>
+                     </label_generator>
                   </entity>
                </target_node>
             </range>
