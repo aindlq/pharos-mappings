@@ -3149,6 +3149,9 @@
             <range>
                <source_node>../a2864</source_node>
                <target_node>
+                  <if>
+                     <equals value="Vorbesitzer">../text()</equals>
+                  </if>
                   <entity>
                      <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
