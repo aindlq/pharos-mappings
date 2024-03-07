@@ -203,7 +203,7 @@
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
-                           <instance_generator name="URI">
+                           <instance_generator name="URIorUUID">
                               <arg name="text" type="constant">http://vocab.getty.edu/aat/300435704</arg>
                            </instance_generator>
                         </entity>
