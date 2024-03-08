@@ -57,7 +57,7 @@
       </example_data_info>
    </info>
    <namespaces>
-      <namespace prefix="prefix" uri="https://artresearch.net/resource/hertziana/"/>
+      <namespace prefix="prefix" uri="https://artresearch.net/resource/midas/"/>
       <namespace prefix="original" uri="https://foto.biblhertz.it/document/obj/"/>
    </namespaces>
    <mappings>
