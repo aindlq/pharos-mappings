@@ -221,6 +221,18 @@
                      </example>
                      <comments_last_update date="2024-03-08 19:27:39" person="Pietro Liuzzo"/>
                   </comment>
+                  <comment type="">
+                     <rationale>For MIDAS Austattung (feature) objects mainly, and for Sammlung (collection) objects to indicate for example album</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-03-08 19:45:35" person="Pietro Liuzzo"/>
+                  </comment>
                </comments>
             </path>
             <range>
