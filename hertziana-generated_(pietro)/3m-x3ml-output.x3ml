@@ -228,10 +228,10 @@
                      <local_habits/>
                      <link_to_cook_book/>
                      <example>
-                        <example_source/>
-                        <example_target/>
+                        <example_source>08049246</example_source>
+                        <example_target>08045096</example_target>
                      </example>
-                     <comments_last_update date="2024-03-08 19:45:35" person="Pietro Liuzzo"/>
+                     <comments_last_update date="2024-03-08 19:49:46" person="Pietro Liuzzo"/>
                   </comment>
                </comments>
             </path>
