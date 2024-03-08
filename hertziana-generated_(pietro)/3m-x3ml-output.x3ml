@@ -362,6 +362,18 @@
                      </example>
                      <comments_last_update date="2024-03-08 20:48:57" person="Pietro Liuzzo"/>
                   </comment>
+                  <comment type="">
+                     <rationale>example with a5009 and a5008</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source>08180968</example_source>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-03-08 20:51:38" person="Pietro Liuzzo"/>
+                  </comment>
                </comments>
             </path>
             <range>
