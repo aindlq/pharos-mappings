@@ -138,7 +138,7 @@
       <pattern>{resourceType}/{resourceId}/condition/{id}</pattern>
    </generator>
    <generator name="OriginalURI" prefix="original" type="any">
-      <pattern>obj{id}</pattern>
+      <pattern>{id}</pattern>
    </generator>
    <generator name="SourceRecordVIT" prefix="vit" type="any">
       <pattern>{id}/catalog</pattern>

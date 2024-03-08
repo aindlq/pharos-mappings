@@ -46,7 +46,7 @@
    </info>
    <namespaces>
       <namespace prefix="prefix" uri="https://artresearch.net/resource/hertziana/"/>
-      <namespace prefix="original" uri="http://foto.biblhertz.it/document/obj/"/>
+      <namespace prefix="original" uri="https://foto.biblhertz.it/document/obj/"/>
    </namespaces>
    <mappings>
       <mapping>
