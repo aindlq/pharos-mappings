@@ -418,7 +418,7 @@
                <source_node>a5007</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>E22_Man-Made_Object</type>
                      <instance_generator name="URIwithType">
                         <arg name="type" type="constant">work</arg>
                         <arg name="id" type="xpath">string-join((a5009/text(),a5013/text(),a5014/text(),a5010/text(),a501c/text(),a5011/text(),a501r/text(),a501s/text(),a501k/text(),a501t/text()),", ")</arg>
