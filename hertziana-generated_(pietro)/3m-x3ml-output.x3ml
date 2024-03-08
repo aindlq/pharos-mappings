@@ -44,6 +44,128 @@
          <thesaurus_info/>
       </example_data_info>
    </info>
-   <namespaces/>
-   <mappings/>
+   <namespaces>
+      <namespace prefix="prefix" uri="https://artresearch.net/resource/hertziana/"/>
+      <namespace prefix="original" uri="http://foto.biblhertz.it/document/obj/"/>
+   </namespaces>
+   <mappings>
+      <mapping>
+         <domain>
+            <source_node>/obj</source_node>
+            <target_node>
+               <if>
+                  <exists>a5200/text()</exists>
+               </if>
+               <entity>
+                  <type>crm:E22_Man-Made_Object</type>
+                  <instance_generator name="URIwithTypeAndId">
+                     <arg name="type" type="constant">work</arg>
+                     <arg name="id" type="xpath">a5000/text()</arg>
+                  </instance_generator>
+                  <label_generator name="Literal">
+                     <arg name="text" type="xpath">a5200/text()</arg>
+                  </label_generator>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>crm:E55_Type</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
+                        </instance_generator>
+                        <additional>
+                           <relationship>crm:P2_has_type</relationship>
+                           <entity>
+                              <type>crm:E55_Type</type>
+                              <instance_generator name="URIorUUID">
+                                 <arg name="text" type="constant">https://artresearch.net/resource/vocab/maintype</arg>
+                              </instance_generator>
+                           </entity>
+                        </additional>
+                     </entity>
+                  </additional>
+                  <additional>
+                     <relationship>custom:has_original_record</relationship>
+                     <entity>
+                        <type>crm:E32_Identifier</type>
+                        <instance_generator name="OriginalURI">
+                           <arg name="id" type="xpath">a5000/text()</arg>
+                        </instance_generator>
+                        <additional>
+                           <relationship>crm:P2_has_type</relationship>
+                           <entity>
+                              <type>crm:E55_Type</type>
+                              <instance_generator name="URIorUUID">
+                                 <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
+                              </instance_generator>
+                           </entity>
+                        </additional>
+                     </entity>
+                  </additional>
+               </entity>
+            </target_node>
+            <comments>
+               <comment type="">
+                  <rationale>artwork</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-14 19:35:31" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>https://docs.google.com/spreadsheets/d/1EWFmlNnHtb572A-TqdN_C2gYRSYa4-wUykHkdF-kZks/edit#gid=915695570&amp;range=A1</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-14 19:35:37" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>Test Comment, testing github sync</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 14:21:03" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>Some comment</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:32:25" person="Artem Kozlov"/>
+               </comment>
+               <comment type="">
+                  <rationale>TTT</rationale>
+                  <alternatives/>
+                  <typical_mistakes/>
+                  <local_habits/>
+                  <link_to_cook_book/>
+                  <example>
+                     <example_source/>
+                     <example_target/>
+                  </example>
+                  <comments_last_update date="2024-02-19 20:51:11" person="Artem Kozlov"/>
+               </comment>
+            </comments>
+         </domain>
+      </mapping>
+   </mappings>
 </x3ml>
