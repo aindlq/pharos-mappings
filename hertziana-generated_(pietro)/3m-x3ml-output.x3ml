@@ -312,6 +312,13 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="UUID"/>
+                        </entity>
+                     </additional>
                   </entity>
                   <relationship>crm:P70i_is_documented_in</relationship>
                </target_relation>
