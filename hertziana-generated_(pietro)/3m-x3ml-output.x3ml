@@ -13,6 +13,18 @@
                <namespace prefix="" uri=""/>
             </namespaces>
          </source_info>
+         <source_info>
+            <source_schema schema_file="08149642.xml" type="xml" version="">08149642</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
+         <source_info>
+            <source_schema schema_file="08008291.xml" type="xml" version="">08008291</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
       </source>
       <target>
          <target_info>
