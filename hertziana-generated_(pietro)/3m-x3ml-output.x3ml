@@ -316,7 +316,10 @@
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
-                           <instance_generator name="UUID"/>
+                           <instance_generator name="Literal">
+                              <arg name="text" type="xpath">text()</arg>
+                              <arg name="language" type="constant">de</arg>
+                           </instance_generator>
                         </entity>
                      </additional>
                   </entity>
