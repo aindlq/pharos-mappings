@@ -435,18 +435,15 @@
                         </entity>
                      </additional>
                   </entity>
-                  <relationship>crm:P70i_is_documented_in</relationship>
+                  <relationship>crm:P101_had_as_general_use</relationship>
                </target_relation>
             </path>
             <range>
                <source_node>a5007</source_node>
                <target_node>
                   <entity>
-                     <type>E22_Man-Made_Object</type>
-                     <instance_generator name="URIwithType">
-                        <arg name="type" type="constant">work</arg>
-                        <arg name="id" type="xpath">a5008/text()</arg>
-                     </instance_generator>
+                     <type>E73_Information_Object</type>
+                     <instance_generator name="UUID"/>
                   </entity>
                </target_node>
             </range>
