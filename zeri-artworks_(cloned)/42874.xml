@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SCHEDA intestazione="Campagnola Domenico , Scena allegorica con pellegrino che ammonisce due amanti" sercdoa="44654">
+		<PARAGRAFO etichetta="CODES">
+			<SERCD etichetta="SERCD">44654</SERCD>
+			<NRSCHEDA etichetta="Entry number">42874</NRSCHEDA>
+			<RIPETIZIONE prog="1">
+				<UBFS etichetta="Archive series">Fondo Zeri - Pittura italiana</UBFS>
+				<UBFN etichetta="Container number">0432</UBFN>
+				<UBFT etichetta="Container heading">Pittura italiana sec. XVI. Venezia 8</UBFT>
+				<UBFF etichetta="Folder number">7</UBFF>
+				<UBFU etichetta="Folder heading">Domenico Campagnola</UBFU>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="OBJECT">
+			<OGTD etichetta="Object">dipinto</OGTD>
+			<OGTT etichetta="Object type">dipinto</OGTT>
+			<SGTI etichetta="Subject">Scena allegorica con pellegrino che ammonisce due amanti</SGTI>
+			<MTC etichetta="Medium or materials">tavola</MTC>
+			<MISU etichetta="Unit of measurement">cm</MISU>
+			<MISA etichetta="Height">50</MISA>
+			<MISL etichetta="Length">81</MISL>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="AUTHOR">
+			<RIPETIZIONE prog="1">
+				<AUTN etichetta="Artist's name">Campagnola Domenico</AUTN>
+				<AUTM etichetta="Reason for attribution">Classificazione F. Zeri</AUTM>
+				<ATBD etichetta="Cultural context">Scuola italiana, scuola veneta</ATBD>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="DIFFERENT ATTRIBUTIONS">
+			<RIPETIZIONE prog="1">
+				<AAT etichetta="Name">Giorgione</AAT>
+				<AATM etichetta="Reason for attribution">Asta Christie's (1911)</AATM>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="2">
+				<AAT etichetta="Name">Catena Vincenzo</AAT>
+				<AATM etichetta="Reason for attribution">Nota anonima sul verso della fotografia</AATM>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="3">
+				<AAT etichetta="Name">Lotto Lorenzo</AAT>
+				<AATM etichetta="Reason for attribution">Nota anonima sul verso della fotografia</AATM>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="4">
+				<AAT etichetta="Name">Caprioli Domenico</AAT>
+				<AATM etichetta="Reason for attribution">Asta Sotheby's (1979)</AATM>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="DATING">
+			<RIPETIZIONE prog="1">
+				<DTZG etichetta="Century">sec. XVI</DTZG>
+				<DTSI etichetta="From">1515</DTSI>
+				<DTSF etichetta="To">1564</DTSF>
+				<ADT etichetta="Different dating">sec. XVI (1500-1510)</ADT>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="2">
+				<DTZG etichetta="Century">sec. XVI</DTZG>
+				<DTSI etichetta="From">1515</DTSI>
+				<DTSF etichetta="To">1564</DTSF>
+				<ADT etichetta="Different dating">sec. XVI (1510-1557)</ADT>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="3">
+				<DTZG etichetta="Century">sec. XVI</DTZG>
+				<DTSI etichetta="From">1515</DTSI>
+				<DTSF etichetta="To">1564</DTSF>
+				<ADT etichetta="Different dating">sec. XVI (1510-1531)</ADT>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="LOCATION">
+			<PVCS etichetta="Country">Regno Unito</PVCS>
+			<PVCC etichetta="Town / Municipality">Londra</PVCC>
+			<LDCN etichetta="Repository">Asta Sotheby's</LDCN>
+			<LDCS etichetta="Precise location">11 luglio 1979, n. 14</LDCS>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="PROVENANCE">
+			<RIPETIZIONE prog="1">
+				<PRVS etichetta="Country">Regno Unito</PRVS>
+				<PRVC etichetta="Town / Municipality">Londra</PRVC>
+				<PRCD etichetta="Repository">Collezione E. Benson</PRCD>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="2">
+				<PRVS etichetta="Country">Regno Unito</PRVS>
+				<PRVC etichetta="Town / Municipality">Londra</PRVC>
+				<PRCD etichetta="Repository">Collezione R.H. Benson</PRCD>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="3">
+				<PRVS etichetta="Country">Regno Unito</PRVS>
+				<PRVC etichetta="Town / Municipality">Londra</PRVC>
+				<PRCD etichetta="Repository">Asta Christie's</PRCD>
+				<PRCS etichetta="Precise location">vendita Abdy, 5 maggio 1911, n. 107</PRCS>
+			</RIPETIZIONE>
+			<RIPETIZIONE prog="4">
+				<PRVS etichetta="Country">Regno Unito</PRVS>
+				<PRVC etichetta="Town / Municipality">Londra</PRVC>
+				<PRCD etichetta="Repository">Collezione Sir W.N. Abdy</PRCD>
+			</RIPETIZIONE>
+		</PARAGRAFO>
+		<PARAGRAFO etichetta="RELATION TO OTHER OBJECTS">
+				   </PARAGRAFO>
+		<PARAGRAFO etichetta="RELATED ENTRIES">
+				   </PARAGRAFO>
+		<PARAGRAFO etichetta="ICONCLASS">
+				   </PARAGRAFO>
+		<PARAGRAFO etichetta="BIBLIOGRAPHY">
+			    </PARAGRAFO>
+		<PARAGRAFO etichetta="EXHIBITIONS">
+			    </PARAGRAFO>
+		<PARAGRAFO etichetta="NOTES">
+				   </PARAGRAFO>
+		<ALLEGATI etichetta="Attached documents">
+			<CATALOGO bid="BVE0439521">Catalogue of the collection of highly important pictures by old masters of sir William Neville Abdy ... : Friday, May 5, 1911 / Christie, Manson &amp; Woods</CATALOGO>
+			<CATALOGO bid="BVE0425563">Catalogue of important old master paintings : Wednesday, 11 July, 1979 / Sotheby Parke Bernet &amp; Co</CATALOGO>
+			<FOTO aufb="" aufn="Anonimo" fotoID="93494" ftan="\120000\93600\93494.jpg" ftat="insieme" misa="154" misl="246" note="Anonimo , Campagnola Domenico - sec. XVI - Scena allegorica con pellegrino che ammonisce due amanti - insieme" progr="1" sercdf="85341" sgla="Campagnola Domenico - sec. XVI - Scena allegorica con pellegrino che ammonisce due amanti" sglt="">/120000/93600/93494.jpg</FOTO>
+		</ALLEGATI>
+		<ISSHOWNBY>
+			   http://catalogo.fondazionezeri.unibo.it/entry/work/44654/
+			  </ISSHOWNBY>
+	</SCHEDA>
