@@ -62,7 +62,7 @@
                   <type>crm:E22_Man-Made_Object</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">work</arg>
-                     <arg name="id" type="xpath">PARAGRAFO[@etichetta="CODES"]/NRSCHEDA[@etichetta="Entry number"]/text()</arg>
+                     <arg name="id" type="xpath">PARAGRAFO[@etichetta="CODES"]/NRSCHEDA</arg>
                   </instance_generator>
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">@intestazione</arg>
@@ -79,6 +79,60 @@
                </entity>
             </target_node>
          </domain>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>PARAGRAFO[@etichetta="CODES"]/NRSCHEDA</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E42_Identifier</type>
+                     <instance_generator name="IdentifierURI">
+                        <arg name="subject_type" type="constant">work</arg>
+                        <arg name="subject_id" type="xpath">/SCHEDA/PARAGRAFO[@etichetta="CODES"]/NRSCHEDA</arg>
+                        <arg name="identifier_type" type="constant">identifier</arg>
+                        <arg name="identifier_id" type="xpath">.</arg>
+                     </instance_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300435704</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>2. Entry number</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-03-26 20:01:53" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>PARAGRAFO[@etichetta="CODES"]/NRSCHEDA</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">.</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
          <link>
             <path>
                <source_relation>
