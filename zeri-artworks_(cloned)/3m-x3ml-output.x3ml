@@ -79,6 +79,34 @@
                </entity>
             </target_node>
          </domain>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity variable="production">
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P4_has_time-span</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>PARAGRAFO[@etichetta="DATING"]</source_node>
+               <target_node>
+                  <entity variable="production-date">
+                     <type>crm:E52_Time-Span</type>
+                     <instance_generator name="TimespanUri">
+                        <arg name="resourceType" type="constant">work</arg>
+                        <arg name="resourceId" type="xpath">./PARAGRAFO[@etichetta="CODES"]/NRSCHEDA[@etichetta="Entry number"]/text()</arg>
+                        <arg name="eventType" type="constant">production</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
    </mappings>
 </x3ml>
