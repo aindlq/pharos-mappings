@@ -94,7 +94,7 @@
                </target_relation>
             </path>
             <range>
-               <source_node>PARAGRAFO[@etichetta="DATING"]</source_node>
+               <source_node>PARAGRAFO[@etichetta="DATING"]/RIPETIZIONE </source_node>
                <target_node>
                   <entity variable="production-date">
                      <type>crm:E52_Time-Span</type>
