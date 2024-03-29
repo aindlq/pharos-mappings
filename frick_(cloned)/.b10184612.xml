@@ -1,0 +1,285 @@
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <marc:leader>07157nkcaa2200973 a 4500</marc:leader>
+    <marc:controlfield tag="005">20110428200718.0</marc:controlfield>
+    <marc:controlfield tag="006">knnn |||||||||||cn</marc:controlfield>
+    <marc:controlfield tag="007">kh mom</marc:controlfield>
+    <marc:controlfield tag="008">110428k15311574xx nnn |||||| ||||cneng|d</marc:controlfield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+        <marc:subfield code="a">Vasari, Giorgio,</marc:subfield>
+        <marc:subfield code="d">1511-1574,</marc:subfield>
+        <marc:subfield code="e">contributor.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="1" ind2="0">
+        <marc:subfield code="a">Pages from Vasari's "Libro de' Disegni" (Parts I-II).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Head of a youth wearing a cap; a right forearm with the hand clutching a stone; and a left hand holding a drapery </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Standing nude youth </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Man with a stick </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Various figure studies </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Dancing putto holding a drapery </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">An angel carrying a torch </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Two angels carrying torches </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Saint Roch between Saints Anthony Abbot and Catherine of Alexandria </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Saint James standing between Saints Anthony Abbot and Catherine of Alexandria </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Standing woman with her hands clasped in prayer </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">The Virgin in prayer </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Two draped women standing on either side of a herm </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="260" ind1=" " ind2=" ">
+        <marc:subfield code="c">Drawings probably executed between 1480 and 1504 and mounted on the album page after 1524 by Vasari, who also added the decorative framework.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="300" ind1="1" ind2=" ">
+        <marc:subfield code="e">Graphic reproduction(s) with documentation of a</marc:subfield>
+        <marc:subfield code="a">drawing.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">whole: 567 x 457 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.a: 287 x 201 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.b: 195 x 104 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.c: 196 x 107 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.d: 220 x 329 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.e: 203 x 128 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.f: 206 x 13 mm (maximum measurement).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.g: 175 x 126 mm (maximum measurement).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.h: 153 x 156 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.i: 194 x 80 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b">1991.190.1.j: 190 x 102 mm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="c">album page with ten drawings on recto and verso in various media with decoration in pen and brown ink, brown and gray wash, on light buff paper.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="490" ind1="1" ind2=" ">
+        <marc:subfield code="a">Pages from Vasari's Libro de' Disegni.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a and b) Giorgio Vasari (1511-1574), who mounted the drawings in an album after 1524 and added the decorative framework;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a) Niccolò Gaddi (died 1591);</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(b) possibly Thomas Howard, Earl of Arundel;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a and b) probably William Cavendish, 2nd Duke of Devonshire (1672-1729);</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a and b) by descent to the Devonshire collection, Chatsworth (inv. no.960);</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a and b) Sale, Christie's, London. Old Master Drawings from Chatsworth, July 3, 1984, lot 46 ("Sold by the Order of the Trustees of the Chatsworth Settlement") (£3,240,000);</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a) purchased by Ian Woodner, New York (died November 1990);</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(c) inherited in 1990 by his daughters, Andrea and Dian Woodner, New York;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(b and c) purchased in 1991 by the National Gallery of Art, Washington (1991.190.1.a-j).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="1" ind2=" ">
+        <marc:subfield code="a">National Gallery of Art,</marc:subfield>
+        <marc:subfield code="b">Washington,</marc:subfield>
+        <marc:subfield code="c">District of Columbia,</marc:subfield>
+        <marc:subfield code="d">United States,</marc:subfield>
+        <marc:subfield code="e">Woodner Collection, Patrons' Permanent Fund,</marc:subfield>
+        <marc:subfield code="f">1991.190.1.a-j,</marc:subfield>
+        <marc:subfield code="g">public.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="2" ind2=" ">
+        <marc:subfield code="a">Title and attribution: (a and b and c) Page from "Libro de' Disegni", ten drawings attributed to Botticelli, Filippino Lippi and Raffaelino del Garbo assembled on the album page by Giorgio Vasari, who added the decorative framework. (c) Four Recto Drawings: Head of a youth wearing a cap; a right forearm with the head clutching a stone; and a left hand holding a drapery (1991.190.1.a), by Botticelli; Standing nude youth (1991.190.1.b), Man with a stick (1991.190.1.c), and Various figure studies (1991.190.1.d), by Filippino Lippi. Six Verso Drawings: Dancing putto holding a drapery (1991.190.1.e), An angel carrying a torch (1991.190.1.f), and Two angels carrying torches (1991.190.1.g), by Filippino Lippi; Saint Roch between Saints Anthony Abbot and Catherine of Alexandria (1991.190.1.h), by Raffaellino del Garbo; Standing woman with her hands clasped in prayer (1991.190.1.i) and Two draped women standing on either side of a herm (1991.190.1.j), listed as attributed to Filippino Lippi.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="5" ind2=" ">
+        <marc:subfield code="a">(a and c) Head of a youth wearing a cap; a right forearm with the head clutching a stone; and a left hand holding a drapery (1991.190.1.a), listed as attributed to Filippino Lippi or to Raffaelino del Garbo. Standing nude youth (1991.190.1.b), Man with a stick (1991.190.c), Standing woman with her hands clasped in prayer, (1991.190.1.i) and Two draped women standing on either side of a herm (1991.190.1.j) (a and b and c) Saint Roch between Saints Anthony Abbot and Catherine of Alexandria (1991.190.1.h), listed as workshop of Botticelli and as attributed to Raffaellino del Garbo.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="6" ind2=" ">
+        <marc:subfield code="a">(a and c) Accession number 1991.190.1.h alternatively titled Saint James standing between Saints Anthony Abbot and Catherine of Alexandria and 1991.190.1.i alternatively titled The Virgin in prayer.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="585" ind1=" " ind2=" ">
+        <marc:subfield code="a">(b) Washington, National Gallery of Art, The Touch of the Artist: Master Drawings from the Woodner Collections [exh.], October 1, 1995 - January 28, 1996 (9).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(a) Information from Frick Art Reference Library Photoarchive.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(b) Washington, National Gallery of Art, The Touch of the Artist: Master Drawings from the Woodner Collections [exh.]. October 1, 1995 - January 28, 1996, pp.55-64 (9).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(c) Washington, National Gallery of Art, Website, January 2006.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="600" ind1="1" ind2="0">
+        <marc:subfield code="a">Vasari, Giorgio,</marc:subfield>
+        <marc:subfield code="d">1511-1574.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="600" ind1="1" ind2="0">
+        <marc:subfield code="a">Lippi, Filippino,</marc:subfield>
+        <marc:subfield code="d">-1504.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="600" ind1="1" ind2="0">
+        <marc:subfield code="a">Botticelli, Sandro,</marc:subfield>
+        <marc:subfield code="d">1444 or 1445-1510.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="600" ind1="1" ind2="0">
+        <marc:subfield code="a">Raffaellino,</marc:subfield>
+        <marc:subfield code="c">del Garbo,</marc:subfield>
+        <marc:subfield code="d">1466-1524.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="650" ind1=" " ind2="0">
+        <marc:subfield code="a">Art, Italian.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="650" ind1=" " ind2="7">
+        <marc:subfield code="a">Drawings: Book illustrations, dramatizations, representations of legends, etc.</marc:subfield>
+        <marc:subfield code="2">local.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">Italian</marc:subfield>
+        <marc:subfield code="b">School.</marc:subfield>
+        <marc:subfield code="2">local.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">Drawings (visual works)</marc:subfield>
+        <marc:subfield code="2">aat</marc:subfield>
+        <marc:subfield code="0">http://vocab.getty.edu/aat/300033973.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">Reproductions.</marc:subfield>
+        <marc:subfield code="2">aat</marc:subfield>
+        <marc:subfield code="0">http://vocab.getty.edu/aat/300015643.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Vasari, Giorgio,</marc:subfield>
+        <marc:subfield code="d">1511-1574,</marc:subfield>
+        <marc:subfield code="e">contributor.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Lippi, Filippino,</marc:subfield>
+        <marc:subfield code="d">-1504,</marc:subfield>
+        <marc:subfield code="e">contributor.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Botticelli, Sandro,</marc:subfield>
+        <marc:subfield code="d">1444 or 1445-1510,</marc:subfield>
+        <marc:subfield code="e">contributor.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Raffaellino,</marc:subfield>
+        <marc:subfield code="c">del Garbo,</marc:subfield>
+        <marc:subfield code="d">1466-1524,</marc:subfield>
+        <marc:subfield code="e">contributor.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="710" ind1="2" ind2=" ">
+        <marc:subfield code="a">National Gallery of Art (U.S.)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="710" ind1="2" ind2=" ">
+        <marc:subfield code="a">Frick Art Reference Library.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="774" ind1="0" ind2=" ">
+        <marc:subfield code="t">Pages from Vasari's "Libro de' Disegni" (Part I: Four Recto Drawings: A Study of the Head of a Youth in a Cap and Three Other Studies). </marc:subfield>
+        <marc:subfield code="w">STAR63437.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="774" ind1="0" ind2=" ">
+        <marc:subfield code="t">Pages from Vasari's "Libro de' Disegni" (Part II: Six Verso Drawings). </marc:subfield>
+        <marc:subfield code="w">STAR63951.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="792" ind1="1" ind2=" ">
+        <marc:subfield code="a">Vasari, Giorgio,</marc:subfield>
+        <marc:subfield code="d">1511-1574,</marc:subfield>
+        <marc:subfield code="e">contributor.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="830" ind1=" " ind2="0">
+        <marc:subfield code="a">Pages from Vasari's Libro de' Disegni.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1="8" ind2=" ">
+        <marc:subfield code="a">NNFr</marc:subfield>
+        <marc:subfield code="h">Vasari, Giorgio 748c (series)</marc:subfield>
+        <marc:subfield code="x">efp.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="856" ind1="4" ind2="1">
+        <marc:subfield code="u">http://www.nga.gov/fcgi-bin/tinfo_f?object=74978</marc:subfield>
+        <marc:subfield code="z"> National Gallery of Art</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="996" ind1=" " ind2=" ">
+        <marc:subfield code="a">.b10184612</marc:subfield>
+        <marc:subfield code="b">05-12-17</marc:subfield>
+        <marc:subfield code="c">05-01-11</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="997" ind1=" " ind2=" ">
+        <marc:subfield code="a">fpw</marc:subfield>
+        <marc:subfield code="b">05-01-11</marc:subfield>
+        <marc:subfield code="c">d</marc:subfield>
+        <marc:subfield code="d">k  </marc:subfield>
+        <marc:subfield code="e">-</marc:subfield>
+        <marc:subfield code="f">eng</marc:subfield>
+        <marc:subfield code="g">xx </marc:subfield>
+        <marc:subfield code="h">0</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="935" ind1=" " ind2=" ">
+        <marc:subfield code="a">STAR68983</marc:subfield>
+        <marc:subfield code="b">WID68983</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="948" ind1=" " ind2=" ">
+        <marc:subfield code="a">LTI 07/20/2012</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="949" ind1=" " ind2=" ">
+        <marc:subfield code="r">x</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="980" ind1="1" ind2=" ">
+        <marc:subfield code="a">For the complete set, see records 63437, 63951, and 68983.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="980" ind1="4" ind2=" ">
+        <marc:subfield code="a">FARL Mounts File</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="980" ind1="5" ind2=" ">
+        <marc:subfield code="a">STAR record stamp</marc:subfield>
+        <marc:subfield code="b">KS</marc:subfield>
+        <marc:subfield code="c">2006 01 23</marc:subfield>
+        <marc:subfield code="d">KS4</marc:subfield>
+        <marc:subfield code="e">2011 04 04</marc:subfield>
+    </marc:datafield>
+</marc:record>
+

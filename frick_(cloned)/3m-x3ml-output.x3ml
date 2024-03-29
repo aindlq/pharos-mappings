@@ -8,7 +8,7 @@
       <general_description/>
       <source>
          <source_info>
-            <source_schema schema_file=".b9385563.xml" type="xml" version="">.b9385563</source_schema>
+            <source_schema schema_file=".b10184612.xml" type="xml" version="">.b10184612</source_schema>
             <namespaces>
                <namespace prefix="marc" uri="http://www.loc.gov/MARC21/slim"/>
             </namespaces>
@@ -69,49 +69,6 @@
                </entity>
             </target_node>
          </domain>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>marc:datafield[@tag="246"]/marc:subfield[@code="a"]</relation>
-               </source_relation>
-               <target_relation>
-                  <relationship>crm:P1_is_identified_by</relationship>
-                  <entity>
-                     <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">/marc:record/marc:datafield[@tag="996"]/marc:subfield[@code="a"]/text()</arg>
-                        <arg name="identifier_type" type="constant">identifier</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
-                     </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
-                     <additional>
-                        <relationship>crm:P2_has_type</relationship>
-                        <entity>
-                           <type>crm:E55_Type</type>
-                           <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417226</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
-                  </entity>
-                  <relationship>crm:P190_has_symbolic_content</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>marc:datafield[@tag="246"]/marc:subfield[@code="a"]</source_node>
-               <target_node>
-                  <entity>
-                     <type>rdfs:Literal</type>
-                     <instance_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </instance_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
       </mapping>
    </mappings>
 </x3ml>
