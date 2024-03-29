@@ -1,0 +1,146 @@
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <marc:leader>02378nkcaa2200457Ka 4500</marc:leader>
+    <marc:controlfield tag="006">knnn            cn</marc:controlfield>
+    <marc:controlfield tag="007">kh mom</marc:controlfield>
+    <marc:controlfield tag="008">110105k16161656              |00 ||    d</marc:controlfield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+        <marc:subfield code="a">Goyen, Jan van,</marc:subfield>
+        <marc:subfield code="d">1596-1656.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="1" ind2="0">
+        <marc:subfield code="a">River Scene.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+        <marc:subfield code="a">Zwei Ruderboote mit fünf Fischern </marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="300" ind1="1" ind2=" ">
+        <marc:subfield code="e">Graphic reproduction(s) with documentation of a</marc:subfield>
+        <marc:subfield code="a">painting.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="b"> 56.5 x 36.3 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="340" ind1=" " ind2=" ">
+        <marc:subfield code="c"> oil on panel.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(c and d and e) Lord Desborough's daughter, Viscountess Gage (1905-1969) and her husband Viscount Gage (1895-1982), Firle Place, Sussex, England;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="561" ind1=" " ind2=" ">
+        <marc:subfield code="a">(f) presumably (d) their son and heir, (the 7th) Viscount Gage, Firle Place, Sussex, England.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="1" ind2=" ">
+        <marc:subfield code="a">Viscount Gage,</marc:subfield>
+        <marc:subfield code="b">Firle Place,</marc:subfield>
+        <marc:subfield code="c">Sussex,</marc:subfield>
+        <marc:subfield code="d">England,</marc:subfield>
+        <marc:subfield code="g">private.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="2" ind2=" ">
+        <marc:subfield code="a">Title and attribution: (a) A River Scene, by Jan van Goyen. Medium: (c) On panel. Also reproduced: Beck, H.U., Jan van Goyen, 1596-1656, Doornspijk, v.3, Ergänzungen, 1987, p.217 (616, as "Zwei Boote mit fünf Fischern...").</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="9" ind2=" ">
+        <marc:subfield code="a">Photograph, </marc:subfield>
+        <marc:subfield code="b"> A.C. Cooper, London </marc:subfield>
+        <marc:subfield code="c"> 98761# </marc:subfield>
+        <marc:subfield code="j"> Purchase, </marc:subfield>
+        <marc:subfield code="k"> A.C. Cooper, London, </marc:subfield>
+        <marc:subfield code="l"> March 23, 1937. </marc:subfield>
+        <marc:subfield code="n"> m.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="590" ind1="9" ind2=" ">
+        <marc:subfield code="a">Photograph, </marc:subfield>
+        <marc:subfield code="b"> Courtauld Photographic Survey </marc:subfield>
+        <marc:subfield code="c"> B56/83 </marc:subfield>
+        <marc:subfield code="j"> Purchase, </marc:subfield>
+        <marc:subfield code="k"> Courtauld Institute of Art, London, </marc:subfield>
+        <marc:subfield code="l"> August 2, 1956. </marc:subfield>
+        <marc:subfield code="n"> 1.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="562" ind1=" " ind2=" ">
+        <marc:subfield code="a">(c) Possibly inscribed.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(c) Beck, H.U., Jan van Goyen, 1596-1656, Amsterdam, v.2, Gemälde, 1973, p.279 (616).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(d) Debrett's Peerage &amp; Baronetage, 1990, p.P487-P488 and P779.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(e) Information on back of photograph received August 2, 1956.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="556" ind1=" " ind2=" ">
+        <marc:subfield code="a">(f) Library staff, January 1998.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="600" ind1="1" ind2="0">
+        <marc:subfield code="a">Goyen, Jan van,</marc:subfield>
+        <marc:subfield code="d">1596-1656.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="650" ind1=" " ind2="0">
+        <marc:subfield code="a">Art, Dutch.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="650" ind1=" " ind2="7">
+        <marc:subfield code="a">Landscapes: With water: Canal and river scenes.</marc:subfield>
+        <marc:subfield code="2">local.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">Dutch</marc:subfield>
+        <marc:subfield code="b">School.</marc:subfield>
+        <marc:subfield code="2">local.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">Paintings (visual works)</marc:subfield>
+        <marc:subfield code="2">aat</marc:subfield>
+        <marc:subfield code="0">http://vocab.getty.edu/aat/300033618.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">Reproductions.</marc:subfield>
+        <marc:subfield code="2">aat</marc:subfield>
+        <marc:subfield code="0">http://vocab.getty.edu/aat/300015643.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="710" ind1="2" ind2=" ">
+        <marc:subfield code="a">Frick Art Reference Library.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="790" ind1=" " ind2=" ">
+        <marc:subfield code="a">Viscount Gage.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="792" ind1="1" ind2=" ">
+        <marc:subfield code="a">Goyen, Jan Josephsz van,</marc:subfield>
+        <marc:subfield code="d">1596-1656.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1="8" ind2=" ">
+        <marc:subfield code="a">NNFr</marc:subfield>
+        <marc:subfield code="h"> Goyen, Jan Josephsz van 318-13u</marc:subfield>
+        <marc:subfield code="x">ks.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="996" ind1=" " ind2=" ">
+        <marc:subfield code="a">.b9385563</marc:subfield>
+        <marc:subfield code="b">11-14-19</marc:subfield>
+        <marc:subfield code="c">01-30-11</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="997" ind1=" " ind2=" ">
+        <marc:subfield code="a">fpw</marc:subfield>
+        <marc:subfield code="b">01-12-11</marc:subfield>
+        <marc:subfield code="c">c</marc:subfield>
+        <marc:subfield code="d">k  </marc:subfield>
+        <marc:subfield code="e">-</marc:subfield>
+        <marc:subfield code="f">eng</marc:subfield>
+        <marc:subfield code="g"></marc:subfield>
+        <marc:subfield code="h">0</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="948" ind1=" " ind2=" ">
+        <marc:subfield code="a">LTI 04/06/2011</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="935" ind1=" " ind2=" ">
+        <marc:subfield code="a">STAR5917</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="980" ind1=" " ind2=" ">
+        <marc:subfield code="a">One of the STAR sample records</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="983" ind1=" " ind2=" ">
+        <marc:subfield code="a">2</marc:subfield>
+        <marc:subfield code="b">reproduction(s).</marc:subfield>
+    </marc:datafield>
+</marc:record>
+
