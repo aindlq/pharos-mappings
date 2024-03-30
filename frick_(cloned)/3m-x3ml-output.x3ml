@@ -86,9 +86,68 @@
                      </instance_generator>
                   </entity>
                   <relationship>crm:P4_has_time-span</relationship>
-                  <entity>
+                  <entity variable="production-date[0101]">
                      <type>crm:E52_Time-Span</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="TimespanUri">
+                        <arg name="resourceType" type="constant">work</arg>
+                        <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
+                        <arg name="eventType" type="constant">production</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P82a_begin_of_the_begin</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>20. Earliest and Latest date</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-03-30 14:17:38" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>controlfield[@tag="008"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>xsd:date</type>
+                     <instance_generator name="Date">
+                        <arg name="bound" type="constant">Lower</arg>
+                        <arg name="report" type="constant">Date</arg>
+                        <arg name="text" type="xpath">substring(substring-after(text(), 'k'), 1, 4)</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>controlfield[@tag="008"]</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity variable="production[16]">
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="EventUri">
+                        <arg name="resourceType" type="constant">work</arg>
+                        <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
+                        <arg name="eventType" type="constant">production</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P4_has_time-span</relationship>
+                  <entity variable="production-date[0101]">
+                     <type>crm:E52_Time-Span</type>
+                     <instance_generator name="TimespanUri">
+                        <arg name="resourceType" type="constant">work</arg>
+                        <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
+                        <arg name="eventType" type="constant">production</arg>
+                     </instance_generator>
                   </entity>
                   <relationship>crm:P82a_begin_of_the_begin</relationship>
                </target_relation>
