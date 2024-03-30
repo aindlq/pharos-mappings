@@ -115,10 +115,10 @@
                <source_node>controlfield[@tag="008"]</source_node>
                <target_node>
                   <entity>
-                     <type>xsd:date</type>
+                     <type>xsd:dateTime</type>
                      <instance_generator name="Date">
                         <arg name="bound" type="constant">Upper</arg>
-                        <arg name="report" type="constant">Date</arg>
+                        <arg name="report" type="constant">Date_and_Time</arg>
                         <arg name="text" type="xpath">substring(substring-after(text(), 'k'), 1, 4)</arg>
                      </instance_generator>
                   </entity>
@@ -162,10 +162,10 @@
                <source_node>controlfield[@tag="008"]</source_node>
                <target_node>
                   <entity>
-                     <type>xsd:date</type>
+                     <type>xsd:dateTime</type>
                      <instance_generator name="Date">
                         <arg name="bound" type="constant">Lower</arg>
-                        <arg name="report" type="constant">Date</arg>
+                        <arg name="report" type="constant">Date_and_Time</arg>
                         <arg name="text" type="xpath">substring(substring-after(text(), 'k'), 5, 4)</arg>
                      </instance_generator>
                   </entity>
