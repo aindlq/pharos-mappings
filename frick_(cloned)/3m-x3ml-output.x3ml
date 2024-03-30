@@ -208,6 +208,45 @@
                </target_node>
             </range>
          </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>datafield[@tag="260"]/subfield[@code="a"]</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity variable="production[16]">
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P7_took_place_at</relationship>
+                  <entity>
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="URIwithType">
+                        <arg name="type" type="constant">place</arg>
+                        <arg name="id" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>datafield[@tag="260"]/subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
    </mappings>
 </x3ml>
