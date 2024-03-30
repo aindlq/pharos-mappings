@@ -4244,5 +4244,58 @@
             </target_node>
          </domain>
       </mapping>
+      <mapping>
+         <domain>
+            <source_node>//datafield[@tag="590" and @ind1="1"]/subfield[@code="d"]</source_node>
+            <target_node>
+               <entity>
+                  <type>custom:E53_Place</type>
+                  <instance_generator name="URIwithType">
+                     <arg name="type" type="constant">place</arg>
+                     <arg name="id" type="xpath">text()</arg>
+                  </instance_generator>
+                  <label_generator name="Literal">
+                     <arg name="text" type="xpath">text()</arg>
+                  </label_generator>
+                  <additional>
+                     <relationship>custom:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:E55_Type</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300387506</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
+            </target_node>
+         </domain>
+      </mapping>
+      <mapping>
+         <domain>
+            <source_node>//datafield[@tag="590" and @ind1="1"]/subfield[@code="g"]</source_node>
+            <target_node>
+               <entity>
+                  <type>custom:E55_Type</type>
+                  <instance_generator name="URIwithType">
+                     <arg name="type" type="constant">type</arg>
+                     <arg name="id" type="xpath">text()</arg>
+                  </instance_generator>
+                  <label_generator name="Literal">
+                     <arg name="text" type="xpath">text()</arg>
+                  </label_generator>
+                  <additional>
+                     <relationship>custom:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:E55_Type</type>
+                        <instance_generator name="URIwithType">
+                           <arg name="type" type="constant">type</arg>
+                           <arg name="id" type="constant">Institution Type</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
+            </target_node>
+         </domain>
+      </mapping>
    </mappings>
 </x3ml>
