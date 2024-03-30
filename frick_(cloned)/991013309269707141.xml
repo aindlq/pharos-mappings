@@ -1,0 +1,782 @@
+<record>
+  <leader>13826nkc a2202221 a 4500</leader>
+  <controlfield tag="001">991013309269707141</controlfield>
+  <controlfield tag="005">20230710073622.0</controlfield>
+  <controlfield tag="006">knnn |     |||||cn</controlfield>
+  <controlfield tag="007">kh mom</controlfield>
+  <controlfield tag="008">110428k15271527xx nnn |      |   cneng|d</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(nynyarc)b10810481-01nya_inst</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="d">UtOrBLW</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Holbein, Hans,</subfield>
+    <subfield code="d">1497?-1543</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n81117179</subfield>
+    <subfield code="1">http://viaf.org/viaf/4945401</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Sir Thomas More.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">1527.</subfield>
+  </datafield>
+  <datafield tag="300" ind1="1" ind2=" ">
+    <subfield code="e">Graphic reproduction(s) with documentation of a</subfield>
+    <subfield code="a">painting.</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">still image</subfield>
+    <subfield code="b">sti</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">sheet</subfield>
+    <subfield code="b">nb</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="b">29 1/2 x 23 3/4 in.</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="b">74.9 x 60.3 cm.</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="c">oil on oak panel (cradled).</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) The collection history cannot be traced with certainty earlier than the 19th century;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) possibly in Rome by 1631, when a version was noted by Arthur Hopton in a letter of July 26 (or August 7?) to the Earl of Arundel as being in the collection of Cardinal Crescenzi. Subsequently mentioned there by Baldinucci in 1681, who speculated that it once belonged to Henry VIII. However, it is not listed in his inventory of 1542 or 1547. (t) Baldinucci also claimed ("Notizie dei Professori" 1845-47, vol. II, pp. 271) that Anne Boleyn threw it out the window saying "Oh, dear, in this panel he seems to be still alive" and that the panel was subsequently picked up by a passer-by and made its way to Rome to the Palazzo de' Crescenzi. Another story mentions that Henry VIII himself threw it out the window when More was hung;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) after the Crescenzi collection, there are several alternative collection histories up until its ownership by the dealer Ferrar in London:;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) Probably Queen Christina of Sweden (d.1689);</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) Livio Odescalchi (1655-1713);</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) Prince Baldassare Erba Odescalchi, 1713;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) sold with the largest and most valuable part of Queen Christina's collection through Pierre Crozat to Philippe, Duke of Orléans, 1721 (inv., British Library, Add. Ms.20390, f.225, no.4; sale contract dated January 14, 1721 in Archivio Odescalchi, Rome, inv. no.V.B.I);</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) probably part of the German, Flemish and Dutch pictures of the Orléans collection sold through the agency of Lord Kinnaird and Messers Morland and Hammorslay in 1792 to Thomas Moore Slade, Chatham, England, for 350,000 francs;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) Sale, Wilson of Pall Mall, London, Orléans Collection, April 1793, lot 11 (to Ferrar, dealer, London);</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) Alternatively, maybe passed from the Crescenzi collections to a member of the Bonelli family;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) thence to Angelo Bonelli, by whom brought to England between 1809 and 1811;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) by 1858, in the possession of Farrer, dealer, London;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) by whom reportedly sold to a Hungarian nobleman;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) All agree that by 1859, the painting was bought by Henry Huth in England;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) by 1881, Mrs. Henry Huth;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) by 1890, Edward Huth;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) M. Knoedler &amp; Co., London;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(u) purchased in 1912 for $267,932.50 by Henry Clay Frick;</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">(s) his bequest to The Frick Collection, New York (1912.1.77).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="1" ind2=" ">
+    <subfield code="a">Frick Collection,</subfield>
+    <subfield code="b">New York,</subfield>
+    <subfield code="c">New York,</subfield>
+    <subfield code="d">United States,</subfield>
+    <subfield code="e">Henry Clay Frick Bequest,</subfield>
+    <subfield code="f">1912.1.77,</subfield>
+    <subfield code="g">public.</subfield>
+  </datafield>
+  <datafield tag="590" ind1="2" ind2=" ">
+    <subfield code="a">Title and attribution: (r) Sir Thomas More, by Hans Holbein the Younger. Medium: (r) Oil on panel. Also reproduced: Source "r," p.48 (color).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">Ira W. Martin</subfield>
+    <subfield code="d">11899</subfield>
+    <subfield code="k">Frick Art Reference Library, New York (FARL) negative</subfield>
+    <subfield code="m">(detail of inscription).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Postcard,</subfield>
+    <subfield code="k">The Frick Collection (printed by Arthur Jaffé Heliochrome Co., New York), gift of The Frick Collection</subfield>
+    <subfield code="m">(color).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">Ira W. Martin</subfield>
+    <subfield code="d">725</subfield>
+    <subfield code="k">Frick Art Reference Library, New York (FARL) negative.</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">unidentified photographic source</subfield>
+    <subfield code="j">Purchase</subfield>
+    <subfield code="k">unidentified source</subfield>
+    <subfield code="m">(before restoration).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">unidentified photographic source</subfield>
+    <subfield code="j">Purchase</subfield>
+    <subfield code="k">unidentified source</subfield>
+    <subfield code="m">(before restoration).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">Frick Collection, New York photograph</subfield>
+    <subfield code="j">Gift</subfield>
+    <subfield code="k">The Frick Collection</subfield>
+    <subfield code="l">7/30/1952</subfield>
+    <subfield code="m">(after cleaning).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">Frick Collection, New York photograph</subfield>
+    <subfield code="c">A 972</subfield>
+    <subfield code="j">Gift</subfield>
+    <subfield code="k">The Frick Collection</subfield>
+    <subfield code="l">9/5/1997</subfield>
+    <subfield code="m">(cleaned and revarnished).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Photograph,</subfield>
+    <subfield code="b">The Frick Collection, photograph 1939,</subfield>
+    <subfield code="j">Gift,</subfield>
+    <subfield code="k">Mr. and Mrs. Milton Esterow, Judith Esterow and Deborah Rothstein,</subfield>
+    <subfield code="l">December 20, 2014</subfield>
+    <subfield code="m">(detail, face).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Publication,</subfield>
+    <subfield code="k">Frick Collection, New York, July 30, 1952  </subfield>
+    <subfield code="m">(colorplate).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="9" ind2=" ">
+    <subfield code="a">Publication,</subfield>
+    <subfield code="k">Unidentified publication, published by The Arundel Society, London</subfield>
+    <subfield code="m">(before restoration).</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253a</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253b</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253c</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253d</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253e</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253f</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253g</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253h</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253i</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253j</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253k</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005253l</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="l">8/14/2000</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005261a</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="k">unidentified source (detail 5)</subfield>
+    <subfield code="l">3/18/2002</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005261b</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="k">Unidentified source (detail 5)</subfield>
+    <subfield code="l">3/18/2002</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005269a</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="k">Unidentified source (detail 6)</subfield>
+    <subfield code="l">3/18/2002</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005269b</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="k">Unidentified source (detail 6)</subfield>
+    <subfield code="l">3/18/2002</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005268a</subfield>
+    <subfield code="h">(image)</subfield>
+    <subfield code="k">Unidentified publication (detail 7)</subfield>
+    <subfield code="l">3/18/2002</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">20005268b</subfield>
+    <subfield code="h">(documentation)</subfield>
+    <subfield code="k">Unidentified publication</subfield>
+    <subfield code="l">3/18/2002</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0001.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0002.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0003.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0004.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0005.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0006.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0007.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0008.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0009.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0010.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0011.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0012.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0013.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0014.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0015.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0016.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0017.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0018.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0019.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0020.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0021.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0022.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0023.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0024.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0025.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0026.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0027.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0028.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0029.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0030.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0031.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0032.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0033.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0034.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0035.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0001.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0002.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0003.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0004.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0005.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0006.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0007.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0008.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0009.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0010.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0011.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0012.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0013.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0014.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0015.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0016.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0017.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0018.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0019.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0020.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0021.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0022.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0023.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0024.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0025.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0026.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0027.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0028.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0029.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0030.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0031.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0032.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0033.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0034.jp2</subfield>
+  </datafield>
+  <datafield tag="590" ind1="0" ind2=" ">
+    <subfield code="a">Digital image,</subfield>
+    <subfield code="g">4107100229950_0035.jp2</subfield>
+  </datafield>
+  <datafield tag="562" ind1=" " ind2=" ">
+    <subfield code="a">Dated at lower left: M.D. XXVII.</subfield>
+  </datafield>
+  <datafield tag="562" ind1=" " ind2=" ">
+    <subfield code="a">(s) Inscribed on the edge of the table: "MDXXVII".</subfield>
+  </datafield>
+  <datafield tag="585" ind1=" " ind2=" ">
+    <subfield code="a">(s) Victoria and Albert Museum, London 1866 (157) (lent by Henry Huth); Royal Academy, London, 1870 (121) (lent by Henry Huth); Royal Academy, London, 1881 (194) (lent by Mrs. Henry Huth); New Gallery, London, 1890 (94) (lent by Edward Huth); Royal Academy, London, 1896 (138) (lent by same); Burlington Fine Arts Club, London, 1909 (53) (lent by same).</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">(r) New York, The Frick Collection. Art in the Frick Collection: Paintings, Sculpture, Decorative Arts [cat.]. Comp. C. Ryskamp, et. al, New York, 1996, p.48.</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">(s) Information from Frick Art Reference Library Photoarchive.</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">(t) New York, The Frick Collection. The Frick Collection [cat.]. New York, v.1, 1949, pp.108-113.</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">(u) Julie Ludwig, Archivist, The Frick Collection, email dated January 7, 2011.</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">Rowlands, J. Holbein: The Paintings of Hans Holbein the Younger. Oxford, 1985, pp.132-133 (24), 222-223(L-10).</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">Morison, Stanley. The Likeness of Thomas More: An Iconographical Survey of Three Centuries. Ed. Nicolas Barker. London, 1963, p.7-10, 47-50, 63-67, 73-77.</subfield>
+  </datafield>
+  <datafield tag="556" ind1=" " ind2=" ">
+    <subfield code="a">New York, The Frick Collection. An Illustrated Catalogue. Vol.1, Paintings. [cat.]. 1968, pp.228-233, p.229 (reproduced).</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">Holbein, Hans,</subfield>
+    <subfield code="d">1497?-1543</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n81117179</subfield>
+    <subfield code="1">http://viaf.org/viaf/4945401</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2="0">
+    <subfield code="a">More, Thomas,</subfield>
+    <subfield code="c">Saint,</subfield>
+    <subfield code="d">1478-1535</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n79056176</subfield>
+    <subfield code="1">http://viaf.org/viaf/29541174</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Art, German.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/subjects/sh85007675</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="7">
+    <subfield code="a">Portraits: Men: With hands: With hats: Head to right.</subfield>
+    <subfield code="2">local</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">German</subfield>
+    <subfield code="b">School.</subfield>
+    <subfield code="2">local</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Paintings (visual works)</subfield>
+    <subfield code="2">aat</subfield>
+    <subfield code="0">http://vocab.getty.edu/aat/300033618.</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">Reproductions.</subfield>
+    <subfield code="2">aat</subfield>
+    <subfield code="0">http://vocab.getty.edu/aat/300015643.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Frick Collection.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n80044956</subfield>
+    <subfield code="1">http://viaf.org/viaf/128866686</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Frick Art Reference Library.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n83192952</subfield>
+    <subfield code="1">http://viaf.org/viaf/123077421</subfield>
+  </datafield>
+  <datafield tag="792" ind1="1" ind2=" ">
+    <subfield code="a">Holbein the Younger, Hans,</subfield>
+    <subfield code="d">1497/8-1543.</subfield>
+  </datafield>
+  <datafield tag="852" ind1="8" ind2=" ">
+    <subfield code="a">NNFr</subfield>
+    <subfield code="h">Holbein the Younger, Hans 621-10p</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="u">http://collections.frick.org/view/objects/asitem/items$0040:100 </subfield>
+    <subfield code="z">The Frick Collection</subfield>
+  </datafield>
+  <datafield tag="855" ind1="4" ind2="1">
+    <subfield code="u">http://digitalcollections.frick.org/digico/#/details/bibRecordNumber/b10810481/Photoarchive</subfield>
+    <subfield code="z">Photoarchive images and documentation</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="a">211015</subfield>
+    <subfield code="d">110503</subfield>
+  </datafield>
+  <datafield tag="902" ind1=" " ind2=" ">
+    <subfield code="d">200421</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">Record created with funding from The</subfield>
+    <subfield code="b">Henry Luce Foundation.</subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">Record created with funding from The</subfield>
+    <subfield code="b">National Endowment for the Humanities. </subfield>
+  </datafield>
+  <datafield tag="904" ind1=" " ind2=" ">
+    <subfield code="a">Record created with funding from The</subfield>
+    <subfield code="b">Andrew W. Mellon Foundation.</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">Luce</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">NEH2</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">MELLON grant 2018</subfield>
+  </datafield>
+  <datafield tag="910" ind1=" " ind2=" ">
+    <subfield code="a">.b10810481</subfield>
+  </datafield>
+  <datafield tag="935" ind1=" " ind2=" ">
+    <subfield code="a">STAR732</subfield>
+    <subfield code="b">WID732</subfield>
+  </datafield>
+  <datafield tag="945" ind1=" " ind2=" ">
+    <subfield code="a">Holbein the Younger, Hans 621-10p</subfield>
+    <subfield code="g">1</subfield>
+    <subfield code="i">4107100229950</subfield>
+    <subfield code="j">8224</subfield>
+    <subfield code="l">fpw  </subfield>
+    <subfield code="n">Item created for Mellon project Jan2020 McQ</subfield>
+    <subfield code="o">x</subfield>
+    <subfield code="p">$0.00</subfield>
+    <subfield code="q">-</subfield>
+    <subfield code="r">-</subfield>
+    <subfield code="s">g  </subfield>
+    <subfield code="t">10</subfield>
+    <subfield code="u">0</subfield>
+    <subfield code="v">0</subfield>
+    <subfield code="w">0</subfield>
+    <subfield code="x">0</subfield>
+    <subfield code="y">.i26216723</subfield>
+    <subfield code="z">200421</subfield>
+  </datafield>
+  <datafield tag="948" ind1=" " ind2=" ">
+    <subfield code="a">RDA ENRICHED</subfield>
+  </datafield>
+  <datafield tag="948" ind1=" " ind2=" ">
+    <subfield code="a">LTI 07/20/2012</subfield>
+  </datafield>
+  <datafield tag="948" ind1=" " ind2=" ">
+    <subfield code="a">MARS</subfield>
+  </datafield>
+  <datafield tag="949" ind1=" " ind2=" ">
+    <subfield code="b">3107100088760</subfield>
+  </datafield>
+  <datafield tag="949" ind1=" " ind2=" ">
+    <subfield code="b">3107100088759</subfield>
+  </datafield>
+  <datafield tag="949" ind1=" " ind2=" ">
+    <subfield code="b">4107100229950</subfield>
+  </datafield>
+  <datafield tag="949" ind1=" " ind2=" ">
+    <subfield code="c">4107100229920</subfield>
+  </datafield>
+  <datafield tag="952" ind1="8" ind2=" ">
+    <subfield code="a">NNFr</subfield>
+    <subfield code="h">Holbein the Younger, Hans 621-10p</subfield>
+  </datafield>
+  <datafield tag="980" ind1="2" ind2=" ">
+    <subfield code="a">attach flap to detail 1, add to provenance</subfield>
+  </datafield>
+  <datafield tag="980" ind1="4" ind2=" ">
+    <subfield code="a">FARL Mounts File</subfield>
+  </datafield>
+  <datafield tag="980" ind1="5" ind2=" ">
+    <subfield code="a">STAR record stamp</subfield>
+    <subfield code="b">VLG2</subfield>
+    <subfield code="c">1997 03 07</subfield>
+    <subfield code="d">sm</subfield>
+    <subfield code="e">2011 03 18</subfield>
+  </datafield>
+  <datafield tag="983" ind1=" " ind2=" ">
+    <subfield code="a">10</subfield>
+    <subfield code="b">reproduction(s).</subfield>
+  </datafield>
+  <datafield tag="996" ind1=" " ind2=" ">
+    <subfield code="b">1</subfield>
+    <subfield code="c">110503</subfield>
+    <subfield code="d">d</subfield>
+    <subfield code="e">k  </subfield>
+    <subfield code="f">-</subfield>
+    <subfield code="g">0</subfield>
+    <subfield code="l">fpw</subfield>
+  </datafield>
+</record>
