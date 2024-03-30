@@ -18,12 +18,12 @@
          <target_info>
             <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
             <namespaces>
-               <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
-               <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-               <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
                <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
                <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
+               <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
+               <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
                <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+               <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
             </namespaces>
          </target_info>
       </target>
@@ -50,7 +50,7 @@
             <source_node>/record</source_node>
             <target_node>
                <entity>
-                  <type>crm:E22_Man-Made_Object</type>
+                  <type>crm:E22_Human-Made_Object</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">work</arg>
                      <arg name="id" type="xpath">controlfield[@tag="001"]</arg>
@@ -59,9 +59,9 @@
                      <arg name="text" type="xpath">datafield[@tag="245"]/subfield[@code="a"]/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>crm:P2_has_type</relationship>
+                     <relationship>custom:P2_has_type</relationship>
                      <entity>
-                        <type>crm:E55_Type</type>
+                        <type>custom:E55_Type</type>
                         <instance_generator name="URIorUUID">
                            <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
                         </instance_generator>
@@ -76,7 +76,7 @@
                   <relation>datafield[@tag="300"]/subfield[@code="a"]</relation>
                </source_relation>
                <target_relation>
-                  <relationship>crm:P2_has_type</relationship>
+                  <relationship>custom:P2_has_type</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -97,7 +97,7 @@
                <source_node>datafield[@tag="300"]/subfield[@code="a"]</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E55_Type</type>
+                     <type>custom:E55_Type</type>
                      <instance_generator name="URIwithTypeFull">
                         <arg name="type" type="constant">type</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -112,9 +112,9 @@
                   <relation>datafield[@tag="245"]/subfield[@code="a"]</relation>
                </source_relation>
                <target_relation>
-                  <relationship>crm:P1_is_identified_by</relationship>
+                  <relationship>custom:P1_is_identified_by</relationship>
                   <entity>
-                     <type>crm:E41_Appellation</type>
+                     <type>custom:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">work</arg>
                         <arg name="subject_id" type="xpath">/record/controlfield[@tag="001"]</arg>
@@ -122,7 +122,7 @@
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
-                        <relationship>crm:P2_has_type</relationship>
+                        <relationship>custom:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
@@ -131,7 +131,7 @@
                         </entity>
                      </additional>
                   </entity>
-                  <relationship>crm:P190_has_symbolic_content</relationship>
+                  <relationship>custom:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -166,9 +166,9 @@
                   <relation>datafield[@tag="246"]/subfield[@code="a"]</relation>
                </source_relation>
                <target_relation>
-                  <relationship>crm:P1_is_identified_by</relationship>
+                  <relationship>custom:P1_is_identified_by</relationship>
                   <entity>
-                     <type>crm:E41_Appellation</type>
+                     <type>custom:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">work</arg>
                         <arg name="subject_id" type="xpath">/record/controlfield[@tag="001"]</arg>
@@ -176,7 +176,7 @@
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
-                        <relationship>crm:P2_has_type</relationship>
+                        <relationship>custom:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
@@ -185,7 +185,7 @@
                         </entity>
                      </additional>
                   </entity>
-                  <relationship>crm:P190_has_symbolic_content</relationship>
+                  <relationship>custom:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -210,6 +210,49 @@
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>controlfield[@tag="008"]</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity variable="production[16]">
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P4_has_time-span</relationship>
+                  <entity>
+                     <type>crm:E52_Time-Span</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P82a_begin_of_the_begin</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>20. Earliest and Latest date</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-03-30 14:17:38" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>controlfield[@tag="008"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="UUID"/>
                   </entity>
                </target_node>
             </range>
