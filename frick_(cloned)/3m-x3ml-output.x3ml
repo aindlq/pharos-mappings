@@ -98,7 +98,7 @@
                <target_node>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithType">
+                     <instance_generator name="URIwithTypeFull">
                         <arg name="type" type="constant">type</arg>
                         <arg name="id" type="xpath">text()</arg>
                      </instance_generator>
