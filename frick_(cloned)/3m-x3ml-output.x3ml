@@ -107,7 +107,7 @@
                <source_node>controlfield[@tag="008"]</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>xsd:date</type>
                      <instance_generator name="Date">
                         <arg name="bound" type="constant">Lower</arg>
                         <arg name="report" type="constant">Date</arg>
