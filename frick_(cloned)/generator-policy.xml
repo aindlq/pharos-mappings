@@ -219,4 +219,7 @@
          <set-arg name="text"/>
       </custom>
    </generator>
+   <generator name="URIwithTypeFull" prefix="prefix" type="any">
+      <pattern>{type}/{id}</pattern>
+   </generator>
 </generator_policy>
