@@ -178,7 +178,7 @@
                   <relation>datafield[@tag="260"]/subfield[@code="c"]</relation>
                </source_relation>
                <target_relation>
-                  <relationship>custom:P108i_was_produced_by</relationship>
+                  <relationship>crm:P108i_was_produced_by</relationship>
                   <entity variable="production[16]">
                      <type>crm:E12_Production</type>
                      <instance_generator name="UUID"/>
