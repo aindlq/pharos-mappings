@@ -261,6 +261,42 @@
                </target_node>
             </range>
          </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>datafield[@tag="260"]/subfield[@code="c"]</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity variable="production[16]">
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P4_has_time-span</relationship>
+                  <entity variable="production-date[0101]">
+                     <type>crm:E52_Time-Span</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>datafield[@tag="260"]/subfield[@code="c"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
    </mappings>
 </x3ml>
