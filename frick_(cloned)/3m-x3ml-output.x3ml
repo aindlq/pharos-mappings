@@ -150,11 +150,9 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
+                     <instance_generator name="FixedIdentifierURI">
                         <arg name="subject_type" type="constant">type</arg>
                         <arg name="subject_id" type="xpath">text()</arg>
-                        <arg name="identifier_type" type="constant">id</arg>
-                        <arg name="identifier_id" type="constant">preferred</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
