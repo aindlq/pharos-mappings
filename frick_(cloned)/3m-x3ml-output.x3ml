@@ -676,11 +676,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>datafield[@tag="590" and @ind1="1"]/subfield[@code="f"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -689,9 +684,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -701,6 +693,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>datafield[@tag="590" and @ind1="1"]/subfield[@code="f"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -712,11 +716,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>datafield[@tag="981"]/subfield[@code="a"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -725,9 +724,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -738,6 +734,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>datafield[@tag="981"]/subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -1765,11 +1773,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>datafield[@tag="852"]/subfield[@code="h"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -1778,9 +1781,6 @@
                         <arg name="identifier_type" type="constant">call_number</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -1790,6 +1790,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>datafield[@tag="852"]/subfield[@code="h"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -2145,11 +2157,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="n"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="FrickPhotoIdentifierURI">
@@ -2159,9 +2166,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -2172,6 +2176,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="n"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -2531,11 +2547,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="n"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="FrickPhotoIdentifierURI">
@@ -2545,9 +2556,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -2558,6 +2566,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="n"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -2631,11 +2651,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="a"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -2644,9 +2659,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">string-join(( text() , ../subfield[@code="b"]/text() , ../subfield[@code="c"]/text(), ../subfield[@code="d"]/text() ), " " )</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">string-join(( text() , ../subfield[@code="c"]/text() ), " " )</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -2656,6 +2668,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">string-join(( text() , ../subfield[@code="c"]/text() ), " " )</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -2807,11 +2831,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="a"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -2820,9 +2839,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">string-join(( text() , ../subfield[@code="b"]/text() , ../subfield[@code="c"]/text(), ../subfield[@code="d"]/text() ), " " )</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">string-join(( text() , ../subfield[@code="b"]/text() , ../subfield[@code="c"]/text(), ../subfield[@code="d"]/text() ), ", " )</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -2832,6 +2848,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">string-join(( text() , ../subfield[@code="b"]/text() , ../subfield[@code="c"]/text(), ../subfield[@code="d"]/text() ), ", " )</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -2980,11 +3008,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="a"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -2993,9 +3016,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3005,6 +3025,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -3469,11 +3501,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="a"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -3482,9 +3509,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3494,6 +3518,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -3910,11 +3946,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="n"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="FrickPhotoIdentifierURI">
@@ -3924,9 +3955,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3940,6 +3968,18 @@
                            </label_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="n"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -4018,11 +4058,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>subfield[@code="a"]</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -4031,9 +4066,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -4043,6 +4075,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>subfield[@code="a"]</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
