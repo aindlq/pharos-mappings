@@ -229,4 +229,7 @@
          <set-arg name="text"/>
       </custom>
    </generator>
+   <generator name="FixedIdentifierURI" prefix="prefix" type="any">
+      <pattern>{subject_type}/{subject_id}/identifier</pattern>
+   </generator>
 </generator_policy>
