@@ -3294,23 +3294,6 @@
       </mapping>
       <mapping>
          <domain>
-            <source_node>//datafield[@tag="590" and @ind1="1"]/subfield[@code="e"]</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E55_Type</type>
-                  <instance_generator name="URIwithType">
-                     <arg name="type" type="constant">type</arg>
-                     <arg name="id" type="xpath">text()</arg>
-                  </instance_generator>
-                  <label_generator name="Literal">
-                     <arg name="text" type="xpath">text()</arg>
-                  </label_generator>
-               </entity>
-            </target_node>
-         </domain>
-      </mapping>
-      <mapping>
-         <domain>
             <source_node>//datafield[@ind2="0" and @tag="650"]/subfield[@code="a"]</source_node>
             <target_node>
                <entity>
