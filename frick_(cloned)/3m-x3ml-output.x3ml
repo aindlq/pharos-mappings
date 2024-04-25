@@ -133,9 +133,35 @@
                   <relationship>crm:P2_has_type</relationship>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="URIwithTypeFull">
+                        <arg name="type" type="constant">type</arg>
+                        <arg name="id" type="xpath">text()</arg>
+                     </instance_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">https://artresearch.net/resource/frick/vocabulary/work-of-art-type</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="UUID"/>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300404670</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -156,20 +182,10 @@
                <source_node>datafield[@tag="300"]/subfield[@code="a"]</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithTypeFull">
-                        <arg name="type" type="constant">type</arg>
-                        <arg name="id" type="xpath">text()</arg>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
-                     <additional>
-                        <relationship>crm:P2_has_type</relationship>
-                        <entity>
-                           <type>crm:E55_Type</type>
-                           <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">https://artresearch.net/resource/frick/vocabulary/work-of-art-type</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
                   </entity>
                </target_node>
             </range>
