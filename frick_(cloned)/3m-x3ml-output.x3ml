@@ -41,6 +41,35 @@
          <thesaurus_info/>
       </example_data_info>
    </info>
-   <namespaces/>
-   <mappings/>
+   <namespaces>
+      <namespace prefix="prefix" uri="https://artresearch.net/resource/frick/"/>
+   </namespaces>
+   <mappings>
+      <mapping>
+         <domain>
+            <source_node>/record</source_node>
+            <target_node>
+               <entity>
+                  <type>crm:E22_Human-Made_Object</type>
+                  <instance_generator name="URIwithTypeAndId">
+                     <arg name="type" type="constant">work</arg>
+                     <arg name="id" type="xpath">controlfield[@tag="001"]</arg>
+                  </instance_generator>
+                  <label_generator name="Literal">
+                     <arg name="text" type="xpath">datafield[@tag="245"]/subfield[@code="a"]/text()</arg>
+                  </label_generator>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>crm:E55_Type</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
+            </target_node>
+         </domain>
+      </mapping>
+   </mappings>
 </x3ml>
