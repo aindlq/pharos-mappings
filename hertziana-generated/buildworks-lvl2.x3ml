@@ -25,17 +25,15 @@
       </source>
       <target>
          <target_info>
-            <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
+            <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
             <namespaces>
+               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
                <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-               <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
-               <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
-               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
-               <namespace prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/>
-               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
-               <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
                <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+               <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
+               <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
             </namespaces>
          </target_info>
       </target>
@@ -791,7 +789,7 @@
                <source_node>a8350</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -1515,7 +1513,7 @@
                <source_node>a309a/a3092</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -1705,7 +1703,7 @@
                <source_node>a5060/a5064</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -1985,7 +1983,7 @@
                <source_node>a5060</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">a5064/text()</arg>
                      </instance_generator>
@@ -2057,7 +2055,7 @@
                <source_node>a5060</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">a5064/text()</arg>
                      </instance_generator>
@@ -2126,7 +2124,7 @@
                <source_node>a5060</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">a5064/text()</arg>
                      </instance_generator>
@@ -2209,7 +2207,7 @@
                <source_node>a5060</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">a5064/text()</arg>
                      </instance_generator>
@@ -2350,7 +2348,7 @@
                <source_node>aob28/a2996</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -2391,7 +2389,7 @@
                <source_node>aob26/a2730</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -2734,9 +2732,9 @@
                         <arg name="value" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
-                        <relationship>rdfs:label</relationship>
+                        <relationship>crmdig:label</relationship>
                         <entity>
-                           <type>rdfs:Literal</type>
+                           <type>crmdig:Literal</type>
                            <instance_generator name="Literal">
                               <arg name="text" type="xpath">text()</arg>
                            </instance_generator>
@@ -3453,7 +3451,7 @@
                <source_node>a3180</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -3671,7 +3669,7 @@
                <source_node>a8577</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -3794,9 +3792,9 @@
                         <arg name="value" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
-                        <relationship>rdfs:label</relationship>
+                        <relationship>crmdig:label</relationship>
                         <entity>
-                           <type>rdfs:Literal</type>
+                           <type>crmdig:Literal</type>
                            <instance_generator name="Literal">
                               <arg name="text" type="xpath">text()</arg>
                            </instance_generator>
@@ -3839,7 +3837,7 @@
                      <additional>
                         <relationship>crm:P90_has_value</relationship>
                         <entity>
-                           <type>rdfs:Literal</type>
+                           <type>crmdig:Literal</type>
                            <instance_generator name="Literal">
                               <arg name="text" type="xpath">text()</arg>
                            </instance_generator>
@@ -3939,7 +3937,7 @@
                <source_node>a8494</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
@@ -4103,7 +4101,7 @@
                <source_node>a8496</source_node>
                <target_node>
                   <entity>
-                     <type>rdfs:Literal</type>
+                     <type>crmdig:Literal</type>
                      <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
