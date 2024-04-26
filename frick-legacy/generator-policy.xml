@@ -219,17 +219,4 @@
          <set-arg name="text"/>
       </custom>
    </generator>
-   <generator name="URIwithTypeFull" prefix="prefix" type="any">
-      <pattern>{type}/{id}</pattern>
-   </generator>
-   <generator name="Date" type="any">
-      <custom generatorClass="gr.forth.DateNormalizer">
-         <set-arg name="bound" type="constant"/>
-         <set-arg name="report" type="constant"/>
-         <set-arg name="text"/>
-      </custom>
-   </generator>
-   <generator name="FixedIdentifierURI" prefix="prefix" type="any">
-      <pattern>{subject_type}/{subject_id}/identifier</pattern>
-   </generator>
 </generator_policy>
