@@ -1,8 +1,18 @@
-<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source_type="xpath" version="1.0" xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      source_type="xpath"
+      version="1.0"
+      xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
    <info>
-      <title>hertziana</title>
-      <general_description>Mappings for Hertziana PHAROS data. This are mappings only for top lever obj (obj with lvl="1"). Mappings for nested objects are automatically generated from this project and saved to hertziana-generated project. </general_description>
+      <title>hertziana-generated</title>
+      <general_description/>
       <source>
+         <source_info>
+            <source_schema schema_file="08061278.xml" type="xml" version="">08061278</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
          <source_info>
             <source_schema schema_file="08066003.xml" type="xml" version="">08066003</source_schema>
             <namespaces>
@@ -15,24 +25,20 @@
                <namespace prefix="" uri=""/>
             </namespaces>
          </source_info>
-         <source_info>
-            <source_schema schema_file="08061278.xml" type="xml" version="">08061278</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
       </source>
       <target>
          <target_info>
-            <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
+            <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
             <namespaces>
-               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
-               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
                <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-               <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+               <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
                <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
+               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/>
+               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
+               <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
             </namespaces>
          </target_info>
       </target>
@@ -52,7 +58,8 @@
    </info>
    <namespaces>
       <namespace prefix="gernsheim" uri="https://artresearch.net/resource/gernsheim/"/>
-      <namespace prefix="iiif_json" uri="https://img.biblhertz.it/digilib/Scaler/IIIF/fototeca!2048px!im!"/>
+      <namespace prefix="iiif_json"
+                 uri="https://img.biblhertz.it/digilib/Scaler/IIIF/fototeca!2048px!im!"/>
       <namespace prefix="prefix" uri="https://artresearch.net/resource/hertziana/"/>
       <namespace prefix="vocab" uri="https://artresearch.net/resource/midas/vocabulary/"/>
       <namespace prefix="image" uri="https://fotothek.biblhertz.it/bh/320px/"/>
@@ -1984,7 +1991,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -2203,7 +2210,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -4458,7 +4465,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj</source_node>
             <target_node>
@@ -6382,7 +6389,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -6601,7 +6608,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -8856,7 +8863,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj</source_node>
             <target_node>
@@ -10780,7 +10787,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -10999,7 +11006,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -13254,7 +13261,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj/obj</source_node>
             <target_node>
@@ -15178,7 +15185,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -15397,7 +15404,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -17652,7 +17659,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj</source_node>
             <target_node>
@@ -17704,15 +17711,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -19522,7 +19530,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -19741,7 +19749,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -21996,7 +22004,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj</source_node>
             <target_node>
@@ -22048,15 +22056,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -23866,7 +23875,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -24085,7 +24094,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -26340,7 +26349,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj</source_node>
             <target_node>
@@ -26392,15 +26401,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -28210,7 +28220,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -28429,7 +28439,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
@@ -30684,7 +30694,7 @@
             </range>
          </link>
       </mapping>
-   <mapping>
+      <mapping>
          <domain>
             <source_node>/obj/obj/obj/obj</source_node>
             <target_node>
@@ -30736,15 +30746,16 @@
                         </additional>
                      </entity>
                   </additional>
-               <additional>
-  <relationship>crm:P2_has_type</relationship>
-    <entity>
-      <type>custom:noType</type>
-      <instance_generator name="URIorUUID">
-        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-      </instance_generator>
-    </entity>
-</additional></entity>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>custom:noType</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
+               </entity>
             </target_node>
             <comments>
                <comment type="">
@@ -32554,7 +32565,7 @@
                </source_relation>
                <target_relation>
                   <if>
-                     <equals value="Zerst&#246;rung">text()</equals>
+                     <equals value="Zerstörung">text()</equals>
                   </if>
                   <relationship>crm:P13i_destroyed_in</relationship>
                   <entity>
@@ -32773,7 +32784,7 @@
                         <if>
                            <not>
                               <if>
-                                 <equals value="Zerst&#246;rung">text()</equals>
+                                 <equals value="Zerstörung">text()</equals>
                               </if>
                            </not>
                         </if>
