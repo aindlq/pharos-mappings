@@ -27,13 +27,13 @@
          <target_info>
             <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
             <namespaces>
-               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
-               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
                <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-               <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
                <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
+               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
+               <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
             </namespaces>
          </target_info>
       </target>
@@ -326,6 +326,25 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="IdentifierURI">
+                        <arg name="subject_type" type="constant">work</arg>
+                        <arg name="subject_id" type="xpath">../a5002/text()</arg>
+                        <arg name="identifier_type" type="constant">appellation</arg>
+                        <arg name="identifier_id" type="xpath">text()</arg>
+                     </instance_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -358,25 +377,10 @@
                <source_node>a5200</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">../a5002/text()</arg>
-                        <arg name="identifier_type" type="constant">appellation</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
-                     </instance_generator>
-                     <label_generator name="Literal">
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
                         <arg name="text" type="xpath">.</arg>
-                     </label_generator>
-                     <additional>
-                        <relationship>crm:P2_has_type</relationship>
-                        <entity>
-                           <type>crm:E55_Type</type>
-                           <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -388,11 +392,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a5202</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -401,9 +400,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -413,6 +409,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a5202</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">.</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -424,11 +432,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a5204</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -437,9 +440,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -449,6 +449,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a5204</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -597,11 +609,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>aob28/a2950</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -610,9 +617,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -622,6 +626,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>aob28/a2950</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -633,11 +649,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>aob28/a2952</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -646,9 +657,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -660,6 +668,18 @@
                         </entity>
                      </additional>
                   </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>aob28/a2952</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
                </target_node>
             </range>
          </link>
@@ -670,11 +690,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>aob28/a2960</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -683,9 +698,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -697,6 +709,18 @@
                         </entity>
                      </additional>
                   </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>aob28/a2960</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
                </target_node>
             </range>
          </link>
@@ -707,11 +731,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>aob28/a2962</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -720,9 +739,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -734,6 +750,18 @@
                         </entity>
                      </additional>
                   </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>aob28/a2962</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
                </target_node>
             </range>
          </link>
@@ -744,11 +772,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a50gn</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -757,9 +780,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -771,6 +791,18 @@
                         </entity>
                      </additional>
                   </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a50gn</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
                </target_node>
             </range>
          </link>
@@ -781,11 +813,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a52bh</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -794,9 +821,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -806,6 +830,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a52bh</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -878,11 +914,6 @@
                      </additional>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a8330</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -891,9 +922,18 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a8330</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -937,11 +977,6 @@
                      </additional>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a8330/a8334</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -950,9 +985,18 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a8330/a8334</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -2599,20 +2643,6 @@
                <target_relation>
                   <relationship>crm:P55_has_current_location</relationship>
                </target_relation>
-               <comments>
-                  <comment type="">
-                     <rationale>1. Ort (Place)</rationale>
-                     <alternatives/>
-                     <typical_mistakes/>
-                     <local_habits/>
-                     <link_to_cook_book/>
-                     <example>
-                        <example_source/>
-                        <example_target/>
-                     </example>
-                     <comments_last_update date="2024-04-28 19:44:56" person="Artem Kozlov"/>
-                  </comment>
-               </comments>
             </path>
             <range>
                <source_node>aob26/a2664</source_node>
@@ -3234,11 +3264,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a3100</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -3247,9 +3272,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3259,6 +3281,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a3100</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -3270,11 +3304,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a3105</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -3283,9 +3312,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3295,6 +3321,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a3105</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -3306,11 +3344,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a31bh</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -3319,9 +3352,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3333,6 +3363,18 @@
                         </entity>
                      </additional>
                   </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a31bh</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
                </target_node>
             </range>
          </link>
@@ -3343,11 +3385,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a31nn</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -3356,9 +3393,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3370,6 +3404,18 @@
                         </entity>
                      </additional>
                   </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a31nn</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
                </target_node>
             </range>
          </link>
@@ -3380,11 +3426,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a30gn</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -3393,9 +3434,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3406,6 +3444,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a30gn</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -3676,11 +3726,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a8540</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -3689,9 +3734,6 @@
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -3701,6 +3743,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a8540</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">.</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -4221,11 +4275,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a8540h</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -4234,9 +4283,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -4246,6 +4292,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a8540h</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -4257,11 +4315,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a84fl</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
@@ -4270,9 +4323,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -4282,6 +4332,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a84fl</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -4443,11 +4505,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>../a8476</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -4456,9 +4513,6 @@
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -4468,6 +4522,18 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>../a8476</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
