@@ -4173,7 +4173,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -8653,7 +8653,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -13133,7 +13133,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -17613,7 +17613,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -22048,7 +22048,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -26483,7 +26483,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -30918,7 +30918,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
@@ -35353,7 +35353,7 @@
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
                         <arg name="From" type="xpath">concat(text(), ' -')</arg>
-                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -')</arg>
                         <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
