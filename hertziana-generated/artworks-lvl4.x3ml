@@ -4166,9 +4166,9 @@
                         <arg name="timespan" type="xpath">../a8496/text()</arg>
                      </instance_generator>
                      <label_generator name="AcquisitionFormerLocation">
-                        <arg name="From" type="xpath">string-join((text(),'-'),' ')</arg>
-                        <arg name="Type" type="xpath">string-join((../a8497/text(),'-'),' ')</arg>
-                        <arg name="Date" type="xpath">string-join((../a8496/text(),'-'),' ')</arg>
+                        <arg name="From" type="xpath">concat(text(), ' -')</arg>
+                        <arg name="Type" type="xpath">concat(../a8497/text(), ' -'))</arg>
+                        <arg name="Date" type="xpath">concat(../a8496/text(), ' -')</arg>
                      </label_generator>
                   </entity>
                   <relationship>crm:P23_transferred_title_from</relationship>
