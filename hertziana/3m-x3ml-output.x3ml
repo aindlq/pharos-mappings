@@ -352,7 +352,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>47. Objekttitel (Object Title)</rationale>
+                     <rationale>46. Objekttitel (Object Title)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -361,7 +361,7 @@
                         <example_source/>
                         <example_target/>
                      </example>
-                     <comments_last_update date="2024-04-29 09:35:42" person="Artem Kozlov"/>
+                     <comments_last_update date="2024-04-29 09:37:47" person="Artem Kozlov"/>
                   </comment>
                </comments>
             </path>
