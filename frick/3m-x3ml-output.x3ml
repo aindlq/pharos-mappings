@@ -88,10 +88,11 @@
                   <relationship>crm:P4_has_time-span</relationship>
                   <entity variable="production-date[0101]">
                      <type>crm:E52_Time-Span</type>
-                     <instance_generator name="TimespanUri">
-                        <arg name="resourceType" type="constant">work</arg>
-                        <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
-                        <arg name="eventType" type="constant">production</arg>
+                     <instance_generator name="FourArgsURI">
+                        <arg name="first" type="constant">work</arg>
+                        <arg name="second" type="xpath">/record/controlfield[@tag="001"]</arg>
+                        <arg name="third" type="constant">production</arg>
+                        <arg name="fourth" type="constant">timespan</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>

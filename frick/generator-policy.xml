@@ -235,4 +235,16 @@
    <generator name="ApproximateProductionTimespanUri" prefix="prefix" type="any">
       <pattern>work/{resourceId}/production/timespan-approximate</pattern>
    </generator>
+   <generator name="TwoArgsURI" prefix="prefix" type="any">
+      <pattern>{first}/{second}</pattern>
+   </generator>
+   <generator name="ThreeArgsURI" prefix="prefix" type="any">
+      <pattern>{first}/{second}/{third}</pattern>
+   </generator>
+   <generator name="FourArgsURI" prefix="prefix" type="any">
+      <pattern>{first}/{second}/{third}/{fourth}</pattern>
+   </generator>
+   <generator name="FiveArgsURI" prefix="prefix" type="any">
+      <pattern>{first}/{second}/{third}/{fourth}/{fifth}</pattern>
+   </generator>
 </generator_policy>
