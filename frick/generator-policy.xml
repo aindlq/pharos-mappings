@@ -232,4 +232,7 @@
    <generator name="FixedIdentifierURI" prefix="prefix" type="any">
       <pattern>{subject_type}/{subject_id}/identifier</pattern>
    </generator>
+   <generator name="ApproximateProductionTimespanUri" prefix="prefix" type="any">
+      <pattern>work/{resourceId}/production/timespan-approximate</pattern>
+   </generator>
 </generator_policy>
