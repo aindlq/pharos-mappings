@@ -195,7 +195,9 @@
                   <relationship>crm:P4_has_time-span</relationship>
                   <entity variable="production-date[0102]">
                      <type>crm:E52_Time-Span</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="ApproximateProductionTimespanUri">
+                        <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
+                     </instance_generator>
                      <additional>
                         <relationship>crm:P86_falls_within</relationship>
                         <entity variable="production-date[0101]">
