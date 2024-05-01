@@ -56,9 +56,8 @@
             <target_node>
                <entity>
                   <type>crm:E22_Human-Made_Object</type>
-                  <instance_generator name="URIwithTypeAndId">
-                     <arg name="type" type="constant">work</arg>
-                     <arg name="id" type="xpath">controlfield[@tag="001"]</arg>
+                  <instance_generator name="Work">
+                     <arg name="work_id" type="xpath">controlfield[@tag="001"]</arg>
                   </instance_generator>
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">datafield[@tag="245"]/subfield[@code="a"]/text()</arg>
@@ -84,11 +83,9 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">/record/controlfield[@tag="001"]</arg>
-                        <arg name="identifier_type" type="constant">appellation</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
+                     <instance_generator name="WorkAppellation">
+                        <arg name="work_id" type="xpath">controlfield[@tag="001"]</arg>
+                        <arg name="appellation" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
@@ -138,11 +135,9 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">/record/controlfield[@tag="001"]</arg>
-                        <arg name="identifier_type" type="constant">identifier</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
+                     <instance_generator name="WorkAppellation">
+                        <arg name="work_id" type="xpath">controlfield[@tag="001"]</arg>
+                        <arg name="appellation" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
@@ -192,9 +187,8 @@
                   <relationship>crm:P2_has_type</relationship>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithTypeFull">
-                        <arg name="type" type="constant">type</arg>
-                        <arg name="id" type="xpath">text()</arg>
+                     <instance_generator name="Type">
+                        <arg name="type_id" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
