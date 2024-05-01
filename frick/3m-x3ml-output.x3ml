@@ -132,7 +132,7 @@
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="WorkAppellation">
-                        <arg name="work_id" type="xpath">/controlfield[@tag="001"]</arg>
+                        <arg name="work_id" type="xpath">/record/controlfield[@tag="001"]</arg>
                         <arg name="appellation" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
