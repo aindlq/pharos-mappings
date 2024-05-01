@@ -247,4 +247,39 @@
    <generator name="FiveArgsURI" prefix="prefix" type="any">
       <pattern>{first}/{second}/{third}/{fourth}/{fifth}</pattern>
    </generator>
+   <generator name="PlaceAppellation" prefix="prefix" type="any">
+      <pattern>place/{id}/appellation</pattern>
+   </generator>
+   <generator name="Place" prefix="prefix" type="any">
+      <pattern>place/{id}</pattern>
+   </generator>
+   <generator name="ProductionApproximateTimespanAppellation"
+              prefix="prefix"
+              type="any">
+      <pattern>work/{work_id}/production/timespan-approximate/appellation</pattern>
+   </generator>
+   <generator name="ProductionApproximateTimespan" prefix="prefix" type="any">
+      <pattern>work/{work_id}/production/timespan-approximate</pattern>
+   </generator>
+   <generator name="ProductionTimespan" prefix="prefix" type="any">
+      <pattern>work/{work_id}/production/timespan</pattern>
+   </generator>
+   <generator name="Production" prefix="prefix" type="any">
+      <pattern>work/{work_id}/production</pattern>
+   </generator>
+   <generator name="TypeIdentifier" prefix="prefix" type="any">
+      <pattern>type/{type_id}/identifier</pattern>
+   </generator>
+   <generator name="Type" prefix="prefix" type="any">
+      <pattern>type/{type_id}</pattern>
+   </generator>
+   <generator name="WorkIdentifier" prefix="prefix" shorten="yes" type="any">
+      <pattern>work/{work_id}/identifier</pattern>
+   </generator>
+   <generator name="Work" prefix="prefix" type="any">
+      <pattern>work/{work_id}</pattern>
+   </generator>
+   <generator name="WorkAppellation" prefix="prefix" shorten="yes" type="any">
+      <pattern>work/{work_id}/appellation/{appellation}</pattern>
+   </generator>
 </generator_policy>
