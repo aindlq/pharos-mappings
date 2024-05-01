@@ -203,7 +203,7 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="TypeIdentifier">
+                     <instance_generator name="TypeAppellation">
                         <arg name="type_id" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
@@ -254,10 +254,8 @@
                   <relationship>crm:P108i_was_produced_by</relationship>
                   <entity variable="production[16]">
                      <type>crm:E12_Production</type>
-                     <instance_generator name="EventUri">
-                        <arg name="resourceType" type="constant">work</arg>
-                        <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
-                        <arg name="eventType" type="constant">production</arg>
+                     <instance_generator name="Production">
+                        <arg name="work_id" type="xpath">/record/controlfield[@tag="001"]</arg>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P4_has_time-span</relationship>

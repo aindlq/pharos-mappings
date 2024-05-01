@@ -267,9 +267,6 @@
    <generator name="Production" prefix="prefix" type="any">
       <pattern>work/{work_id}/production</pattern>
    </generator>
-   <generator name="TypeIdentifier" prefix="prefix" type="any">
-      <pattern>type/{type_id}/identifier</pattern>
-   </generator>
    <generator name="Type" prefix="prefix" type="any">
       <pattern>type/{type_id}</pattern>
    </generator>
@@ -281,5 +278,8 @@
    </generator>
    <generator name="WorkAppellation" prefix="prefix" shorten="yes" type="any">
       <pattern>work/{work_id}/appellation/{appellation}</pattern>
+   </generator>
+   <generator name="TypeAppellation" prefix="prefix" type="any">
+      <pattern>type/{type_id}/appellation</pattern>
    </generator>
 </generator_policy>
