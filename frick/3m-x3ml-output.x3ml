@@ -203,9 +203,8 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="FixedIdentifierURI">
-                        <arg name="subject_type" type="constant">type</arg>
-                        <arg name="subject_id" type="xpath">text()</arg>
+                     <instance_generator name="TypeIdentifier">
+                        <arg name="type_id" type="xpath">text()</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
