@@ -10,7 +10,7 @@
          <source_info>
             <source_schema schema_file="991008297339707141.xml" type="xml" version="">991008297339707141</source_schema>
             <namespaces>
-               <namespace prefix="" uri=""/>
+               <namespace prefix="prefix" uri="https://artresearch.net/resource/frick/"/>
             </namespaces>
          </source_info>
       </source>
