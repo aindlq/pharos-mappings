@@ -475,18 +475,11 @@
                      <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P14_carried_out_by</relationship>
-                  <entity variable="production-date[0102]">
+                  <entity>
                      <type>crm:E21_Person</type>
                      <instance_generator name="ApproximateProductionTimespanUri">
                         <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
                      </instance_generator>
-                     <additional>
-                        <relationship>crm:P86_falls_within</relationship>
-                        <entity variable="production-date[0101]">
-                           <type>crm:E52_Time-Span</type>
-                           <instance_generator name="UUID"/>
-                        </entity>
-                     </additional>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
@@ -518,7 +511,7 @@
                   <entity>
                      <type>rdfs:Literal</type>
                      <instance_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
+                        <arg name="text" type="xpath">subfield[@code="a"]/text()</arg>
                      </instance_generator>
                   </entity>
                </target_node>
