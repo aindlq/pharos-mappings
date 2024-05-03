@@ -466,7 +466,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>datafield[@tag="260"]/subfield[@code="c"]</relation>
+                  <relation>datafield[@tag="100"]</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P108i_was_produced_by</relationship>
@@ -474,9 +474,9 @@
                      <type>crm:E12_Production</type>
                      <instance_generator name="UUID"/>
                   </entity>
-                  <relationship>crm:P4_has_time-span</relationship>
+                  <relationship>crm:P14_carried_out_by</relationship>
                   <entity variable="production-date[0102]">
-                     <type>crm:E52_Time-Span</type>
+                     <type>crm:E21_Person</type>
                      <instance_generator name="ApproximateProductionTimespanUri">
                         <arg name="resourceId" type="xpath">/record/controlfield[@tag="001"]</arg>
                      </instance_generator>
@@ -513,7 +513,7 @@
                </comments>
             </path>
             <range>
-               <source_node>datafield[@tag="260"]/subfield[@code="c"]</source_node>
+               <source_node>datafield[@tag="100"]</source_node>
                <target_node>
                   <entity>
                      <type>rdfs:Literal</type>
