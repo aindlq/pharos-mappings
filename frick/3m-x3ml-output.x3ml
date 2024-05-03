@@ -469,6 +469,23 @@
                   <relation>datafield[@tag="100"]</relation>
                </source_relation>
                <target_relation>
+                  <if>
+                     <or>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>subfield[@code="j"]</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <equals value="attributed to">subfield[@code="j"]</equals>
+                        </if>
+                        <if>
+                           <equals value="and assistants">subfiled[@code="j"]</equals>
+                        </if>
+                     </or>
+                  </if>
                   <relationship>crm:P108i_was_produced_by</relationship>
                   <entity variable="production[16]">
                      <type>crm:E12_Production</type>
