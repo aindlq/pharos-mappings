@@ -214,7 +214,7 @@
          <domain>
             <source_node>/obj/obj/aob30</source_node>
             <target_node>
-               <entity>
+               <entity global_variable="E39[12]">
                   <type>crm:E39_Actor</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">actor</arg>
