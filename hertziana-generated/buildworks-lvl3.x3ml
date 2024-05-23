@@ -5,24 +5,6 @@
       <general_description>Mappings for Hertziana PHAROS data. This are mappings only for top lever obj (obj with lvl="1"). Mappings for nested objects are automatically generated from this project and saved to hertziana-generated project. </general_description>
       <source>
          <source_info>
-            <source_schema schema_file="08066003.xml" type="xml" version="">08066003</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
-            <source_schema schema_file="08101845.xml" type="xml" version="">08101845</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
-            <source_schema schema_file="08061278.xml" type="xml" version="">08061278</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
             <source_schema schema_file="08047514.xml" type="xml" version="">08047514</source_schema>
             <namespaces>
                <namespace prefix="" uri=""/>
