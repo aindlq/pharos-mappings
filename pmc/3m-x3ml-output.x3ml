@@ -20,20 +20,13 @@
             <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
             <namespaces>
                <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
-               <namespace prefix="prefix" uri="https://artresearch.net/resource/pmc/"/>
+               <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+               <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
                <namespace prefix="custom" uri="https://artresearch.net/custom/"/>
                <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
                <namespace prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/>
                <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
-               <namespace prefix="rkd" uri="https://rkd.nl/artists/"/>
                <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
-               <namespace prefix="viaf" uri="http://viaf.org/viaf/"/>
-               <namespace prefix="ulan" uri="http://vocab.getty.edu/ulan/"/>
-               <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-               <namespace prefix="aat" uri="http://vocab.getty.edu/aat/"/>
-               <namespace prefix="vocab" uri="https://artresearch.net/resource/pmc/vocabulary/"/>
-               <namespace prefix="lido" uri="http://www.lido-schema.org"/>
-               <namespace prefix="wikidata" uri="http://www.wikidata.org/entity/"/>
                <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
             </namespaces>
          </target_info>
@@ -67,7 +60,7 @@
             <source_node>//lido:lido</source_node>
             <target_node>
                <entity>
-                  <type>crm:E22_Man-Made_Object</type>
+                  <type>crm:E22_Human-Made_Object</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">work</arg>
                      <arg name="id" type="xpath">lido:administrativeMetadata/lido:recordWrap/lido:recordID/text()</arg>
@@ -277,7 +270,7 @@
                <source_node>lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:titleWrap/lido:titleSet/lido:appellationValue</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
                         <arg name="text" type="constant">http://vocab.getty.edu/aat/300417204</arg>
                      </instance_generator>
@@ -318,7 +311,7 @@
                <source_node>lido:descriptiveMetadata/lido:objectIdentificationWrap/lido:titleWrap/lido:titleSet/lido:appellationValue</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
                         <arg name="text" type="constant">http://vocab.getty.edu/aat/300417227</arg>
                      </instance_generator>
@@ -703,7 +696,7 @@
                      <additional>
                         <relationship>crm:P14.1_in_the_role_of</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="xpath">lido:roleActor/lido:conceptID/text()</arg>
@@ -769,7 +762,7 @@
                      <additional>
                         <relationship>crm:P14.1_in_the_role_of</relationship>
                         <entity>
-                           <type>custom:noType</type>
+                           <type>crm:E55_Type</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">type</arg>
                               <arg name="id" type="xpath">lido:roleActor/lido:conceptID/text()</arg>
@@ -1029,7 +1022,7 @@
                   <relation>lido:administrativeMetadata/lido:resourceWrap/lido:resourceSet/@lido:recordID</relation>
                </source_relation>
                <target_relation>
-                  <relationship>crm:P138i_is_represented_by</relationship>
+                  <relationship>crm:P138i_has_representation</relationship>
                   <entity>
                      <type>crm:E36_Visual_Item</type>
                      <instance_generator name="VisualItemUri">
@@ -1290,7 +1283,7 @@
             <source_node>//lido:lido/lido:administrativeMetadata/lido:resourceWrap/lido:resourceSet/@lido:recordID</source_node>
             <target_node>
                <entity>
-                  <type>crm:E22_Man-Made_Object</type>
+                  <type>crm:E22_Human-Made_Object</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">photo</arg>
                      <arg name="id" type="xpath">.</arg>
@@ -1509,7 +1502,7 @@
                <source_node>../../../lido:rightsWorkWrap/lido:rightsWorkSet/lido:rightsType</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIwithAATId">
                         <arg name="id" type="xpath">lido:conceptID/text()</arg>
                      </instance_generator>
@@ -2595,7 +2588,7 @@
                <source_node>lido:actor/lido:genderActor</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
                         <arg name="text" type="constant">http://vocab.getty.edu/aat/300189559</arg>
                      </instance_generator>
@@ -2619,7 +2612,7 @@
                <source_node>lido:actor/lido:genderActor</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
                         <arg name="text" type="constant">http://vocab.getty.edu/aat/300189557</arg>
                      </instance_generator>
@@ -2901,7 +2894,7 @@
                <source_node>lido:actor/lido:genderActor</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
                         <arg name="text" type="constant">http://vocab.getty.edu/aat/300189559</arg>
                      </instance_generator>
@@ -2925,7 +2918,7 @@
                <source_node>lido:actor/lido:genderActor</source_node>
                <target_node>
                   <entity>
-                     <type>custom:noType</type>
+                     <type>crm:E55_Type</type>
                      <instance_generator name="URIorUUID">
                         <arg name="text" type="constant">http://vocab.getty.edu/aat/300189557</arg>
                      </instance_generator>

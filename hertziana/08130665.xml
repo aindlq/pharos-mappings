@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<obj xmlns:bhr="http://www.stegmannsystems.com/2009/bhr" xmlns:edp="http://www.stegmannsystems.com/2009/edp" xmlns:edp2="http://www.stegmannsystems.com/2009/edp2" xmlns:edpf="http://www.stegmannsystems.com/2009/edp-function" xmlns:edpm="http://www.stegmannsystems.com/2009/edp-meta" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" did="7100737" edp:created="2017-08-25T11:59:37Z" edp:createdBy="Admin" edp:eddVersion="2.7.0" edp:updated="2023-09-04T16:38:14Z" edp:updatedBy="Lisa.vonderhoeh@biblhertz.it" edp:version="7" id="08130665" lvl="1">
+
+  <a5000>08130665</a5000>
+
+  <Status>published</Status>
+
+  <a50gn>gnd4605504-6</a50gn>
+
+  <a5108>Altomonte</a5108>
+
+  <a5202>Santa Maria della Consolazione</a5202>
+
+  <a5208>Fondo Edifici di Culto (FEC)</a5208>
+
+  <a5060>
+        Datierung
+    <a5064>vor 1380</a5064>
+
+  </a5060>
+
+  <a5060>
+        Umgestaltung
+    <a5064 end="1600" start="1501">1501/1600</a5064>
+
+  </a5060>
+
+  <a5007>
+        Beziehung
+    <a5008>08184062</a5008>
+
+    <a5010>Konvent</a5010>
+
+  </a5007>
+
+  <a5220>Architektur</a5220>
+
+  <a5230>Klosterkirche</a5230>
+
+  <a8350>Paone, Stefania, Santa Maria della Consolazione ad Altomonte: un cantiere gotico in Calabria, Rom 2014</a8350>
+
+  <a8450>
+        Foto
+    <a8460>Bibliotheca Hertziana</a8460>
+
+    <a8470>U.Pl. D 15103</a8470>
+
+    <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:00:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhpd15103</a8540>
+
+    <a8515>cal</a8515>
+
+    <a8496>1973</a8496>
+
+    <a8482>s/w</a8482>
+
+    <a8490>Lehmann-Brockhaus, Otto</a8490>
+
+    <a8494>1973</a8494>
+
+    <a8497>Dono</a8497>
+
+    <a8498>Lehmann-Brockhaus, Otto</a8498>
+
+    <a8480>6x6</a8480>
+
+    <a8510>Ausgrabungen vor der Kirche</a8510>
+
+    <a8541>freigegeben</a8541>
+
+  </a8450>
+
+  <a8450>
+        Foto
+    <a8460>Bibliotheca Hertziana</a8460>
+
+    <a8470>U.Fi. D 31 e 50</a8470>
+
+    <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:00:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhfd31e50</a8540>
+
+    <a8515>cal</a8515>
+
+    <a8496>2012.02.08</a8496>
+
+    <a8494>vor 1966</a8494>
+
+    <a8510>Fassade: Detail</a8510>
+
+    <a8541>freigegeben</a8541>
+
+  </a8450>
+
+  <a9902>Bibliotheca Hertziana Rom</a9902>
+
+  <obj id="08184030">
+
+    <a5001>08184030</a5001>
+
+    <Status>published</Status>
+
+    <a5202>Westfassade</a5202>
+
+    <a5230>Fassade</a5230>
+
+    <a8450 bhr:createdBy="tafelmeier@biblhertz.it">
+            Foto (digital)
+      <a8460>O.C.S.A.</a8460>
+
+      <a8470>S Maria Consolazione, Altomonte (CS) 1.tif</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:10:00Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2020-06-086</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2020.06.10</a8496>
+
+      <a8482>color</a8482>
+
+      <a8490>Leotta, Marcello</a8490>
+
+      <a8494>2019</a8494>
+
+      <a8497>Bestellung 06/2020</a8497>
+
+      <a8510>Fassade, Campanile und Konvent, von Westen</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450 bhr:createdBy="tafelmeier@biblhertz.it">
+            Foto (digital)
+      <a8460>O.C.S.A.</a8460>
+
+      <a8470>S Maria Consolazione, Altomonte (CS) 2.tif</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T12:10:50Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2020-06-095</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2020.06.10</a8496>
+
+      <a8482>color</a8482>
+
+      <a8490>Leotta, Marcello</a8490>
+
+      <a8494>2019</a8494>
+
+      <a8497>Bestellung 06/2020</a8497>
+
+      <a8510>Fassade und Campanile, von Westen</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Fi. D 31 e 52</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:27:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhfd31e52</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2005.02.15</a8496>
+
+      <a8476>U.Fi. D 31 e 54</a8476>
+
+      <a8494>vor 1966</a8494>
+
+      <a8510>Detail: Fensterrose der Fassade (zugemauert)</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Fi. D 31 d 40</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:28:19Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhfd31d40</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2012.02.08</a8496>
+
+      <a8494>vor 1966</a8494>
+
+      <a8510>Fassade und Campanile</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Fi. D 41 b 13</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:34:20Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhfd41b13</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2008.12</a8496>
+
+      <a8510>Fassade (vor Restaurierung)</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Pl. D 15104</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:34:43Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhpd15104</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>1973</a8496>
+
+      <a8482>s/w</a8482>
+
+      <a8490>Lehmann-Brockhaus, Otto</a8490>
+
+      <a8494>1973</a8494>
+
+      <a8497>Dono</a8497>
+
+      <a8498>Lehmann-Brockhaus, Otto</a8498>
+
+      <a8480>6x6</a8480>
+
+      <a8510>Fassade, Schrägansicht</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Pl. D 15105</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:35:06Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhpd15105</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>1973</a8496>
+
+      <a8482>s/w</a8482>
+
+      <a8490>Lehmann-Brockhaus, Otto</a8490>
+
+      <a8494>1973</a8494>
+
+      <a8497>Dono</a8497>
+
+      <a8498>Lehmann-Brockhaus, Otto</a8498>
+
+      <a8480>6x6</a8480>
+
+      <a8510>Fassade und Campanile, Schrägansicht</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a9904>mta</a9904>
+
+    <a9902>Bibliotheca Hertziana Rom</a9902>
+
+  </obj>
+
+  <obj id="08184030">
+
+    <a5001>08184031</a5001>
+
+    <Status>published</Status>
+
+    <a5230>Campanile</a5230>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Fi. D 31 d 42</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:35:34Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhfd31d42</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2012.02.08</a8496>
+
+      <a8494>vor 1966</a8494>
+
+      <a8510>Campanile</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450>
+            Foto
+      <a8460>Bibliotheca Hertziana</a8460>
+
+      <a8470>U.Fi. D 31 d 44</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T11:36:02Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhfd31d44</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2012.02.08</a8496>
+
+      <a8494>vor 1966</a8494>
+
+      <a8510>Giebel und Campanile</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a9904>mta</a9904>
+
+    <a9902>Bibliotheca Hertziana Rom</a9902>
+
+    <a5200>Campanile</a5200>
+
+  </obj>
+
+  <obj>
+
+    <a5001>08184032</a5001>
+
+    <Status>published</Status>
+
+    <a5230>Chor</a5230>
+
+    <a8450 bhr:createdBy="tafelmeier@biblhertz.it">
+            Foto (digital)
+      <a8460>O.C.S.A.</a8460>
+
+      <a8470>S Maria Consolazione, Altomonte (CS) 3.tif</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T12:27:19Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2020-06-096</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2020.06.10</a8496>
+
+      <a8482>color</a8482>
+
+      <a8490>Leotta, Marcello</a8490>
+
+      <a8494>2019</a8494>
+
+      <a8497>Bestellung 06/2020</a8497>
+
+      <a8510>Südlicher Querhausarm und Chor</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a9904>mta</a9904>
+
+    <a9902>Bibliotheca Hertziana Rom</a9902>
+
+    <a5200>Chor</a5200>
+
+  </obj>
+
+  <obj>
+
+    <a5001>08184036</a5001>
+
+    <Status>published</Status>
+
+    <a5230>Innenraum</a5230>
+
+    <a8450 bhr:createdBy="tafelmeier@biblhertz.it">
+            Foto (digital)
+      <a8460>O.C.S.A.</a8460>
+
+      <a8470>S Maria Consolazione, Altomonte (CS) 5.tif</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T12:17:30Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2020-06-098</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2020.06.10</a8496>
+
+      <a8482>color</a8482>
+
+      <a8490>Leotta, Marcello</a8490>
+
+      <a8494>2019</a8494>
+
+      <a8497>Bestellung 06/2020</a8497>
+
+      <a8510>Langhaus Richtung Chor, nach Osten</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450 bhr:createdBy="tafelmeier@biblhertz.it">
+            Foto (digital)
+      <a8460>O.C.S.A.</a8460>
+
+      <a8470>S Maria Consolazione, Altomonte (CS) 17.tif</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T12:20:00Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2020-06-094</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2020.06.10</a8496>
+
+      <a8482>color</a8482>
+
+      <a8490>Leotta, Marcello</a8490>
+
+      <a8494>2019</a8494>
+
+      <a8497>Bestellung 06/2020</a8497>
+
+      <a8510>Langhaus Richtung Eingangwand, nach Westen</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a8450 bhr:createdBy="tafelmeier@biblhertz.it">
+            Foto (digital)
+      <a8460>O.C.S.A.</a8460>
+
+      <a8470>S Maria Consolazione, Altomonte (CS) 15.tif</a8470>
+
+      <a8540 edp:checksum="" edp:lastupdate="2020-06-10T12:34:14Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2020-06-092</a8540>
+
+      <a8515>cal</a8515>
+
+      <a8496>2020.06.10</a8496>
+
+      <a8482>color</a8482>
+
+      <a8490>Leotta, Marcello</a8490>
+
+      <a8494>2019</a8494>
+
+      <a8497>Bestellung 06/2020</a8497>
+
+      <a8510>Südlicher Querhausarm</a8510>
+
+      <a8541>freigegeben</a8541>
+
+    </a8450>
+
+    <a9904>mta</a9904>
+
+    <a9902>Bibliotheca Hertziana Rom</a9902>
+
+    <a5200>Innenraum</a5200>
+
+  </obj>
+
+</obj>
