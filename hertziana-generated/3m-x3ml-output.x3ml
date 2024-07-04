@@ -1,26 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      source_type="xpath"
-      version="1.0"
-      xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
+<x3ml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source_type="xpath" version="1.0" xsi:noNamespaceSchemaLocation="https://isl.ics.forth.gr/x3ml/schema/x3ml.xsd">
    <info>
-      <title>hertziana-generated</title>
-      <general_description/>
+      <title>hertziana</title>
+      <general_description>Mappings for Hertziana PHAROS data. This are mappings only for top lever obj (obj with lvl="1"). Mappings for nested objects are automatically generated from this project and saved to hertziana-generated project. </general_description>
       <source>
          <source_info>
-            <source_schema schema_file="08061278.xml" type="xml" version="">08061278</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
-            <source_schema schema_file="08066003.xml" type="xml" version="">08066003</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-         <source_info>
-            <source_schema schema_file="08101845.xml" type="xml" version="">08101845</source_schema>
+            <source_schema schema_file="08015427.xml" type="xml" version="">08015427</source_schema>
             <namespaces>
                <namespace prefix="" uri=""/>
             </namespaces>
@@ -28,7 +12,7 @@
       </source>
       <target>
          <target_info>
-            <target_schema schema_file="cidoc_crm_v6.2.1-2018April.rdf" type="rdf" version="">cidoc_crm_v6.2.1-2018April</target_schema>
+            <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
             <namespaces>
                <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
                <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -39,6 +23,17 @@
                <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
                <namespace prefix="crmdig" uri="http://www.ics.forth.gr/isl/CRMdig/"/>
                <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+            </namespaces>
+         </target_info>
+         <target_info>
+            <target_schema schema_file="CIDOC_CRM_v7.1.3_PC.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3_PC</target_schema>
+            <namespaces>
+               <namespace prefix="owl" uri="http://www.w3.org/2002/07/owl#"/>
+               <namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+               <namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#"/>
+               <namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
+               <namespace prefix="crm" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
+               <namespace prefix="base" uri="http://www.cidoc-crm.org/cidoc-crm/"/>
             </namespaces>
          </target_info>
       </target>
@@ -58,12 +53,11 @@
    </info>
    <namespaces>
       <namespace prefix="gernsheim" uri="https://artresearch.net/resource/gernsheim/"/>
-      <namespace prefix="iiif_json"
-                 uri="https://img.biblhertz.it/digilib/Scaler/IIIF/fototeca!2048px!im!"/>
-      <namespace prefix="prefix" uri="https://artresearch.net/resource/hertziana/"/>
+      <namespace prefix="iiif_json" uri="https://hertz-foto-os1.biblhertz.it/iiif/3/"/>
+      <namespace prefix="prefix" uri="https://artresearch.net/resource/midas/"/>
       <namespace prefix="vocab" uri="https://artresearch.net/resource/midas/vocabulary/"/>
       <namespace prefix="image" uri="https://fotothek.biblhertz.it/bh/320px/"/>
-      <namespace prefix="original" uri="http://foto.biblhertz.it/"/>
+      <namespace prefix="original" uri="https://foto.biblhertz.it/document/obj/"/>
       <namespace prefix="ico" uri="http://iconclass.org/"/>
    </namespaces>
    <mappings>
@@ -1383,7 +1377,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -1422,7 +1416,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -1617,7 +1611,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -1665,7 +1659,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -1799,7 +1793,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -2027,7 +2021,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -2887,7 +2881,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -2969,7 +2963,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -3338,7 +3332,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -3802,7 +3796,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -4396,7 +4390,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -4542,7 +4536,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -4720,7 +4714,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -4762,7 +4756,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -4772,7 +4766,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -4801,7 +4795,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -4829,7 +4823,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -4839,7 +4833,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -4921,7 +4915,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -5138,7 +5132,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -5161,7 +5155,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -5171,7 +5165,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -5251,7 +5245,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -5547,7 +5541,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -5587,7 +5581,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -5748,7 +5742,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -5758,7 +5752,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -5787,7 +5781,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -5904,7 +5898,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -6004,7 +5998,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -6079,7 +6073,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -7263,7 +7257,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj/obj</source_node>
             <target_node>
@@ -8579,7 +8573,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -8618,7 +8612,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -8813,7 +8807,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -8861,7 +8855,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -8995,7 +8989,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -9223,7 +9217,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -10083,7 +10077,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -10165,7 +10159,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -10534,7 +10528,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -10998,7 +10992,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -11592,7 +11586,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -11738,7 +11732,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -11916,7 +11910,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -11958,7 +11952,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -11968,7 +11962,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -11997,7 +11991,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -12025,7 +12019,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -12035,7 +12029,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -12117,7 +12111,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -12334,7 +12328,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -12357,7 +12351,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -12367,7 +12361,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -12447,7 +12441,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -12743,7 +12737,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -12783,7 +12777,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -12944,7 +12938,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -12954,7 +12948,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -12983,7 +12977,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -13100,7 +13094,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -13200,7 +13194,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -13275,7 +13269,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -14459,7 +14453,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj/obj/obj</source_node>
             <target_node>
@@ -15775,7 +15769,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -15814,7 +15808,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -16009,7 +16003,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -16057,7 +16051,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -16191,7 +16185,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -16419,7 +16413,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -17279,7 +17273,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -17361,7 +17355,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -17730,7 +17724,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -18194,7 +18188,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -18788,7 +18782,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -18934,7 +18928,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -19112,7 +19106,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -19154,7 +19148,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -19164,7 +19158,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -19193,7 +19187,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -19221,7 +19215,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -19231,7 +19225,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -19313,7 +19307,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -19530,7 +19524,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -19553,7 +19547,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -19563,7 +19557,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -19643,7 +19637,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -19939,7 +19933,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -19979,7 +19973,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -20140,7 +20134,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -20150,7 +20144,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -20179,7 +20173,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -20296,7 +20290,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -20396,7 +20390,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -20471,7 +20465,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -21655,7 +21649,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj/obj/obj/obj</source_node>
             <target_node>
@@ -22971,7 +22965,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -23010,7 +23004,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -23205,7 +23199,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -23253,7 +23247,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -23387,7 +23381,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -23615,7 +23609,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -24475,7 +24469,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -24557,7 +24551,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -24926,7 +24920,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -25390,7 +25384,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -25984,7 +25978,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -26130,7 +26124,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -26308,7 +26302,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -26350,7 +26344,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -26360,7 +26354,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -26389,7 +26383,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -26417,7 +26411,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -26427,7 +26421,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -26509,7 +26503,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -26726,7 +26720,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -26749,7 +26743,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -26759,7 +26753,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -26839,7 +26833,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -27135,7 +27129,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -27175,7 +27169,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -27336,7 +27330,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -27346,7 +27340,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -27375,7 +27369,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -27492,7 +27486,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -27592,7 +27586,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -27667,7 +27661,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -28851,7 +28845,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj</source_node>
             <target_node>
@@ -28911,16 +28905,15 @@
                         </instance_generator>
                      </entity>
                   </additional>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIorUUID">
-                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-               </entity>
+               <additional>
+  <relationship>crm:P2_has_type</relationship>
+    <entity>
+      <type>custom:noType</type>
+      <instance_generator name="URIorUUID">
+        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+      </instance_generator>
+    </entity>
+</additional></entity>
             </target_node>
             <comments>
                <comment type="">
@@ -30090,7 +30083,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -30129,7 +30122,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -30324,7 +30317,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -30372,7 +30365,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -30506,7 +30499,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -30734,7 +30727,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -31594,7 +31587,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -31676,7 +31669,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -32045,7 +32038,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -32509,7 +32502,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -33103,7 +33096,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -33249,7 +33242,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -33427,7 +33420,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -33469,7 +33462,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -33479,7 +33472,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -33508,7 +33501,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -33536,7 +33529,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -33546,7 +33539,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -33628,7 +33621,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -33845,7 +33838,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -33868,7 +33861,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -33878,7 +33871,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -33958,7 +33951,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -34254,7 +34247,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -34294,7 +34287,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -34455,7 +34448,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -34465,7 +34458,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -34494,7 +34487,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -34611,7 +34604,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -34711,7 +34704,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -34786,7 +34779,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -35970,7 +35963,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj/obj</source_node>
             <target_node>
@@ -36030,16 +36023,15 @@
                         </instance_generator>
                      </entity>
                   </additional>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIorUUID">
-                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-               </entity>
+               <additional>
+  <relationship>crm:P2_has_type</relationship>
+    <entity>
+      <type>custom:noType</type>
+      <instance_generator name="URIorUUID">
+        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+      </instance_generator>
+    </entity>
+</additional></entity>
             </target_node>
             <comments>
                <comment type="">
@@ -37209,7 +37201,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -37248,7 +37240,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -37443,7 +37435,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -37491,7 +37483,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -37625,7 +37617,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -37853,7 +37845,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -38713,7 +38705,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -38795,7 +38787,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -39164,7 +39156,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -39628,7 +39620,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -40222,7 +40214,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -40368,7 +40360,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -40546,7 +40538,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -40588,7 +40580,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -40598,7 +40590,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -40627,7 +40619,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -40655,7 +40647,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -40665,7 +40657,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -40747,7 +40739,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -40964,7 +40956,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -40987,7 +40979,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -40997,7 +40989,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -41077,7 +41069,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -41373,7 +41365,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -41413,7 +41405,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -41574,7 +41566,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -41584,7 +41576,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -41613,7 +41605,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -41730,7 +41722,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -41830,7 +41822,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -41905,7 +41897,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -43089,7 +43081,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj/obj/obj</source_node>
             <target_node>
@@ -43149,16 +43141,15 @@
                         </instance_generator>
                      </entity>
                   </additional>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIorUUID">
-                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-               </entity>
+               <additional>
+  <relationship>crm:P2_has_type</relationship>
+    <entity>
+      <type>custom:noType</type>
+      <instance_generator name="URIorUUID">
+        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+      </instance_generator>
+    </entity>
+</additional></entity>
             </target_node>
             <comments>
                <comment type="">
@@ -44328,7 +44319,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -44367,7 +44358,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -44562,7 +44553,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -44610,7 +44601,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -44744,7 +44735,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -44972,7 +44963,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -45832,7 +45823,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -45914,7 +45905,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -46283,7 +46274,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -46747,7 +46738,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -47341,7 +47332,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -47487,7 +47478,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -47665,7 +47656,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -47707,7 +47698,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -47717,7 +47708,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -47746,7 +47737,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -47774,7 +47765,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -47784,7 +47775,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -47866,7 +47857,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -48083,7 +48074,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -48106,7 +48097,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -48116,7 +48107,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -48196,7 +48187,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -48492,7 +48483,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -48532,7 +48523,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -48693,7 +48684,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -48703,7 +48694,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -48732,7 +48723,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -48849,7 +48840,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -48949,7 +48940,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -49024,7 +49015,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -50208,7 +50199,7 @@
             </range>
          </link>
       </mapping>
-      <mapping>
+   <mapping>
          <domain>
             <source_node>//obj/obj/obj/obj</source_node>
             <target_node>
@@ -50268,16 +50259,15 @@
                         </instance_generator>
                      </entity>
                   </additional>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>custom:noType</type>
-                        <instance_generator name="URIorUUID">
-                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-               </entity>
+               <additional>
+  <relationship>crm:P2_has_type</relationship>
+    <entity>
+      <type>custom:noType</type>
+      <instance_generator name="URIorUUID">
+        <arg name="text" type="constant">http://vocab.getty.edu/aat/300265418</arg>
+      </instance_generator>
+    </entity>
+</additional></entity>
             </target_node>
             <comments>
                <comment type="">
@@ -51447,7 +51437,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -51486,7 +51476,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>101. a5116 Straße/Platz</rationale>
+                     <rationale>101. a5116 Stra&#223;e/Platz</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -51681,7 +51671,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>52. a5360 Höhe x Breite</rationale>
+                     <rationale>52. a5360 H&#246;he x Breite</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -51729,7 +51719,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>53. a5364 Maßart</rationale>
+                     <rationale>53. a5364 Ma&#223;art</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -51863,7 +51853,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>59. a5500 primäre Ikonographie</rationale>
+                     <rationale>59. a5500 prim&#228;re Ikonographie</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -52091,7 +52081,7 @@
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
                         <arg name="type" type="constant">text</arg>
-                        <arg name="id" type="position"></arg>
+                        <arg name="id" type="position"/>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">a5686/text()</arg>
@@ -52951,7 +52941,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. a2900 Sozietätsname</rationale>
+                     <rationale>9. a2900 Soziet&#228;tsname</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -53033,7 +53023,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>22. a3100 Künstlername: Name, Vorname </rationale>
+                     <rationale>22. a3100 K&#252;nstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -53402,7 +53392,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>89. a8541 Verfügbarkeit</rationale>
+                     <rationale>89. a8541 Verf&#252;gbarkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -53866,7 +53856,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>77. a8487 Trägermaterial</rationale>
+                     <rationale>77. a8487 Tr&#228;germaterial</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -54460,7 +54450,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -54606,7 +54596,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>28. a3475 Tätigkeit</rationale>
+                     <rationale>28. a3475 T&#228;tigkeit</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -54784,7 +54774,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>27. a3470 Authentizität </rationale>
+                     <rationale>27. a3470 Authentizit&#228;t </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -54826,7 +54816,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -54836,7 +54826,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -54865,7 +54855,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="sequence" type="position"></arg>
+                     <arg name="sequence" type="position"/>
                   </instance_generator>
                   <label_generator name="AcquisitionCurrentLocation">
                      <arg name="To" type="xpath">a2900/text()</arg>
@@ -54893,7 +54883,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -54903,7 +54893,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <label_generator name="Literal">
                                  <arg name="text" type="xpath">a2996/text()</arg>
@@ -54985,7 +54975,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>9. Sozietätsname a2900</rationale>
+                     <rationale>9. Soziet&#228;tsname a2900</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -55202,7 +55192,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -55225,7 +55215,7 @@
                            <arg name="work" type="constant">work</arg>
                            <arg name="id" type="xpath">../@id</arg>
                            <arg name="prodtype" type="xpath">text()</arg>
-                           <arg name="position" type="position"></arg>
+                           <arg name="position" type="position"/>
                         </instance_generator>
                         <additional>
                            <relationship>crm:P1_is_identified_by</relationship>
@@ -55235,7 +55225,7 @@
                                  <arg name="work" type="constant">work</arg>
                                  <arg name="id" type="xpath">../@id</arg>
                                  <arg name="prodtype" type="xpath">text()</arg>
-                                 <arg name="position" type="position"></arg>
+                                 <arg name="position" type="position"/>
                               </instance_generator>
                               <additional>
                                  <relationship>crm:P190_has_symbolic_content</relationship>
@@ -55315,7 +55305,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -55611,7 +55601,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>95. a3094 Authentizität (Zuschreibung)</rationale>
+                     <rationale>95. a3094 Authentizit&#228;t (Zuschreibung)</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -55651,7 +55641,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -55812,7 +55802,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -55822,7 +55812,7 @@
                         <arg name="work" type="constant">work</arg>
                         <arg name="id" type="xpath">../../@id</arg>
                         <arg name="prodtype" type="xpath">../text()</arg>
-                        <arg name="position" type="position"></arg>
+                        <arg name="position" type="position"/>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
@@ -55851,7 +55841,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">style</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -55968,7 +55958,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -56068,7 +56058,7 @@
                      <arg name="resourceType" type="constant">production</arg>
                      <arg name="resourceId" type="constant">technique</arg>
                      <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
@@ -56143,7 +56133,7 @@
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
                      <arg name="eventType" type="constant">text()</arg>
-                     <arg name="activityType" type="position"></arg>
+                     <arg name="activityType" type="position"/>
                   </instance_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
