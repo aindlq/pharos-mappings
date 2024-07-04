@@ -2161,12 +2161,7 @@
                   <relationship>crm:P46i_forms_part_of</relationship>
                   <entity>
                      <type>crm:E24_Physical_Human-Made_Thing</type>
-                     <instance_generator name="builtwork - part">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">lower-case(concat(a2740, a2750))</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P46i_forms_part_of</relationship>
                </target_relation>
@@ -6568,11 +6563,7 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="builtwork - name">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="id" type="constant">id</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
@@ -6627,11 +6618,7 @@
                   <relationship>crm:P156_occupies</relationship>
                   <entity variable="E53[built_work_place]">
                      <type>crm:E53_Place</type>
-                     <instance_generator name="builtwork - place">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="place" type="constant">place</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P89_falls_within</relationship>
                   <entity variable="E53[builtwork_city]">
@@ -6680,11 +6667,7 @@
                   <relationship>crm:P156_occupies</relationship>
                   <entity variable="E53[built_work_place]">
                      <type>crm:E53_Place</type>
-                     <instance_generator name="builtwork - place">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="place" type="constant">place</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P89_falls_within</relationship>
                   <entity variable="E53[builtwork_district]">
@@ -6747,11 +6730,7 @@
                      <relationship>crm:P156_occupies</relationship>
                      <entity variable="E53[builtwork_place]">
                         <type>crm:E53_Place</type>
-                        <instance_generator name="builtwork - place">
-                           <arg name="work" type="constant">work</arg>
-                           <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                           <arg name="place" type="constant">place</arg>
-                        </instance_generator>
+                        <instance_generator name="UUID"/>
                      </entity>
                   </additional>
                </entity>
@@ -6785,23 +6764,12 @@
                   <relationship>crm:P89i_contains</relationship>
                   <entity variable="E53[builtwork_sub-place]">
                      <type>crm:E53_Place</type>
-                     <instance_generator name="builtwork - sub_place">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="place" type="constant">place</arg>
-                        <arg name="placeId_HASHED_CONTENTS" type="xpath">lower-case(text())</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="builtwork - sub_place - name">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="place" type="constant">place</arg>
-                        <arg name="placeId_HASHED_CONTENTS" type="xpath">lower-case(text())</arg>
-                        <arg name="id" type="constant">id</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
@@ -6827,12 +6795,7 @@
                   <relationship>crm:P46_is_composed_of</relationship>
                   <entity variable="E24[builtwork_part]">
                      <type>crm:E24_Physical_Human-Made_Thing</type>
-                     <instance_generator name="builtwork - part">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P2_has_type</relationship>
                </target_relation>
@@ -6859,23 +6822,12 @@
                   <relationship>crm:P46_is_composed_of</relationship>
                   <entity variable="E24[builtwork_part]">
                      <type>crm:E24_Physical_Human-Made_Thing</type>
-                     <instance_generator name="builtwork - part">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="builtwork - part - name">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                        <arg name="id" type="constant">id</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
@@ -6906,27 +6858,12 @@
                   <relationship>crm:P89i_contains</relationship>
                   <entity variable="E53[builtwork_part_place_sub-place]">
                      <type>crm:E53_Place</type>
-                     <instance_generator name="builtwork - part - place - sub_place">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                        <arg name="place" type="constant">place</arg>
-                        <arg name="subPlaceId_HASHED_CONTENTS" type="xpath">lower-case(text())</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="builtwork - part - place - sub_place - name">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                        <arg name="place" type="constant">place</arg>
-                        <arg name="subPlaceId_HASHED_CONTENTS" type="xpath">lower-case(text())</arg>
-                        <arg name="id" type="constant">id</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                   <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
@@ -6965,13 +6902,7 @@
                <target_node>
                   <entity variable="E53[builtwork_part_place]">
                      <type>crm:E53_Place</type>
-                     <instance_generator name="builtwork - part - place">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId_HASHED_CONTENTS" type="xpath">lower-case(concat(a2740, a2750))</arg>
-                        <arg name="place" type="constant">place</arg>
-                     </instance_generator>
+                     <instance_generator name="UUID"/>
                   </entity>
                </target_node>
             </range>

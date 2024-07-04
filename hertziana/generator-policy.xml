@@ -207,102 +207,6 @@
    <generator name="vocab with type - name" prefix="vocab" type="any">
       <pattern>{type}/{id}/id</pattern>
    </generator>
-   <generator name="object - place" prefix="prefix" shorten="true" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="place"/>
-         <set-arg name="placeId_HASHED_CONTENTS"/>
-      </custom>
-   </generator>
-   <generator name="builtwork" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - name" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="id"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - place" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="place"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - sub_place" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="place"/>
-         <set-arg name="placeId_HASHED_CONTENTS"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - sub_place - name" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="place"/>
-         <set-arg name="placeId_HASHED_CONTENTS"/>
-         <set-arg name="id"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - part" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="part"/>
-         <set-arg name="partId_HASHED_CONTENTS"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - part - name" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="part"/>
-         <set-arg name="partId_HASHED_CONTENTS"/>
-         <set-arg name="id"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - part - place" prefix="prefix" type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="part"/>
-         <set-arg name="partId_HASHED_CONTENTS"/>
-         <set-arg name="place"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - part - place - sub_place"
-              prefix="prefix"
-              type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="part"/>
-         <set-arg name="partId_HASHED_CONTENTS"/>
-         <set-arg name="place"/>
-         <set-arg name="subPlaceId_HASHED_CONTENTS"/>
-      </custom>
-   </generator>
-   <generator name="builtwork - part - place - sub_place - name"
-              prefix="prefix"
-              type="any">
-      <custom generatorClass="gr.forth.MultiHashingGenerator">
-         <set-arg name="work"/>
-         <set-arg name="objId"/>
-         <set-arg name="part"/>
-         <set-arg name="partId_HASHED_CONTENTS"/>
-         <set-arg name="place"/>
-         <set-arg name="subPlaceId_HASHED_CONTENTS"/>
-         <set-arg name="id"/>
-      </custom>
-   </generator>
    <generator name="TimespanUri alternative productions"
               prefix="prefix"
               type="instance"
@@ -332,5 +236,42 @@
    </generator>
    <generator name="object - former place" prefix="prefix" type="any">
       <pattern>work/{objId}/place/{placeType}/{index}</pattern>
+   </generator>
+   <generator name="builtwork - part - place - sub_place - name"
+              prefix="prefix"
+              type="any">
+      <pattern>work/{objId}/part/{partId}/place/{subPlaceId}/id</pattern>
+   </generator>
+   <generator name="builtwork - part - place - sub_place"
+              prefix="prefix"
+              type="any">
+      <pattern>work/{objId}/part/{partId}/place/{subPlaceId}</pattern>
+   </generator>
+   <generator name="builtwork - part - place" prefix="prefix" type="any">
+      <pattern>work/{objId}/part/{partId}/place</pattern>
+   </generator>
+   <generator name="builtwork - part - name" prefix="prefix" type="any">
+      <pattern>work/{objId}/part/{partId}/id</pattern>
+   </generator>
+   <generator name="builtwork - part" prefix="prefix" type="any">
+      <pattern>work/{objId}/part/{partId}</pattern>
+   </generator>
+   <generator name="builtwork - sub_place - name" prefix="prefix" type="any">
+      <pattern>work/{objId}/place/{placeId}/id</pattern>
+   </generator>
+   <generator name="builtwork - sub_place" prefix="prefix" type="any">
+      <pattern>work/{objId}/place/{placeId}</pattern>
+   </generator>
+   <generator name="builtwork - place" prefix="prefix" type="any">
+      <pattern>work/{objId}/place</pattern>
+   </generator>
+   <generator name="builtwork - name" prefix="prefix" type="any">
+      <pattern>work/{objId}/id</pattern>
+   </generator>
+   <generator name="builtwork" prefix="prefix" type="any">
+      <pattern>work/{objId}</pattern>
+   </generator>
+   <generator name="object - place" prefix="prefix" shorten="true" type="any">
+      <pattern>work/{objId}/place/{placeId}</pattern>
    </generator>
 </generator_policy>
