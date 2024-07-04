@@ -76,7 +76,7 @@
                      <arg name="id" type="xpath">@id</arg>
                   </instance_generator>
                   <label_generator name="Literal">
-                     <arg name="text" type="xpath">./a5200/text()</arg>
+                     <arg name="text" type="xpath">a5200/text()</arg>
                   </label_generator>
                   <additional>
                      <relationship>crm:P2_has_type</relationship>
