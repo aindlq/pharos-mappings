@@ -79,15 +79,6 @@
                      <arg name="text" type="xpath">a5200/text()</arg>
                   </label_generator>
                   <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>crm:E55_Type</type>
-                        <instance_generator name="URIorUUID">
-                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
                      <relationship>custom:has_original_record</relationship>
                      <entity>
                         <type>crm:E32_Identifier</type>
@@ -103,26 +94,6 @@
                               </instance_generator>
                            </entity>
                         </additional>
-                     </entity>
-                  </additional>
-                  <additional>
-                     <relationship>crm:P108i_was_produced_by</relationship>
-                     <entity variable="E12[production]">
-                        <type>crm:E12_Production</type>
-                        <instance_generator name="mainprod">
-                           <arg name="type" type="constant">work</arg>
-                           <arg name="id" type="xpath">@id</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-                  <additional>
-                     <relationship>crm:P24i_changed_ownership_through</relationship>
-                     <entity variable="E8[acquisition]">
-                        <type>crm:E8_Acquisition</type>
-                        <instance_generator name="mainacq">
-                           <arg name="work" type="constant">work</arg>
-                           <arg name="id" type="xpath">@id</arg>
-                        </instance_generator>
                      </entity>
                   </additional>
                </entity>
@@ -190,6 +161,51 @@
                </comment>
             </comments>
          </domain>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P2_has_type</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="URIorUUID">
+                        <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>custom:has_original_record</relationship>
+                  <entity>
+                     <type>crm:E32_Identifier</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P2_has_type</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
          <link>
             <path>
                <source_relation>
