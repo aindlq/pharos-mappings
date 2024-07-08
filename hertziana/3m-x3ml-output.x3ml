@@ -2962,7 +2962,7 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P108i_was_produced_by</relationship>
-                  <entity global_variable="E12[production]">
+                  <entity variable="E12[production]">
                      <type>crm:E12_Production</type>
                      <instance_generator name="UUID"/>
                   </entity>
