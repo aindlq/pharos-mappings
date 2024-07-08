@@ -8,9 +8,11 @@
       <general_description/>
       <source>
          <source_info>
-            <source_schema schema_file="08066003(3).xml" type="xml" version="">08066003(3)</source_schema>
+            <source_schema schema_file="LocalAuthority-Artist.aps_part_0.xml"
+                           type="xml"
+                           version="">LocalAuthority-Artist.aps_part_0</source_schema>
             <namespaces>
-               <namespace prefix="" uri=""/>
+               <namespace prefix="edp" uri="http://www.stegmannsystems.com/2009/edp"/>
             </namespaces>
          </source_info>
       </source>
