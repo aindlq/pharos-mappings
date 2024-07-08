@@ -78,24 +78,6 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">a5200/text()</arg>
                   </label_generator>
-                  <additional>
-                     <relationship>custom:has_original_record</relationship>
-                     <entity>
-                        <type>crm:E32_Identifier</type>
-                        <instance_generator name="OriginalURI">
-                           <arg name="id" type="xpath">@id</arg>
-                        </instance_generator>
-                        <additional>
-                           <relationship>crm:P2_has_type</relationship>
-                           <entity>
-                              <type>crm:E55_Type</type>
-                              <instance_generator name="URIorUUID">
-                                 <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
-                              </instance_generator>
-                           </entity>
-                        </additional>
-                     </entity>
-                  </additional>
                </entity>
             </target_node>
             <comments>
@@ -191,7 +173,9 @@
                   <relationship>custom:has_original_record</relationship>
                   <entity>
                      <type>crm:E32_Identifier</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="OriginalURI">
+                        <arg name="id" type="xpath">@id</arg>
+                     </instance_generator>
                   </entity>
                   <relationship>crm:P2_has_type</relationship>
                </target_relation>
@@ -201,7 +185,9 @@
                <target_node>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="URIorUUID">
+                        <arg name="text" type="constant">http://vocab.getty.edu/aat/300404630</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
