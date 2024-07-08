@@ -2923,7 +2923,10 @@
                   <relationship>crm:P108i_was_produced_by</relationship>
                   <entity variable="E12[production]">
                      <type>crm:E12_Production</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="mainprod">
+                        <arg name="type" type="constant">work</arg>
+                        <arg name="id" type="xpath">../@id</arg>
+                     </instance_generator>
                   </entity>
                   <relationship>crm:P32_used_general_technique</relationship>
                </target_relation>
@@ -2964,7 +2967,10 @@
                   <relationship>crm:P108i_was_produced_by</relationship>
                   <entity variable="E12[production]">
                      <type>crm:E12_Production</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="mainprod">
+                        <arg name="type" type="constant">work</arg>
+                        <arg name="id" type="xpath">../@id</arg>
+                     </instance_generator>
                   </entity>
                   <relationship>crm:P33_used_specific_technique</relationship>
                   <entity>
