@@ -2914,6 +2914,44 @@
                </target_node>
             </range>
          </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>a5300</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity variable="E12[production]">
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P32_used_general_technique</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>62. a5300 Technik</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-07-08 12:38:34" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>a5300</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
       <mapping>
          <domain>
@@ -5987,81 +6025,6 @@
                            </instance_generator>
                         </entity>
                      </additional>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
-      </mapping>
-      <mapping>
-         <domain>
-            <source_node>//obj/a5300</source_node>
-            <target_node>
-               <entity>
-                  <type>crm:E12_Production</type>
-                  <instance_generator name="ComplexActivityUri">
-                     <arg name="resourceType" type="constant">production</arg>
-                     <arg name="resourceId" type="constant">technique</arg>
-                     <arg name="eventType" type="xpath">text()</arg>
-                     <arg name="activityType" type="position"></arg>
-                  </instance_generator>
-                  <additional>
-                     <relationship>crm:P2_has_type</relationship>
-                     <entity>
-                        <type>crm:E55_Type</type>
-                        <instance_generator name="URIwithVocabTypeAndId">
-                           <arg name="type" type="constant">technique</arg>
-                           <arg name="id" type="xpath">text()</arg>
-                        </instance_generator>
-                        <label_generator name="Literal">
-                           <arg name="text" type="xpath">text()</arg>
-                        </label_generator>
-                     </entity>
-                  </additional>
-                  <additional>
-                     <relationship>crm:P33_used_specific_technique</relationship>
-                     <entity>
-                        <type>crm:E29_Design_or_Procedure</type>
-                        <instance_generator name="URIwithVocabTypeAndId">
-                           <arg name="type" type="constant">technique</arg>
-                           <arg name="id" type="xpath">text()</arg>
-                        </instance_generator>
-                     </entity>
-                  </additional>
-               </entity>
-            </target_node>
-            <comments>
-               <comment type="">
-                  <rationale>62. a5300 Technik</rationale>
-                  <alternatives/>
-                  <typical_mistakes/>
-                  <local_habits/>
-                  <link_to_cook_book/>
-                  <example>
-                     <example_source/>
-                     <example_target/>
-                  </example>
-                  <comments_last_update date="2024-06-22 21:05:28" person="Artem Kozlov"/>
-               </comment>
-            </comments>
-         </domain>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>//obj/a5300</relation>
-               </source_relation>
-               <target_relation>
-                  <relationship>crm:P9i_forms_part_of</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>//obj/a5300</source_node>
-               <target_node>
-                  <entity variable="E12[production]">
-                     <type>crm:E12_Production</type>
-                     <instance_generator name="mainprod">
-                        <arg name="type" type="constant">work</arg>
-                        <arg name="id" type="xpath">../@id</arg>
-                     </instance_generator>
                   </entity>
                </target_node>
             </range>
