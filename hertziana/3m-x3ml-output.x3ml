@@ -6,14 +6,7 @@
    <info>
       <title>hertziana</title>
       <general_description>Mappings for Hertziana PHAROS data. This are mappings only for top lever obj (obj with lvl="1"). Mappings for nested objects are automatically generated from this project and saved to hertziana-generated project. </general_description>
-      <source>
-         <source_info>
-            <source_schema schema_file="08066003(3).xml" type="xml" version="">08066003(3)</source_schema>
-            <namespaces>
-               <namespace prefix="" uri=""/>
-            </namespaces>
-         </source_info>
-      </source>
+      <source/>
       <target>
          <target_info>
             <target_schema schema_file="CIDOC_CRM_v7.1.3.rdf" type="rdf" version="">CIDOC_CRM_v7.1.3</target_schema>
@@ -1500,7 +1493,7 @@
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIwithType">
                               <arg name="type" type="constant">type</arg>
-                              <arg name="id" type="constant">Street Number</arg>
+                              <arg name="id" type="constant">StreetNumber</arg>
                            </instance_generator>
                         </entity>
                      </additional>
