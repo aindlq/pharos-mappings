@@ -2947,7 +2947,10 @@
                <target_node>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">technique</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
