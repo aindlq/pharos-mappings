@@ -321,7 +321,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>a3100</relation>
+                  <relation>../a3100</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -342,7 +342,7 @@
                </comments>
             </path>
             <range>
-               <source_node>a3100</source_node>
+               <source_node>../a3100</source_node>
                <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
@@ -371,7 +371,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>a3105</relation>
+                  <relation>../a3105</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -392,7 +392,7 @@
                </comments>
             </path>
             <range>
-               <source_node>a3105</source_node>
+               <source_node>../a3105</source_node>
                <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
@@ -421,7 +421,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>a31bh</relation>
+                  <relation>../a31bh</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -442,7 +442,7 @@
                </comments>
             </path>
             <range>
-               <source_node>a31bh</source_node>
+               <source_node>../a31bh</source_node>
                <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
@@ -472,7 +472,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>a31nn</relation>
+                  <relation>../a31nn</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -493,7 +493,7 @@
                </comments>
             </path>
             <range>
-               <source_node>a31nn</source_node>
+               <source_node>../a31nn</source_node>
                <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
@@ -523,7 +523,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>a30gn</relation>
+                  <relation>../a30gn</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -544,7 +544,7 @@
                </comments>
             </path>
             <range>
-               <source_node>a30gn</source_node>
+               <source_node>../a30gn</source_node>
                <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
