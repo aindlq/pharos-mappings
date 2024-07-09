@@ -2999,6 +2999,30 @@
                </target_node>
             </range>
          </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>aob30</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P108i_was_produced_by</relationship>
+                  <entity>
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P9_consists_of</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>aob30</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E12_Production</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
       <mapping>
          <domain>
