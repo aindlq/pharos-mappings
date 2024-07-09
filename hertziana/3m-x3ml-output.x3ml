@@ -448,7 +448,7 @@
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">actor</arg>
-                        <arg name="subject_id" type="xpath">../a3000/text()</arg>
+                        <arg name="subject_id" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
@@ -499,7 +499,7 @@
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">actor</arg>
-                        <arg name="subject_id" type="xpath">../a3000/text()</arg>
+                        <arg name="subject_id" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
@@ -550,7 +550,7 @@
                      <type>crm:E42_Identifier</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">actor</arg>
-                        <arg name="subject_id" type="xpath">../a3000/text()</arg>
+                        <arg name="subject_id" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
@@ -1812,38 +1812,6 @@
          <link>
             <path>
                <source_relation>
-                  <relation>a3100</relation>
-               </source_relation>
-               <target_relation>
-                  <if>
-                     <not>
-                        <if>
-                           <exists>../a3000</exists>
-                        </if>
-                     </not>
-                  </if>
-                  <relationship>crm:P14_carried_out_by</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a3100</source_node>
-               <target_node>
-                  <entity>
-                     <type>crm:E39_Actor</type>
-                     <instance_generator name="URIwithTypeAndId">
-                        <arg name="type" type="constant">actor</arg>
-                        <arg name="id" type="xpath">(text()</arg>
-                     </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
-         <link>
-            <path>
-               <source_relation>
                   <relation>.</relation>
                </source_relation>
                <target_relation>
@@ -1872,16 +1840,13 @@
                   <relation>a3475</relation>
                </source_relation>
                <target_relation>
-                  <if>
-                     <exists>../a3000</exists>
-                  </if>
                   <relationship>crm:P01i_is_domain_of</relationship>
                   <entity>
                      <type>crm:PC14_carried_out_by</type>
                      <instance_generator name="PropertyTypeUri">
                         <arg name="propertyType" type="constant">carried_out_by</arg>
                         <arg name="domain" type="xpath">../../@id</arg>
-                        <arg name="range" type="xpath">../a3000/text()</arg>
+                        <arg name="range" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                      </instance_generator>
                      <additional>
                         <relationship>crm:P02_has_range</relationship>
@@ -1889,7 +1854,7 @@
                            <type>crm:E39_Actor</type>
                            <instance_generator name="URIwithTypeAndId">
                               <arg name="type" type="constant">actor</arg>
-                              <arg name="id" type="xpath">../a3000/text()</arg>
+                              <arg name="id" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                            </instance_generator>
                            <label_generator name="Literal">
                               <arg name="text" type="xpath">../a3100/text()</arg>
@@ -1913,60 +1878,6 @@
                      <comments_last_update date="2024-06-22 20:47:54" person="Artem Kozlov"/>
                   </comment>
                </comments>
-            </path>
-            <range>
-               <source_node>a3475</source_node>
-               <target_node>
-                  <entity>
-                     <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithVocabTypeAndId">
-                        <arg name="type" type="constant">role</arg>
-                        <arg name="id" type="xpath">text()</arg>
-                     </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>a3475</relation>
-               </source_relation>
-               <target_relation>
-                  <if>
-                     <not>
-                        <if>
-                           <exists>../a3000</exists>
-                        </if>
-                     </not>
-                  </if>
-                  <relationship>crm:P01i_is_domain_of</relationship>
-                  <entity>
-                     <type>crm:PC14_carried_out_by</type>
-                     <instance_generator name="PropertyTypeUri">
-                        <arg name="propertyType" type="constant">carried_out_by</arg>
-                        <arg name="domain" type="xpath">../../@id</arg>
-                        <arg name="range" type="xpath">../a3100/text()</arg>
-                     </instance_generator>
-                     <additional>
-                        <relationship>crm:P02_has_range</relationship>
-                        <entity>
-                           <type>crm:E39_Actor</type>
-                           <instance_generator name="URIwithTypeAndId">
-                              <arg name="type" type="constant">actor</arg>
-                              <arg name="id" type="xpath">../a3100/text()</arg>
-                           </instance_generator>
-                           <label_generator name="Literal">
-                              <arg name="text" type="xpath">../a3100/text()</arg>
-                           </label_generator>
-                        </entity>
-                     </additional>
-                  </entity>
-                  <relationship>crm:P14.1_in_the_role_of</relationship>
-               </target_relation>
             </path>
             <range>
                <source_node>a3475</source_node>
