@@ -4672,31 +4672,6 @@
                   <relation>.</relation>
                </source_relation>
                <target_relation>
-                  <relationship>crm:P2_has_type</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>.</source_node>
-               <target_node>
-                  <entity>
-                     <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithVocabTypeAndId">
-                        <arg name="type" type="constant">production</arg>
-                        <arg name="id" type="xpath">text()</arg>
-                     </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>.</relation>
-               </source_relation>
-               <target_relation>
                   <relationship>crm:P14_carried_out_by</relationship>
                </target_relation>
                <comments>
