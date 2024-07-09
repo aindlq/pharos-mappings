@@ -148,6 +148,34 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P2_has_type</relationship>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">object-type</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </label_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">https://artresearch.net/resource/midas/vocabulary/meta/object-type</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="vocab with type - name">
+                        <arg name="type" type="constant">object-type</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -168,23 +196,10 @@
                <source_node>a5230</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E55_Type</type>
-                     <instance_generator name="vocab with type">
-                        <arg name="type" type="constant">object-type</arg>
-                        <arg name="id" type="xpath">lower-case(text())</arg>
-                     </instance_generator>
-                     <label_generator name="Literal">
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
-                     </label_generator>
-                     <additional>
-                        <relationship>crm:P2_has_type</relationship>
-                        <entity>
-                           <type>crm:E55_Type</type>
-                           <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">https://artresearch.net/resource/midas/vocabulary/meta/a5230</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
