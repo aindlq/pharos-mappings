@@ -3017,7 +3017,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>aob30. was production by --&gt;</rationale>
+                     <rationale>aob30. was produced by --&gt;</rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -3026,7 +3026,7 @@
                         <example_source/>
                         <example_target/>
                      </example>
-                     <comments_last_update date="2024-07-09 10:15:17" person="Artem Kozlov"/>
+                     <comments_last_update date="2024-07-09 10:15:37" person="Artem Kozlov"/>
                   </comment>
                </comments>
             </path>
@@ -4877,7 +4877,7 @@
             </target_node>
             <comments>
                <comment type="">
-                  <rationale>19. KUE-Dok.-Nr. production hierarchy aob30</rationale>
+                  <rationale>aob30.1. Production</rationale>
                   <alternatives/>
                   <typical_mistakes/>
                   <local_habits/>
@@ -4886,7 +4886,7 @@
                      <example_source/>
                      <example_target/>
                   </example>
-                  <comments_last_update date="2024-06-22 20:46:51" person="Artem Kozlov"/>
+                  <comments_last_update date="2024-07-09 10:16:26" person="Artem Kozlov"/>
                </comment>
             </comments>
          </domain>
