@@ -4607,6 +4607,16 @@
          <domain>
             <source_node>//obj/aob30</source_node>
             <target_node>
+               <if>
+                  <or>
+                     <if>
+                        <exists>a3000</exists>
+                     </if>
+                     <if>
+                        <exists>a3100</exists>
+                     </if>
+                  </or>
+               </if>
                <entity>
                   <type>crm:E12_Production</type>
                   <instance_generator name="ComplexActivityUri">
