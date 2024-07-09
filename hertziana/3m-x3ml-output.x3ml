@@ -293,7 +293,7 @@
             </target_node>
             <comments>
                <comment type="">
-                  <rationale>aob30-1-3-1. actor (artist)</rationale>
+                  <rationale>aob30-2-1. actor (artist)</rationale>
                   <alternatives/>
                   <typical_mistakes/>
                   <local_habits/>
@@ -302,7 +302,7 @@
                      <example_source/>
                      <example_target/>
                   </example>
-                  <comments_last_update date="2024-07-09 12:25:15" person="Artem Kozlov"/>
+                  <comments_last_update date="2024-07-09 14:12:45" person="Artem Kozlov"/>
                </comment>
                <comment type="">
                   <rationale>https://ddk-data.online.uni-marburg.de/w/index.php/Ob30_(Objekt_@_K%C3%BCnstler)</rationale>
@@ -350,7 +350,7 @@
                </target_relation>
                <comments>
                   <comment type="">
-                     <rationale>aob30-1-3-a3100. Künstlername: Name, Vorname </rationale>
+                     <rationale>aob30-2-a3100. Künstlername: Name, Vorname </rationale>
                      <alternatives/>
                      <typical_mistakes/>
                      <local_habits/>
@@ -359,7 +359,7 @@
                         <example_source/>
                         <example_target/>
                      </example>
-                     <comments_last_update date="2024-07-09 12:28:23" person="Artem Kozlov"/>
+                     <comments_last_update date="2024-07-09 14:13:40" person="Artem Kozlov"/>
                   </comment>
                </comments>
             </path>
