@@ -278,7 +278,7 @@
       </mapping>
       <mapping>
          <domain>
-            <source_node>//obj/aob30/a3100</source_node>
+            <source_node>//obj/aob30/(if (a3000) then a3000 else a3100)</source_node>
             <target_node>
                <entity>
                   <type>crm:E39_Actor</type>
