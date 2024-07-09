@@ -348,7 +348,7 @@
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">actor</arg>
-                        <arg name="subject_id" type="xpath">../a3000/text()</arg>
+                        <arg name="subject_id" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                         <arg name="identifier_type" type="constant">appellation</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
@@ -398,7 +398,7 @@
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
                         <arg name="subject_type" type="constant">actor</arg>
-                        <arg name="subject_id" type="xpath">../a3000/text()</arg>
+                        <arg name="subject_id" type="xpath">../(if (exists(a3000)) then a3000 else x3ml:uuid(lower-case(a3100)))</arg>
                         <arg name="identifier_type" type="constant">identifier</arg>
                         <arg name="identifier_id" type="xpath">text()</arg>
                      </instance_generator>
@@ -523,7 +523,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>../a30gn</relation>
+                  <relation>a30gn</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
@@ -544,7 +544,7 @@
                </comments>
             </path>
             <range>
-               <source_node>../a30gn</source_node>
+               <source_node>a30gn</source_node>
                <target_node>
                   <entity>
                      <type>crm:E42_Identifier</type>
