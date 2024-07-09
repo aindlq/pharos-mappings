@@ -3048,7 +3048,7 @@
                      <instance_generator name="ComplexActivityUri">
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
-                        <arg name="eventType" type="xpath">lower-case(text())</arg>
+                        <arg name="eventType" type="xpath">lower-case(text()[1])</arg>
                         <arg name="activityType" type="position">
           </arg>
                      </instance_generator>
@@ -4646,7 +4646,7 @@
                   <instance_generator name="ComplexActivityUri">
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
-                     <arg name="eventType" type="xpath">lower-case(text())</arg>
+                     <arg name="eventType" type="xpath">lower-case(text()[1])</arg>
                      <arg name="activityType" type="position"></arg>
                   </instance_generator>
                </entity>
