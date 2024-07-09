@@ -4669,7 +4669,7 @@
          <link>
             <path>
                <source_relation>
-                  <relation>.</relation>
+                  <relation>(if (a3000) then a3000 else a3100)</relation>
                </source_relation>
                <target_relation>
                   <relationship>crm:P14_carried_out_by</relationship>
@@ -4690,7 +4690,7 @@
                </comments>
             </path>
             <range>
-               <source_node>.</source_node>
+               <source_node>(if (a3000) then a3000 else a3100)</source_node>
                <target_node>
                   <entity>
                      <type>crm:E39_Actor</type>
