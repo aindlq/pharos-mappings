@@ -4669,6 +4669,31 @@
          <link>
             <path>
                <source_relation>
+                  <relation>text()</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P2_has_type</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>text()</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="URIwithVocabTypeAndId">
+                        <arg name="type" type="constant">production</arg>
+                        <arg name="id" type="xpath">text()</arg>
+                     </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </label_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
                   <relation>(if (a3000) then a3000 else a3100)</relation>
                </source_relation>
                <target_relation>
