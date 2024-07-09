@@ -325,25 +325,6 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
-               </target_relation>
-               <comments>
-                  <comment type="">
-                     <rationale>aob30-1-3-2. a3100 Künstlername: Name, Vorname </rationale>
-                     <alternatives/>
-                     <typical_mistakes/>
-                     <local_habits/>
-                     <link_to_cook_book/>
-                     <example>
-                        <example_source/>
-                        <example_target/>
-                     </example>
-                     <comments_last_update date="2024-07-09 12:25:39" person="Artem Kozlov"/>
-                  </comment>
-               </comments>
-            </path>
-            <range>
-               <source_node>../a3100</source_node>
-               <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
                      <instance_generator name="IdentifierURI">
@@ -364,6 +345,32 @@
                            </instance_generator>
                         </entity>
                      </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>aob30-1-3-2. a3100 Künstlername: Name, Vorname </rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-07-09 12:25:39" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>../a3100</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
