@@ -3006,9 +3006,12 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P108i_was_produced_by</relationship>
-                  <entity>
+                  <entity variable="E12[production]">
                      <type>crm:E12_Production</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="mainprod">
+                        <arg name="type" type="constant">work</arg>
+                        <arg name="id" type="xpath">../@id</arg>
+                     </instance_generator>
                   </entity>
                   <relationship>crm:P9_consists_of</relationship>
                </target_relation>
@@ -3016,9 +3019,15 @@
             <range>
                <source_node>aob30</source_node>
                <target_node>
-                  <entity>
+                  <entity variable="E12[production]">
                      <type>crm:E12_Production</type>
-                     <instance_generator name="UUID"/>
+                     <instance_generator name="ComplexActivityUri">
+                        <arg name="resourceType" type="constant">work</arg>
+                        <arg name="resourceId" type="xpath">../@id</arg>
+                        <arg name="eventType" type="xpath">text()</arg>
+                        <arg name="activityType" type="position">
+          </arg>
+                     </instance_generator>
                   </entity>
                </target_node>
             </range>
@@ -4880,28 +4889,6 @@
                </comment>
             </comments>
          </domain>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>/obj/aob30</relation>
-               </source_relation>
-               <target_relation>
-                  <relationship>crm:P9i_forms_part_of</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>/obj/aob30</source_node>
-               <target_node>
-                  <entity variable="E12[production]">
-                     <type>crm:E12_Production</type>
-                     <instance_generator name="mainprod">
-                        <arg name="type" type="constant">work</arg>
-                        <arg name="id" type="xpath">../@id</arg>
-                     </instance_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
          <link>
             <path>
                <source_relation>
