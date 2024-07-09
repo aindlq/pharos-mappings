@@ -3043,7 +3043,7 @@
             <range>
                <source_node>aob30</source_node>
                <target_node>
-                  <entity variable="E12[production]">
+                  <entity>
                      <type>crm:E12_Production</type>
                      <instance_generator name="ComplexActivityUri">
                         <arg name="resourceType" type="constant">work</arg>
