@@ -169,9 +169,9 @@
                <target_node>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithVocabTypeAndId">
-                        <arg name="type" type="constant">sachbegriff</arg>
-                        <arg name="id" type="xpath">text()</arg>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">object-type</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
@@ -180,9 +180,8 @@
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
-                           <instance_generator name="URIwithVocabTypeAndId">
-                              <arg name="type" type="constant">sachbegriff</arg>
-                              <arg name="id" type="xpath">text()</arg>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">https://artresearch.net/resource/midas/vocabulary/meta/a5230</arg>
                            </instance_generator>
                         </entity>
                      </additional>
