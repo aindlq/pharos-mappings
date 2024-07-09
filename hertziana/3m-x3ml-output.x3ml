@@ -3048,7 +3048,7 @@
                      <instance_generator name="ComplexActivityUri">
                         <arg name="resourceType" type="constant">work</arg>
                         <arg name="resourceId" type="xpath">../@id</arg>
-                        <arg name="eventType" type="xpath">text()</arg>
+                        <arg name="eventType" type="xpath">lower-case(text())</arg>
                         <arg name="activityType" type="position">
           </arg>
                      </instance_generator>
@@ -4646,7 +4646,7 @@
                   <instance_generator name="ComplexActivityUri">
                      <arg name="resourceType" type="constant">work</arg>
                      <arg name="resourceId" type="xpath">../@id</arg>
-                     <arg name="eventType" type="xpath">text()</arg>
+                     <arg name="eventType" type="xpath">lower-case(text())</arg>
                      <arg name="activityType" type="position"></arg>
                   </instance_generator>
                </entity>
@@ -4682,7 +4682,7 @@
                      <type>crm:E55_Type</type>
                      <instance_generator name="vocab with type">
                         <arg name="type" type="constant">production</arg>
-                        <arg name="id" type="xpath">.</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">.</arg>
