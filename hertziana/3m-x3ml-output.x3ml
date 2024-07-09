@@ -169,22 +169,13 @@
                <target_node>
                   <entity>
                      <type>crm:E55_Type</type>
-                     <instance_generator name="URIwithVocabType">
-                        <arg name="type" type="constant">type</arg>
+                     <instance_generator name="URIwithVocabTypeAndId">
+                        <arg name="type" type="constant">sachbegriff</arg>
                         <arg name="id" type="xpath">text()</arg>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">text()</arg>
                      </label_generator>
-                     <additional>
-                        <relationship>crm:P2_has_type</relationship>
-                        <entity>
-                           <type>crm:E55_Type</type>
-                           <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300264092</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
