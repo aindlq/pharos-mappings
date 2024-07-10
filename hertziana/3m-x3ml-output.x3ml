@@ -155,21 +155,21 @@
          <link>
             <path>
                <source_relation>
-                  <relation>.</relation>
+                  <relation>@id</relation>
                </source_relation>
                <target_relation>
                   <relationship>custom:has_original_record</relationship>
                   <entity>
                      <type>crm:E32_Identifier</type>
                      <instance_generator name="OriginalURI">
-                        <arg name="id" type="xpath">@id</arg>
+                        <arg name="id" type="xpath">.</arg>
                      </instance_generator>
                   </entity>
                   <relationship>crm:P2_has_type</relationship>
                </target_relation>
             </path>
             <range>
-               <source_node>.</source_node>
+               <source_node>@id</source_node>
                <target_node>
                   <entity>
                      <type>crm:E55_Type</type>
