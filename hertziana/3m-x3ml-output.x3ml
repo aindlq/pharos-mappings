@@ -1714,7 +1714,7 @@
                      <additional>
                         <relationship>crm:P90_has_value</relationship>
                         <entity>
-                           <type>xsd:decimal</type>
+                           <type>xsd:string</type>
                            <instance_generator name="TypedLiteralGen">
                               <arg name="text" type="xpath">text()</arg>
                            </instance_generator>
