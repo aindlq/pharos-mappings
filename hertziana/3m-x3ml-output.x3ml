@@ -321,6 +321,28 @@
                </source_relation>
                <target_relation>
                   <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="IdentifierURI">
+                        <arg name="subject_type" type="constant">work</arg>
+                        <arg name="subject_id" type="xpath">../@id</arg>
+                        <arg name="identifier_type" type="constant">appellation</arg>
+                        <arg name="identifier_id" type="xpath">text()</arg>
+                     </instance_generator>
+                     <label_generator name="Literal">
+                        <arg name="text" type="xpath">.</arg>
+                     </label_generator>
+                     <additional>
+                        <relationship>crm:P2_has_type</relationship>
+                        <entity>
+                           <type>crm:E55_Type</type>
+                           <instance_generator name="URIorUUID">
+                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
+                           </instance_generator>
+                        </entity>
+                     </additional>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
                </target_relation>
                <comments>
                   <comment type="">
@@ -377,25 +399,10 @@
                <source_node>a5200</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">../@id</arg>
-                        <arg name="identifier_type" type="constant">appellation</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
-                     </label_generator>
-                     <additional>
-                        <relationship>crm:P2_has_type</relationship>
-                        <entity>
-                           <type>crm:E55_Type</type>
-                           <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
-                           </instance_generator>
-                        </entity>
-                     </additional>
                   </entity>
                </target_node>
             </range>
