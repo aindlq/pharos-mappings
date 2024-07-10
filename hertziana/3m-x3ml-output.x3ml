@@ -78,6 +78,15 @@
                   <label_generator name="Literal">
                      <arg name="text" type="xpath">a5200/text()</arg>
                   </label_generator>
+                  <additional>
+                     <relationship>crm:P2_has_type</relationship>
+                     <entity>
+                        <type>crm:E55_Type</type>
+                        <instance_generator name="URIorUUID">
+                           <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
+                        </instance_generator>
+                     </entity>
+                  </additional>
                </entity>
             </target_node>
             <comments>
@@ -143,27 +152,6 @@
                </comment>
             </comments>
          </domain>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>.</relation>
-               </source_relation>
-               <target_relation>
-                  <relationship>crm:P2_has_type</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>.</source_node>
-               <target_node>
-                  <entity>
-                     <type>crm:E55_Type</type>
-                     <instance_generator name="URIorUUID">
-                        <arg name="text" type="constant">http://vocab.getty.edu/aat/300133025</arg>
-                     </instance_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
          <link>
             <path>
                <source_relation>
