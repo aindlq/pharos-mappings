@@ -305,7 +305,7 @@
                <source_node>a5007</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">work</arg>
                         <arg name="id" type="xpath">a5008/text()</arg>
@@ -1301,7 +1301,7 @@
                <source_node>a8450</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">photo</arg>
                         <arg name="id" type="xpath">a8540/text()</arg>
@@ -1359,7 +1359,7 @@
                <source_node>a8450/a8470</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">negative</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -1950,7 +1950,7 @@
                <source_node>obj</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">work</arg>
                         <arg name="id" type="xpath">a5001/text()</arg>
@@ -2100,7 +2100,7 @@
                <source_node>a8450/a8472</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">positive</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -2147,7 +2147,7 @@
                <source_node>a8450/a8476</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">alternative</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -2410,7 +2410,7 @@
                <source_node>a5007</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">work</arg>
                         <arg name="id" type="xpath">a5008/text()</arg>
@@ -2536,7 +2536,7 @@
                <source_node>a5007</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">work</arg>
                         <arg name="id" type="xpath">a5008/text()</arg>
@@ -3715,7 +3715,7 @@
                   <exists>a8540/text()</exists>
                </if>
                <entity>
-                  <type>crm:E22_Man-Made_Object</type>
+                  <type>crm:E22_Human-Made_Object</type>
                   <instance_generator name="URIwithTypeAndId">
                      <arg name="type" type="constant">photo</arg>
                      <arg name="id" type="xpath">a8540/text()</arg>
@@ -4687,7 +4687,7 @@
                <source_node>a84bh</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">photo_card</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -4737,7 +4737,7 @@
                <source_node>a8470</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">negative</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -4777,7 +4777,7 @@
                <source_node>a8472</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">positive</arg>
                         <arg name="id" type="xpath">text()</arg>
@@ -4817,7 +4817,7 @@
                <source_node>a8476</source_node>
                <target_node>
                   <entity>
-                     <type>crm:E22_Man-Made_Object</type>
+                     <type>crm:E22_Human-Made_Object</type>
                      <instance_generator name="URIwithTypeAndId">
                         <arg name="type" type="constant">alternative</arg>
                         <arg name="id" type="xpath">text()</arg>
