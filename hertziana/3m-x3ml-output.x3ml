@@ -3660,7 +3660,7 @@
                <if>
                   <or>
                      <if>
-                        <equals value="true">(text() = "Standort") and count(ancestor::obj) = 1</equals>
+                        <equals value="true">(normalize-space(text()[1]) = "Standort") and count(ancestor::obj) = 1</equals>
                      </if>
                      <if>
                         <equals value="true">(text() != "Standort")</equals>
