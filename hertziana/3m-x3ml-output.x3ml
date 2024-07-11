@@ -3910,6 +3910,127 @@
          <link>
             <path>
                <source_relation>
+                  <relation>a2730</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="builtwork - sub_place">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="place" type="constant">place</arg>
+                        <arg name="placeId" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="builtwork - sub_place - name">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="place" type="constant">place</arg>
+                        <arg name="placeId" type="xpath">lower-case(text())</arg>
+                        <arg name="id" type="constant">id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a2730</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>a2740</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity variable="E24[builtwork_part]">
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="builtwork - part">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="part" type="constant">part</arg>
+                        <arg name="partId" type="xpath">../lower-case(concat(a2740, a2750))</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P2_has_type</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a2740</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="URIwithVocabTypeAndId">
+                        <arg name="type" type="constant">a2740</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>a2750</relation>
+               </source_relation>
+               <target_relation>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity variable="E24[builtwork_part]">
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="builtwork - part">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="part" type="constant">part</arg>
+                        <arg name="partId" type="xpath">../lower-case(concat(a2740, a2750))</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="builtwork - part - name">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="part" type="constant">part</arg>
+                        <arg name="partId" type="xpath">../lower-case(concat(a2740, a2750))</arg>
+                        <arg name="id" type="constant">id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>a2750</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
                   <relation>a2780</relation>
                </source_relation>
                <target_relation>
@@ -3948,6 +4069,248 @@
             </path>
             <range>
                <source_node>a2780</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <exists>a2740 | a2750 </exists>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[builtwork_part_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="builtwork - part - place">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="part" type="constant">part</arg>
+                        <arg name="partId" type="xpath">lower-case(concat(a2740, a2750))</arg>
+                        <arg name="place" type="constant">place</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <equals value="Standort">text()</equals>
+                              </if>
+                           </not>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity variable="E24[builtwork_part]">
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity>
+                     <type>crm:E22_Human-Made_Object</type>
+                     <instance_generator name="work">
+                        <arg name="objId" type="xpath">../@id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P53_has_former_or_current_location</relationship>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="object - former place">
+                        <arg name="objId" type="xpath">../@id</arg>
+                        <arg name="placeType" type="xpath">lower-case(normalize-space(text()))</arg>
+                        <arg name="index" type="xpath">count(preceding-sibling::aob26[normalize-space(text()[1]) = normalize-space(current()/parent::aob26/text()[1])]) + 1</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P2_has_type</relationship>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="vocab with type - name">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2740 | a2750</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <equals value="Standort">text()</equals>
+                              </if>
+                           </not>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity>
+                     <type>crm:E22_Human-Made_Object</type>
+                     <instance_generator name="work">
+                        <arg name="objId" type="xpath">../@id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P53_has_former_or_current_location</relationship>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="object - former place">
+                        <arg name="objId" type="xpath">../@id</arg>
+                        <arg name="placeType" type="xpath">lower-case(normalize-space(text()))</arg>
+                        <arg name="index" type="xpath">count(preceding-sibling::aob26[normalize-space(text()[1]) = normalize-space(current()/parent::aob26/text()[1])]) + 1</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P2_has_type</relationship>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="vocab with type - name">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                        <if>
+                           <equals value="Standort">text()</equals>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity variable="E24[builtwork_part]">
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity>
+                     <type>crm:E22_Human-Made_Object</type>
+                     <instance_generator name="work">
+                        <arg name="objId" type="xpath">../@id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P55_has_current_location</relationship>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="object - current place">
+                        <arg name="objId" type="xpath">../@id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P2_has_type</relationship>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="vocab with type - name">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
                <target_node>
                   <entity>
                      <type>rdfs:Literal</type>
@@ -4032,6 +4395,106 @@
                   <if>
                      <and>
                         <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2730</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2780</exists>
+                              </if>
+                           </not>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2740 | a2750</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <exists>a2730</exists>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2780</exists>
+                              </if>
+                           </not>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
                            <not>
                               <if>
                                  <exists>a2740 | a2750</exists>
@@ -4052,6 +4515,211 @@
                   </if>
                   <relationship>crm:P156_occupies</relationship>
                   <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                        <if>
+                           <exists>a2730</exists>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2780</exists>
+                              </if>
+                           </not>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2740 | a2750</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <exists>a2730</exists>
+                        </if>
+                        <if>
+                           <exists>a2780</exists>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2730</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <exists>a2780</exists>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                        <if>
+                           <exists>a2730</exists>
+                        </if>
+                        <if>
+                           <exists>a2780</exists>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place]">
                      <type>crm:E53_Place</type>
                      <instance_generator name="UUID"/>
                   </entity>
