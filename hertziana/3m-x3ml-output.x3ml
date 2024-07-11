@@ -13,6 +13,12 @@
                <namespace prefix="" uri=""/>
             </namespaces>
          </source_info>
+         <source_info>
+            <source_schema schema_file="08063674.xml" type="xml" version="">08063674</source_schema>
+            <namespaces>
+               <namespace prefix="" uri=""/>
+            </namespaces>
+         </source_info>
       </source>
       <target>
          <target_info>
@@ -3901,57 +3907,6 @@
                </comment>
             </comments>
          </domain>
-         <link>
-            <path>
-               <source_relation>
-                  <relation>a2780</relation>
-               </source_relation>
-               <target_relation>
-                  <relationship>crm:P156_occupies</relationship>
-                  <entity variable="E53[builtwork_place]">
-                     <type>crm:E53_Place</type>
-                     <instance_generator name="UUID"/>
-                  </entity>
-                  <relationship>crm:P89i_contains</relationship>
-                  <entity variable="E53[builtwork_part_place_sub-place]">
-                     <type>crm:E53_Place</type>
-                     <instance_generator name="builtwork - part - place - sub_place">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                        <arg name="place" type="constant">place</arg>
-                        <arg name="subPlaceId" type="xpath">lower-case(text())</arg>
-                     </instance_generator>
-                  </entity>
-                  <relationship>crm:P1_is_identified_by</relationship>
-                  <entity>
-                     <type>crm:E41_Appellation</type>
-                     <instance_generator name="builtwork - part - place - sub_place - name">
-                        <arg name="work" type="constant">work</arg>
-                        <arg name="objId" type="xpath">../(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
-                        <arg name="part" type="constant">part</arg>
-                        <arg name="partId" type="xpath">../lower-case(concat(a2740, a2750))</arg>
-                        <arg name="place" type="constant">place</arg>
-                        <arg name="subPlaceId" type="xpath">lower-case(text())</arg>
-                        <arg name="id" type="constant">id</arg>
-                     </instance_generator>
-                  </entity>
-                  <relationship>crm:P190_has_symbolic_content</relationship>
-               </target_relation>
-            </path>
-            <range>
-               <source_node>a2780</source_node>
-               <target_node>
-                  <entity>
-                     <type>rdfs:Literal</type>
-                     <instance_generator name="Literal">
-                        <arg name="text" type="xpath">text()</arg>
-                     </instance_generator>
-                  </entity>
-               </target_node>
-            </range>
-         </link>
       </mapping>
    </mappings>
 </x3ml>

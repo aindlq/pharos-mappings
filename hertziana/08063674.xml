@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?><obj xmlns:bhr="http://www.stegmannsystems.com/2009/bhr" xmlns:edp="http://www.stegmannsystems.com/2009/edp" xmlns:edp2="http://www.stegmannsystems.com/2009/edp2" xmlns:edpf="http://www.stegmannsystems.com/2009/edp-function" xmlns:edpm="http://www.stegmannsystems.com/2009/edp-meta" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" did="7016053" edp:created="2017-08-25T11:59:37Z" edp:createdBy="Admin" edp:eddVersion="2.7.0" edp:updated="2022-12-23T14:26:29Z" edp:updatedBy="pietro.liuzzo@biblhertz.it" edp:version="36" id="08063674" lvl="1">
+    <a5000>08063674</a5000>
+    <Status>published</Status>
+    <aob26>Standort<a2606>08063670</a2606>
+        <a26gn>gnd4389406-9</a26gn>
+        <a2664>Neapel</a2664>
+        <a2690>Kirche</a2690>
+        <a2700>Santa Maria Donnaregina Vecchia</a2700>
+        <a2740>Langhaus</a2740>
+        <a2780>linke Wand</a2780>
+    </aob26>
+    <aob30>Herstellung<a3100>Tino di Camaino</a3100>
+        <a31bh>Tino da Camaino</a31bh>
+        <a3475>Bildhauer</a3475>
+    </aob30>
+    <aob30>Herstellung<a3100>Gagliardo di Riccardo da Napoli</a3100>
+        <a3475>Bildhauer</a3475>
+        <a3000 edp:augmented="kue::07700149">07700149</a3000>
+        <a3105 edp:augmented="kue::07700149">Primario, Gagliardo</a3105>
+        <a31nn edp:augmented="kue::07700149">Gagliardo di Riccardo da Napoli</a31nn>
+    </aob30>
+    <a5060>Datierung<a5064 end="1326" start="1325">1325/1326</a5064>
+    </a5060>
+    <a5200>Grabmal der Königin Maria von Ungarn</a5200>
+    <a5220>Skulptur</a5220>
+    <a5220>Grabskulptur</a5220>
+    <a5226>Reliefplastik</a5226>
+    <a5226>Rundplastik</a5226>
+    <a5230>Grabmal</a5230>
+    <a5240>Wandgrab</a5240>
+    <a5260>Marmor</a5260>
+    <a5500>61BB2(MARIE &lt;Neapel, Königin&gt;)</a5500>
+    <a8350>Michalsky, Tanja, Mater serenissimi principis. The tomb of Maria of Hungary, in: Elliott, Janis (Hrsg.), The church of Santa Maria Donna Regina, Aldershot 2004, S. 61-77</a8350>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306280.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T11:38:29Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-01</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Vorderseite, Gesamtansicht</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306281.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T11:38:37Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-02</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Linke Schmalseite</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306290.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T13:29:19Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-11</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Linke Schmalseite, Giebelzone</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306282.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T11:55:52Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-03</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Ansicht von schräg rechts</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306289.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T13:07:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-10</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Rechte Schmalseite, Giebelzone</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306295.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:20:09Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-16</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Sarkophag und Tugenden, Frontalansicht</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pedicini306291.jpg</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-07-06T13:27:28Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-12</a8540>
+        <a8515>camp</a8515>
+        <a8496>2021.07.05</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2021.05.04</a8494>
+        <a8497>Bestellung 15/2021</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Detail: Kapitelle</a8510>
+        <a8541>freigegeben</a8541>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>bhim00033422.tif</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2018-01-24T11:31:14Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhim00033422</a8540>
+        <a8515>camp</a8515>
+        <a8496>2018.01.24</a8496>
+        <a8476>NS0710</a8476>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8494>2016</a8494>
+        <a8497>Bestellung 54/2016</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Gesamtansicht</a8510>
+        <a8541>freigegeben</a8541>
+        <a854z>n. n.</a854z>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto<a8460>Sommer, Neapel</a8460>
+        <a8470>11728</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2018-01-24T13:34:47Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh023900</a8540>
+        <a84bh>0</a84bh>
+        <a8515>raro-camp</a8515>
+        <a8496>1940/1944</a8496>
+        <a8487>Albuminpapier</a8487>
+        <a8482>s/w</a8482>
+        <a8490>Sommer, Giorgio</a8490>
+        <a8596>Falte an der rechten oberen und rechten unteren Ecke</a8596>
+        <a8510>Gesamtansicht</a8510>
+        <a8541>freigegeben</a8541>
+        <a854z>n. n.</a854z>
+    </a8450>
+    <a8450>Foto<a8460>Alinari</a8460>
+        <a8470>11917</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2018-01-24T13:47:05Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh224853</a8540>
+        <a84bh>224853</a84bh>
+        <a8515>camp</a8515>
+        <a8496>1975</a8496>
+        <a8482>s/w</a8482>
+        <a8494>vor 1943</a8494>
+        <a8510>Gesamtansicht</a8510>
+        <a8541>gesperrt</a8541>
+        <a854z>n. n.</a854z>
+    </a8450>
+    <a8450>Foto<a8460>Alinari</a8460>
+        <a8470>11917</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2022-02-14T12:50:56Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="vitiello@biblhertz.it" edp:virtualfilename="">bh611181</a8540>
+        <a84bh>611181</a84bh>
+        <a8515>camp</a8515>
+        <a8496>2018.10.01</a8496>
+        <a8482>s/w</a8482>
+        <a8494>1935</a8494>
+        <a8497>Archivio</a8497>
+        <a8498>Negri Arnoldi, Francesco</a8498>
+        <a8510>Gesamtansicht</a8510>
+        <a8541>gesperrt</a8541>
+        <a854z>n. n.</a854z>
+    </a8450>
+    <a8450>Foto<a8460>Alinari</a8460>
+        <a8470>33666</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2021-12-14T12:34:59Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="Clarissa.Mallone@biblhertz.it" edp:virtualfilename="">bh611042</a8540>
+        <a84bh>611042</a84bh>
+        <a8515>raro-camp</a8515>
+        <a8496>2018.09.25</a8496>
+        <a8482>s/w</a8482>
+        <a8494>vor 1943</a8494>
+        <a8497>Archivio</a8497>
+        <a8498>Negri Arnoldi, Francesco</a8498>
+        <a8510>Sarkophag und Tugenden</a8510>
+        <a8541>gesperrt</a8541>
+        <a8579>Auf der Rückseite Notizen von Negri Arnoldi (die Zuschreibungen bei Toesca und Causa).</a8579>
+        <a854z>n. n.</a854z>
+    </a8450>
+    <a8450>Foto<a8460>Pedicini, Luciano</a8460>
+        <a8470>NS0710</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2018-01-24T13:48:47Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh505430</a8540>
+        <a84bh>505430</a84bh>
+        <a8515>camp</a8515>
+        <a8496>2000.03.02</a8496>
+        <a8482>s/w</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8510>Gesamtansicht</a8510>
+        <a8541>gesperrt</a8541>
+        <a854z>n. n.</a854z>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+        <a8470>45261</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2018-01-24T13:50:01Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532464</a8540>
+        <a84bh>532464</a84bh>
+        <a8515>camp</a8515>
+        <a8496>2002.10.02</a8496>
+        <a8482>s/w</a8482>
+        <a8510>Gesamtansicht</a8510>
+        <a8541>gesperrt</a8541>
+        <a854z>n. n.</a854z>
+    </a8450>
+    <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+        <a8470>pediciniHR6193.tif</a8470>
+        <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:13:35Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-086</a8540>
+        <a8515>camp</a8515>
+        <a8496>2018.07.24</a8496>
+        <a8482>color</a8482>
+        <a8490>Pedicini, Luciano</a8490>
+        <a8497>Bestellung 34/2017</a8497>
+        <a8596>diritti divisi</a8596>
+        <a8510>Grabkammer, Sarkophag und Kardinaltugenden</a8510>
+        <a8541>freigegeben</a8541>
+        <a854z>n. n.</a854z>
+        <a8596>https://www.pedicinimages.com/</a8596>
+    </a8450>
+    <a9902>Bibliotheca Hertziana Rom</a9902>
+    <obj id="08104067">
+        <a5001>08104067</a5001>
+        <Status>published</Status>
+        <a5200>Kardinaltugenden</a5200>
+        <a5230>Statue</a5230>
+        <a5500>11M4</a5500>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306302.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:07:47Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-23</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Prudentia (links) und Temperantia (rechts)</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a9904>gfr</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+        <obj id="08104068">
+            <a5002>08104068</a5002>
+            <Status>published</Status>
+            <a5200>Prudentia</a5200>
+            <a5230>Tragfigur</a5230>
+            <a5500>11M41</a5500>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pedicini306301.jpg</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2021-07-06T11:59:23Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-22</a8540>
+                <a8515>camp</a8515>
+                <a8496>2021.07.05</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8494>2021.05.04</a8494>
+                <a8497>Bestellung 15/2021</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>freigegeben</a8541>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pediciniHR6189.tif</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:19:04Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-082</a8540>
+                <a8515>camp</a8515>
+                <a8496>2018.07.24</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8497>Bestellung 34/2017</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>freigegeben</a8541>
+                <a854z>n. n.</a854z>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.125</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T11:39:17Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422032</a8540>
+                <a84bh>422032</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.126</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:25:28Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422033</a8540>
+                <a84bh>422033</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Detail: Kopf</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a9904>gfr</a9904>
+            <a9902>Bibliotheca Hertziana Rom</a9902>
+        </obj>
+        <obj id="08104069">
+            <a5002>08104069</a5002>
+            <Status>published</Status>
+            <a5200>Temperantia</a5200>
+            <a5230>Tragfigur</a5230>
+            <a5500>11M42</a5500>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pediciniHR6190.tif</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:20:13Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-083</a8540>
+                <a8515>camp</a8515>
+                <a8496>2018.07.24</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8497>Bestellung 34/2017</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>freigegeben</a8541>
+                <a854z>n. n.</a854z>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.129</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T11:42:17Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422024</a8540>
+                <a84bh>422024</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.131</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:26:40Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422025</a8540>
+                <a84bh>422025</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Detail: Kopf</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a9904>gfr</a9904>
+            <a9902>Bibliotheca Hertziana Rom</a9902>
+        </obj>
+        <obj id="08104070">
+            <a5002>08104070</a5002>
+            <Status>published</Status>
+            <a5200>Justitia</a5200>
+            <a5230>Tragfigur</a5230>
+            <a5500>11M44</a5500>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pedicini306303.jpg</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2021-07-06T11:34:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-24</a8540>
+                <a8515>camp</a8515>
+                <a8496>2021.07.05</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8494>2021.05.04</a8494>
+                <a8497>Bestellung 15/2021</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Ansicht von schräg rechts</a8510>
+                <a8541>freigegeben</a8541>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pediciniHR6191.tif</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:21:13Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-084</a8540>
+                <a8515>camp</a8515>
+                <a8496>2018.07.24</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8497>Bestellung 34/2017</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>freigegeben</a8541>
+                <a854z>n. n.</a854z>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.133</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T11:43:36Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422026</a8540>
+                <a84bh>422026</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.134</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:27:41Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422027</a8540>
+                <a84bh>422027</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Detail: Kopf</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a9904>gfr</a9904>
+            <a9902>Bibliotheca Hertziana Rom</a9902>
+        </obj>
+        <obj id="08104071">
+            <a5002>08104071</a5002>
+            <Status>published</Status>
+            <a5200>Fortitudo</a5200>
+            <a5230>Tragfigur</a5230>
+            <a5500>11M43</a5500>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pedicini306304.jpg</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2021-07-06T11:40:52Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-25</a8540>
+                <a8515>camp</a8515>
+                <a8496>2021.07.05</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8494>2021.05.04</a8494>
+                <a8497>Bestellung 15/2021</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>freigegeben</a8541>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+                <a8470>pediciniHR6192.tif</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:21:59Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-085</a8540>
+                <a8515>camp</a8515>
+                <a8496>2018.07.24</a8496>
+                <a8482>color</a8482>
+                <a8490>Pedicini, Luciano</a8490>
+                <a8497>Bestellung 34/2017</a8497>
+                <a8596>diritti divisi</a8596>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>freigegeben</a8541>
+                <a854z>n. n.</a854z>
+                <a8596>https://www.pedicinimages.com/</a8596>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.139</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T11:44:40Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422028</a8540>
+                <a84bh>422028</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Gesamtansicht</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+                <a8470>56.140</a8470>
+                <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:28:50Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422022</a8540>
+                <a84bh>422022</a84bh>
+                <a8515>camp</a8515>
+                <a8496>1991</a8496>
+                <a8482>s/w</a8482>
+                <a8510>Detail: Kopf</a8510>
+                <a8541>gesperrt</a8541>
+                <a854z>n. n.</a854z>
+            </a8450>
+            <a9904>gfr</a9904>
+            <a9902>Bibliotheca Hertziana Rom</a9902>
+        </obj>
+    </obj>
+    <obj id="08104072">
+        <a5001>08104072</a5001>
+        <Status>published</Status>
+        <a5230>Sarkophag</a5230>
+        <a5500>61B2(RAIMUND BERENGAR &lt;Piemont, Graf&gt;)13</a5500>
+        <a5500>61B2(PHILIPP &lt;Tarent, Fürst 1&gt;)13</a5500>
+        <a5500>61B2(ROBERT &lt;Neapel, König, 1, der Weise&gt;)13</a5500>
+        <a5500>11H(LOUIS OF TOULOUSE)</a5500>
+        <a5500>61B2(KARL MARTELL &lt;Ungarn, König, 1&gt;)13</a5500>
+        <a5500>61B2(JOHANNES &lt;Durazzo, Herzog&gt;)13</a5500>
+        <a5500>61B2(PETER &lt;Gravina, Graf&gt;)13</a5500>
+        <a5500>46A12</a5500>
+        <a5500>44BB15</a5500>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306296.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:21:39Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-17</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linke Schmalseite, Ansicht von schräg rechts</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306297.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:24:18Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-18</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linke Schmalseite, Frontalansicht</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306298.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:25:31Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-19</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Vorderseite, Detail: Robert der Weise, Ludwig von Toulouse, Karl Martell</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306299.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:27:27Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-20</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Vorderseite, Detail: Johannes von Durazzo, Peter von Gravina</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306300.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:29:46Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-21</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linke Schmalseite, Ansicht von schräg links</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.119</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T12:19:22Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422038</a8540>
+            <a84bh>422038</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Frontplatte: Raiumund Berengar und Philipp von Tarent</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.120</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:30:33Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422029</a8540>
+            <a84bh>422029</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Frontplatte: Robert der Weise, Ludwig von Toulouse, Karl Martell</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.121</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:31:59Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422030</a8540>
+            <a84bh>422030</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Frontplatte: Johannes von Durazzo, Peter von Gravina</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.118</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:35:45Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422037</a8540>
+            <a84bh>422037</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Linke Seite: zwei Söhne der Königin</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.122</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:37:25Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422031</a8540>
+            <a84bh>422031</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Rechte Seite: zwei Söhne der Königin</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a9904>gfr</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+        <a5200>Sarkophag</a5200>
+    </obj>
+    <obj id="08104073">
+        <a5001>08104073</a5001>
+        <Status>published</Status>
+        <a5230>Grabkammer</a5230>
+        <a5500>61BB2(MARIE &lt;Neapel, Königin&gt;)11(+55)</a5500>
+        <a5500>11G24</a5500>
+        <a5500>11G</a5500>
+        <a5500>11G1924</a5500>
+        <a8450>Foto<a8460>Alinari</a8460>
+            <a8470>33666A</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T12:30:25Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh221143</a8540>
+            <a84bh>221143</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1974</a8496>
+            <a8482>s/w</a8482>
+            <a8494>1935</a8494>
+            <a8510>Gesamtansicht</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pediciniHR6187.tif</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:17:15Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-080</a8540>
+            <a8515>camp</a8515>
+            <a8496>2018.07.24</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8497>Bestellung 34/2017</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linker Engel</a8510>
+            <a8541>freigegeben</a8541>
+            <a854z>n. n.</a854z>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:39:16Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh227718</a8540>
+            <a84bh>227718</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1975</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Linker Engel</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.112</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:42:52Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422036</a8540>
+            <a84bh>422036</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Linker Engel, Detail: Kopf</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306292.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:14:38Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-13</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linker vorhanghaltender Engel und Oberkörper der Liegefigur</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306293.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:17:32Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-14</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Oberkörper der Liegefigur in Aufsicht</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306294.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:13:17Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-15</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Rechter vorhanghaltender Engel</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pediciniHR6188.tif</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:18:04Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-081</a8540>
+            <a8515>camp</a8515>
+            <a8496>2018.07.24</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8497>Bestellung 34/2017</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linker Engel</a8510>
+            <a8541>freigegeben</a8541>
+            <a854z>n. n.</a854z>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.114</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:43:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422035</a8540>
+            <a84bh>422035</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Rechter Engel</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.115</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:44:51Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422023</a8540>
+            <a84bh>422023</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Rechter Engel, Detail: Kopf</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pediciniHR6186.tif</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-07-24T22:15:48Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bhex-pe-2017-34-2-079</a8540>
+            <a8515>camp</a8515>
+            <a8496>2018.07.24</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8497>Bestellung 34/2017</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Liegefigur (Maria von Ungarn)</a8510>
+            <a8541>freigegeben</a8541>
+            <a854z>n. n.</a854z>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto<a8460>Alinari</a8460>
+            <a8470>33666B</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:46:22Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh221142</a8540>
+            <a84bh>221142</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1974</a8496>
+            <a8482>s/w</a8482>
+            <a8494>1935</a8494>
+            <a8510>Liegefigur (Maria von Ungarn), Oberkörper</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Alinari</a8460>
+            <a8470>33666B</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2022-02-14T13:00:24Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="vitiello@biblhertz.it" edp:virtualfilename="">bh611182</a8540>
+            <a84bh>611182</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2018.10.01</a8496>
+            <a8482>s/w</a8482>
+            <a8494>1935</a8494>
+            <a8497>Archivio</a8497>
+            <a8498>Negri Arnoldi, Francesco</a8498>
+            <a8510>Liegefigur (Maria von Ungarn), Oberkörper</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.107</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:48:34Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422034</a8540>
+            <a84bh>422034</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Liegefigur (Maria von Ungarn), Büste</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>13721</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:50:23Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532466</a8540>
+            <a84bh>532466</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Liegefigur, Detail: Kopf</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>13720</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:52:41Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532467</a8540>
+            <a84bh>532467</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Liegefigur (Maria von Ungarn), Detail: Oberkörper</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.106</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:54:26Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422043</a8540>
+            <a84bh>422043</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Assistenzfigur mit Schale und beschädigtem Attribut</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>55279</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:57:28Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532472</a8540>
+            <a84bh>532472</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Assistenzfigur mit Schale und beschädigtem Attribut</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.105</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T14:58:46Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422042</a8540>
+            <a84bh>422042</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Assistenzfigur mit Weihwasserkessel</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>55280</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:01:03Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532471</a8540>
+            <a84bh>532471</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Assistenzfigur mit Weihwasserkessel</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a9904>gfr</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+        <a5200>Grabkammer</a5200>
+        <a5500>42E351</a5500>
+    </obj>
+    <obj id="08104074">
+        <a5001>08104074</a5001>
+        <Status>published</Status>
+        <a5230>Baldachin</a5230>
+        <a5500>11F4221(+1)</a5500>
+        <a5500>61BB2(MARIE &lt;Neapel, Königin&gt;)</a5500>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306285.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:33:59Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-06</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Madonna, Frontalansicht</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306286.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T13:23:20Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-07</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Linke Figurengruppe: ein Engel empfiehlt die Königin der Madonna</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306288.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T13:24:58Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-09</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Rechte Figur: Engel mit Modell der von Maria von Ungarn gestifteten Kirche</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>45822</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:02:27Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532465</a8540>
+            <a84bh>532465</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Madonna</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>5568</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:03:45Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532468</a8540>
+            <a84bh>532468</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Madonna, Rückseite</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.103</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:05:51Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422040</a8540>
+            <a84bh>422040</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Engel mit Maria von Ungarn als Strifterin</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Bildarchiv Foto Marburg</a8460>
+            <a8470>56.104</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:06:56Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh422041</a8540>
+            <a84bh>422041</a84bh>
+            <a8515>camp</a8515>
+            <a8496>1991</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Engel mit Kirchenmodell</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a9904>gfr</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+        <a5200>Baldachin</a5200>
+        <a5500>11(+5)</a5500>
+    </obj>
+    <obj id="08104075">
+        <a5001>08104075</a5001>
+        <Status>published</Status>
+        <aob26>Standort<a2664>---</a2664>
+            <a2780>Giebel</a2780>
+        </aob26>
+        <a5200>Schildhaltender Engel</a5200>
+        <a5226>Rundplastik</a5226>
+        <a5230>Statue</a5230>
+        <a5500>11G1926</a5500>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306283.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:48:23Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-04</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Frontalansicht</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>10300</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:17:38Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532469</a8540>
+            <a84bh>532469</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Engel mit Schild</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a8450>Foto<a8460>Sopr. BAS NA</a8460>
+            <a8470>5537</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2018-01-24T15:18:54Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="freni@biblhertz.it" edp:virtualfilename="">bh532470</a8540>
+            <a84bh>532470</a84bh>
+            <a8515>camp</a8515>
+            <a8496>2002.10.02</a8496>
+            <a8482>s/w</a8482>
+            <a8510>Engel mit Schild</a8510>
+            <a8541>gesperrt</a8541>
+            <a854z>n. n.</a854z>
+        </a8450>
+        <a9904>gfr</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+        <a9950>2021.07.05<a9954>mta</a9954>
+        </a9950>
+    </obj>
+    <obj id="08187507">
+        <a5001>08187507</a5001>
+        <Status>published</Status>
+        <aob26>Standort<a2664>---</a2664>
+            <a2780>Giebel</a2780>
+        </aob26>
+        <a5200>Segnender Christus</a5200>
+        <a5226>Reliefplastik</a5226>
+        <a5230>Relief</a5230>
+        <a5500>11D3221</a5500>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306284.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T12:50:15Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-05</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Gesamtansicht</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a9904>mta</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+    </obj>
+    <obj id="08187508">
+        <a5001>08187508</a5001>
+        <Status>published</Status>
+        <a5200>Inschrift</a5200>
+        <a5230>Inschrift</a5230>
+        <a8450>Foto (digital)<a8460>Pedicini, Luciano</a8460>
+            <a8470>pedicini306287.jpg</a8470>
+            <a8540 edp:checksum="" edp:lastupdate="2021-07-06T13:14:13Z" edp:originalfilename="" edp:originalfilesource="" edp:updateby="tafelmeier@biblhertz.it" edp:virtualfilename="">bhex-2021-15-08</a8540>
+            <a8515>camp</a8515>
+            <a8496>2021.07.05</a8496>
+            <a8482>color</a8482>
+            <a8490>Pedicini, Luciano</a8490>
+            <a8494>2021.05.04</a8494>
+            <a8497>Bestellung 15/2021</a8497>
+            <a8596>diritti divisi</a8596>
+            <a8510>Gesamtansicht</a8510>
+            <a8541>freigegeben</a8541>
+            <a8596>https://www.pedicinimages.com/</a8596>
+        </a8450>
+        <a9904>mta</a9904>
+        <a9902>Bibliotheca Hertziana Rom</a9902>
+    </obj>
+</obj>
