@@ -150,6 +150,96 @@
                </comment>
             </comments>
          </domain>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>aob26</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <exists>a2740 | a2750</exists>
+                  </if>
+                  <relationship>crm:P46i_forms_part_of</relationship>
+                  <entity>
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="builtwork - part">
+                        <arg name="work" type="constant">work</arg>
+                        <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                        <arg name="part" type="constant">part</arg>
+                        <arg name="partId" type="xpath">lower-case(concat(a2740, a2750))</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P46i_forms_part_of</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>aob26_1. Associated Architectural Object (with object id)</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-06-25 08:29:16" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>aob26</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="work">
+                        <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>aob26</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <not>
+                        <if>
+                           <exists>a2740 | a2750</exists>
+                        </if>
+                     </not>
+                  </if>
+                  <relationship>crm:P46i_forms_part_of</relationship>
+               </target_relation>
+               <comments>
+                  <comment type="">
+                     <rationale>aob26_1. Associated Architectural Object (with object id)</rationale>
+                     <alternatives/>
+                     <typical_mistakes/>
+                     <local_habits/>
+                     <link_to_cook_book/>
+                     <example>
+                        <example_source/>
+                        <example_target/>
+                     </example>
+                     <comments_last_update date="2024-06-25 08:29:16" person="Artem Kozlov"/>
+                  </comment>
+               </comments>
+            </path>
+            <range>
+               <source_node>aob26</source_node>
+               <target_node>
+                  <entity>
+                     <type>crm:E24_Physical_Human-Made_Thing</type>
+                     <instance_generator name="work">
+                        <arg name="objId" type="xpath">(if (count(ancestor::obj) &gt; 1) then ancestor::obj[2]/@id else (if (a2606) then a2606 else x3ml:uuid(lower-case(concat(a2700, a2690, a2664)))))</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
       <mapping>
          <domain>
