@@ -3958,6 +3958,121 @@
                </target_node>
             </range>
          </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2740 | a2750</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <equals value="Standort">text()</equals>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P46_is_composed_of</relationship>
+                  <entity>
+                     <type>crm:E22_Human-Made_Object</type>
+                     <instance_generator name="work">
+                        <arg name="objId" type="xpath">../@id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P55_has_current_location</relationship>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="object - current place">
+                        <arg name="objId" type="xpath">../@id</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P2_has_type</relationship>
+                  <entity>
+                     <type>crm:E55_Type</type>
+                     <instance_generator name="vocab with type">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P1_is_identified_by</relationship>
+                  <entity>
+                     <type>crm:E41_Appellation</type>
+                     <instance_generator name="vocab with type - name">
+                        <arg name="type" type="constant">object-builtwork-relation</arg>
+                        <arg name="id" type="xpath">lower-case(text())</arg>
+                     </instance_generator>
+                  </entity>
+                  <relationship>crm:P190_has_symbolic_content</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity>
+                     <type>rdfs:Literal</type>
+                     <instance_generator name="Literal">
+                        <arg name="text" type="xpath">text()</arg>
+                     </instance_generator>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
+         <link>
+            <path>
+               <source_relation>
+                  <relation>.</relation>
+               </source_relation>
+               <target_relation>
+                  <if>
+                     <and>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2740 | a2750</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <not>
+                              <if>
+                                 <exists>a2730</exists>
+                              </if>
+                           </not>
+                        </if>
+                        <if>
+                           <exists>a2780</exists>
+                        </if>
+                     </and>
+                  </if>
+                  <relationship>crm:P156_occupies</relationship>
+                  <entity variable="E53[builtwork_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+                  <entity variable="E53[builtwork_part_place_sub-place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+                  <relationship>crm:P89i_contains</relationship>
+               </target_relation>
+            </path>
+            <range>
+               <source_node>.</source_node>
+               <target_node>
+                  <entity variable="E53[object_place]">
+                     <type>crm:E53_Place</type>
+                     <instance_generator name="UUID"/>
+                  </entity>
+               </target_node>
+            </range>
+         </link>
       </mapping>
    </mappings>
 </x3ml>
