@@ -274,4 +274,10 @@
    <generator name="object - place" prefix="prefix" shorten="true" type="any">
       <pattern>work/{objId}/place/{placeId}</pattern>
    </generator>
+   <generator name="object - title" prefix="prefix" type="any">
+      <pattern>work/{objId}/title</pattern>
+   </generator>
+   <generator name="object - alternative title" prefix="prefix" type="any">
+      <pattern>work/{objId}/title/{index}</pattern>
+   </generator>
 </generator_policy>

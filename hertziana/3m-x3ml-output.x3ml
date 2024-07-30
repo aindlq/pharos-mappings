@@ -181,7 +181,7 @@
                         <entity>
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
+                              <arg name="text" type="constant">https://artresearch.net/resource/midas/vocabulary/meta/a5200</arg>
                            </instance_generator>
                         </entity>
                      </additional>
