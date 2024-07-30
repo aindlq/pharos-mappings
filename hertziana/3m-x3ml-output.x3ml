@@ -300,15 +300,12 @@
                      <instance_generator name="object - title">
                         <arg name="objId" type="xpath">../@id</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
                            <type>crm:E55_Type</type>
                            <instance_generator name="URIorUUID">
-                              <arg name="text" type="constant">http://vocab.getty.edu/aat/300417193</arg>
+                              <arg name="text" type="constant">https://artresearch.net/resource/midas/vocabulary/meta/a5202</arg>
                            </instance_generator>
                         </entity>
                      </additional>
