@@ -167,15 +167,9 @@
                   <relationship>crm:P1_is_identified_by</relationship>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">../@id</arg>
-                        <arg name="identifier_type" type="constant">appellation</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
+                     <instance_generator name="object - title">
+                        <arg name="objId" type="xpath">../@id</arg>
                      </instance_generator>
-                     <label_generator name="Literal">
-                        <arg name="text" type="xpath">.</arg>
-                     </label_generator>
                      <additional>
                         <relationship>crm:P2_has_type</relationship>
                         <entity>
@@ -303,11 +297,8 @@
                <target_node>
                   <entity>
                      <type>crm:E41_Appellation</type>
-                     <instance_generator name="IdentifierURI">
-                        <arg name="subject_type" type="constant">work</arg>
-                        <arg name="subject_id" type="xpath">../@id</arg>
-                        <arg name="identifier_type" type="constant">appellation</arg>
-                        <arg name="identifier_id" type="xpath">text()</arg>
+                     <instance_generator name="object - title">
+                        <arg name="objId" type="xpath">../@id</arg>
                      </instance_generator>
                      <label_generator name="Literal">
                         <arg name="text" type="xpath">.</arg>
